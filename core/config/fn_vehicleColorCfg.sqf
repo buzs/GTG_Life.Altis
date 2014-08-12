@@ -153,7 +153,32 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\A3\Soft_F\MRAP_01\Data\mrap_01_base_co.paa","cop"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+			["textures\hunter1_gtg.jpg","cop","textures\hunter2_gtg.jpg"]
+		];
+	};
+	
+	case "I_MRAP_03_F":
+	{
+		_ret = 
+		[
+			["textures\strider_gtg.jpg","cop"]
+		];
+	};
+	
+	case "I_Heli_light_03_unarmed_F":
+	{
+		_ret = 
+		[
+			["textures\hellcat_gtg.jpg","cop"]
+
+		];
+	};
+	
+	case "B_Heli_Transport_01_F":
+	{
+		_ret = 
+		[
+			["textures\ghosthawk_gtg1.jpg","cop","textures\ghosthawk_gtg2.jpg"]
 		];
 	};
 	
