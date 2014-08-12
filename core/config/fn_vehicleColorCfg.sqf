@@ -49,6 +49,7 @@ switch (_vehicle) do
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa","civ"],
 			["#(ai,64,64,1)Fresnel(0.3,3)","fed"],
 			["#(ai,64,64,1)Fresnel(1.3,7)","cop"],
+			["textures\med\offroad_medic.jpg","med"]
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"]
 		];
 	};
@@ -76,6 +77,7 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa","cop"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
+			["textures\med\suv_med_gtg.jpg","Med"]
 			["#(ai,64,64,1)Fresnel(1.3,7)","cop"]
 		];
 	};
@@ -132,7 +134,7 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_vrana_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
-			["#(argb,8,8,3)color(1,1,1,0.8)","med"]
+			["textures\med\hummingbird_medic.jpg","med"]
 		];
 	};
 	
