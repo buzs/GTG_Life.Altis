@@ -6,7 +6,7 @@ respawn = BASE;
 respawndelay = 5;
 disabledAI = true;
 disableChannels[]={0,1,2};
-LoadScreen = "textures\load.jpg";
+LoadScreen = "imagens\load.jpg";
 respawnDialog = 0;
 
 class Header
