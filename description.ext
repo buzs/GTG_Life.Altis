@@ -1,12 +1,12 @@
 author = "Tonic";
 onLoadName = "Altis Life RPG v3.1.4.5";
-onLoadMission = "A RPG game mode developed by Tonic";
+onLoadMission = "Seja um doador e ajude o servidor a crescer!";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
 disabledAI = true;
 disableChannels[]={0,1,2};
-enableDebugConsole = 1;
+LoadScreen = "textures\load.jpg";
 respawnDialog = 0;
 
 class Header
