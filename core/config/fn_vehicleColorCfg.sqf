@@ -154,7 +154,6 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["\A3\Soft_F\MRAP_01\Data\mrap_01_base_co.paa","cop"],
 			["textures\hunter1_gtg.jpg","cop","textures\hunter2_gtg.jpg"]
 		];
 	};
@@ -172,7 +171,6 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["textures\hellcat_gtg.jpg","cop"]
-
 		];
 	};
 	

@@ -146,12 +146,35 @@ switch (_vehicle) do
 		};
 	};
 	
+		case "I_Heli_light_03_unarmed_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Polícia"};
+		};
+	};
+	
+		case "B_Heli_Transport_01_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Polícia"};
+		};
+	};
+	
 	case "B_MRAP_01_F":
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Regular"};
-			case 1: {_color = "Black"};
+			case 0: {_color = "Polícia"};
+		};
+	};
+	
+	case "I_MRAP_03_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Polícia"};
 		};
 	};
 	
