@@ -86,18 +86,18 @@ switch (playerSide) do
 {
 	case west: 
 	{
-		life_atmcash = 7000; //Starting Bank Money
-		life_paycheck = 500; //Paycheck Amount
+		life_atmcash = 18000; //Starting Bank Money
+		life_paycheck = 2500; //Paycheck Amount
 	};
 	case civilian: 
 	{
-		life_atmcash = 3000; //Starting Bank Money
-		life_paycheck = 350; //Paycheck Amount
+		life_atmcash = 6500; //Starting Bank Money
+		life_paycheck = 500; //Paycheck Amount
 	};
 	
 	case independent: {
-		life_atmcash = 6500;
-		life_paycheck = 450;
+		life_atmcash = 16500;
+		life_paycheck = 2500;
 	};
 };
 
@@ -186,7 +186,10 @@ life_licenses =
 	["license_civ_salt","civ"],
 	["license_civ_cement","civ"],
 	["license_med_air","med"],
-	["license_civ_home","civ"]
+	["license_civ_home","civ"],
+	["license_civ_rebel2","civ"], //BUZ
+    ["license_civ_rebel3","civ"], //BUZ
+	["license_civ_premium","civ"] //BUZ
 ];
 
 //Setup License Variables
@@ -202,7 +205,7 @@ life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocai
 */
 sell_array = 
 [
-	["apple",50],
+	["apple",65],
 	["heroinu",1850],
 	["heroinp",2650],
 	["salema",45],
@@ -241,26 +244,26 @@ __CONST__(sell_array,sell_array);
 
 buy_array = 
 [
-	["apple",65],
-	["rabbit",75],
+	["apple",120],
+	["rabbit",150],
 	["salema",55],
 	["ornate",50],
 	["mackerel",200],
 	["tuna",900],
 	["mullet",300],
-	["catshark",350],
-	["water",10],
+	["catshark",1350],
+	["water",100],
 	["turtle",4000],
 	["turtlesoup",2500],
 	["donuts",120],
-	["coffee",10],
-	["tbacon",75],
-	["lockpick",150],
-	["pickaxe",1200],
+	["coffee",100],
+	["tbacon",150],
+	["lockpick",500],
+	["pickaxe",3000],
 	["redgull",1500],
-	["fuelF",850],
-	["peach",68],
-	["spikeStrip",2500],
+	["fuelF",1200],
+	["peach",120],
+	["spikeStrip",800],
 	["blastingcharge",35000],
 	["boltcutter",7500],
 	["defusekit",2500],
@@ -339,7 +342,8 @@ life_garage_prices =
 	["C_Boat_Civil_01_police_F",3500],
 	["B_Boat_Armed_01_minigun_F",16500],
 	["B_SDV_01_F",25000],
-	["B_MRAP_01_F",7500]
+	["B_MRAP_01_F",7500],
+	["O_Truck_03_device_F",20000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
@@ -368,6 +372,7 @@ life_garage_sell =
 	["C_Boat_Civil_01_police_F",4950],
 	["B_Boat_Armed_01_minigun_F",21000],
 	["B_SDV_01_F",45000],
-	["B_MRAP_01_F",10000]
+	["B_MRAP_01_F",10000],
+	["O_Truck_03_device_F",120000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);

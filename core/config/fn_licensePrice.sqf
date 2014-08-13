@@ -35,4 +35,7 @@ switch (_type) do
 	case "cement": {6500};
 	case "mair": {15000};
 	case "home": {75000};
+	case "rebel2": {420000}; //BUZ
+	case "rebel3": {730000}; //BUZ
+	case "premium": {999999999}; //BUZ
 };

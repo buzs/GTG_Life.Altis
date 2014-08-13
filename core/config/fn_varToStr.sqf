@@ -74,6 +74,8 @@ switch (_var) do
 	case "license_cop_swat": {(localize "STR_License_Swat")};
 	case "license_cop_cg": {(localize "STR_License_CG")};
 	case "license_civ_rebel": {(localize "STR_License_Rebel")};
+	case "license_civ_rebel2": {(localize "STR_License_Rebel2")}; //BUZ
+	case "license_civ_rebel3": {(localize "STR_License_Rebel3")}; //BUZ
 	case "license_civ_truck": {(localize "STR_License_Truck")};
 	case "license_civ_diamond": {(localize "STR_License_Diamond")};
 	case "license_civ_copper": {(localize "STR_License_Copper")};
@@ -85,4 +87,5 @@ switch (_var) do
 	case "license_civ_cement": {(localize "STR_License_Cement")};
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
+	case "license_civ_premium": {(localize "STR_License_Donator")};
 };

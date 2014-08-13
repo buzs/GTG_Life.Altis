@@ -3513,6 +3513,22 @@
 			<Italian>Licenza da Ribelle</Italian>
 			<Portuguese>Treinamento Rebelde</Portuguese>
 		</Key>
+		<Key ID="STR_License_Rebel2">
+			<Original>Rebel Training</Original>
+			<English>Rebel Training</English>
+			<German>Rebellenausbildung</German>
+			<French>Entrainement rebelle</French>
+			<Italian>Licenza da Ribelle</Italian>
+			<Portuguese>Treinamento Rebelde Lv.2</Portuguese>
+		</Key>
+		<Key ID="STR_License_Rebel3">
+			<Original>Rebel Training</Original>
+			<English>Rebel Training</English>
+			<German>Rebellenausbildung</German>
+			<French>Entrainement rebelle</French>
+			<Italian>Licenza da Ribelle</Italian>
+			<Portuguese>Treinamento Rebelde Lv.3</Portuguese>
+		</Key>
 		<Key ID="STR_License_Truck">
 			<Original>Truck License</Original>
 			<English>Truck License</English>
@@ -3592,6 +3608,14 @@
 			<French>Droit de Propriété</French>
 			<Italian>Licenza possesso Casa</Italian>
 			<Portuguese>Licença de Casas</Portuguese>
+		</Key>
+		<Key ID="STR_License_Donator">
+			//<Original>Donator</Original>
+			//<English>Home Owners License</English>
+			//<German>Eigentumsurkunde</German>
+			//<French>Droit de Propriété</French>
+			//<Italian>Licenza possesso Casa</Italian>
+			<Portuguese>Doador</Portuguese>
 		</Key>
 	</Package>
 	<Package name="More_Item_Strings">

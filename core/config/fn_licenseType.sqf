@@ -40,6 +40,9 @@ switch (_mode) do
 			case "cement": {_var = "license_civ_cement"};
 			case "mair": {_var = "license_med_air"};
 			case "home": {_var = "license_civ_home"};
+			case "rebel2": {_var = "license_civ_rebel2"}; //BUZ
+			case "rebel3": {_var = "license_civ_rebel3"}; //BUZ
+			case "premium": {_var = "license_civ_premium"}; //BUZ
 			default {_var = ""};
 		};
 	};
@@ -72,6 +75,9 @@ switch (_mode) do
 			case "license_civ_cement": {_var = "cement"};
 			case "license_med_air": {_var = "mair"};
 			case "license_civ_home": {_var = "home"};
+			case "license_civ_rebel2": {_var = "rebel2"}; //BUZ
+			case "license_civ_rebel3": {_var = "rebel3"}; //BUZ
+			case "license_civ_premium": {_var = "premium"}; //BUZ
 			default {_var = ""};
 		};
 	};
