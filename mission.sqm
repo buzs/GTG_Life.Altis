@@ -2116,7 +2116,7 @@ class Mission
 					init="this enableSimulation false; this allowDamage false; this hideObject true;";
 					description="Master Group for NPC's";
 					syncId=0;
-					synchronizations[]={2,1};
+					synchronizations[]={2,1,4,3,6,5,7};
 				};
 				class Item1
 				{
@@ -3540,6 +3540,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="this enableSimulation false; this allowDamage false; this addAction[""General Store"",life_fnc_weaponShopMenu,""genstore""]";
+					syncId=3;
+					synchronizations[]={0};
 				};
 			};
 		};
@@ -3560,6 +3562,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="this allowDamage false; this enableSimulation false; this addAction[""Clothing Store"",life_fnc_clothingMenu,""bruce""];";
+					syncId=4;
+					synchronizations[]={0};
 				};
 			};
 		};
@@ -3580,6 +3584,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="this allowDamage false; this enableSimulation false; this addAction[""Market"",life_fnc_virt_menu,""market""];";
+					syncId=5;
+					synchronizations[]={0};
 				};
 			};
 		};
@@ -3601,6 +3607,8 @@ class Mission
 					skill=0.60000002;
 					text="license_shop_2_1";
 					init="this allowDamage false;  this enableSimulation false;  this addAction[format[""%1 ($%2)"",[""license_civ_driver""] call life_fnc_varToStr,[([""driver""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide == civilian '];  this addAction[format[""%1 ($%2)"",[""license_civ_boat""] call life_fnc_varToStr,[([""boat""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide == civilian '];  this addAction[format[""%1 ($%2)"",[""license_civ_air""] call life_fnc_varToStr,[([""pilot""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_air && playerSide == civilian '];  this addAction[format[""%1 ($%2)"",[""license_civ_truck""] call life_fnc_varToStr,[([""truck""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""truck"",0,false,false,"""",' !license_civ_truck && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",[""license_civ_home""] call life_fnc_varToStr,[([""home""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""home"",0,false,false,"""",' !license_civ_home && playerSide == civilian '];";
+					syncId=6;
+					synchronizations[]={0};
 				};
 			};
 		};
@@ -3622,6 +3630,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="this enableSimulation false; this allowDamage false; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;  life_garage_type = ""Car""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_2_1"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+					syncId=7;
+					synchronizations[]={0};
 				};
 			};
 		};
@@ -10810,7 +10820,7 @@ class Mission
 		};
 		class Item218
 		{
-			position[]={21846.314,12.859712,20927.563};
+			position[]={21795.979,11.083806,20922.436};
 			name="Gen_2_1_2";
 			text="Loja Geral";
 			type="c_unknown";
@@ -10852,7 +10862,7 @@ class Mission
 		};
 		class Item223
 		{
-			position[]={21954.598,18.941328,21008.268};
+			position[]={21765.658,38.077076,21017.801};
 			name="civ_gar_1_2_1";
 			text="Garagem";
 			type="o_service";
