@@ -76,7 +76,7 @@ switch (_shop) do
 			["O_MRAP_02_F",450000]];
 			_return set[count _return,
 			["B_Heli_Light_01_F",500000]];
-		}
+		};
 		if(license_civ_rebel && license_civ_rebel2 && license_civ_rebel3) then
 		{
 			_return set[count _return,
