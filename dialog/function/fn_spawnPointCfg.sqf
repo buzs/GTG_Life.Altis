@@ -28,19 +28,19 @@ switch (_side) do
 	// Spawn verificador de licensa
 	case civilian:
 	{
-	if(!license_civ_donator && !license_civ_rebel && playerSide == civilian) then {
+	if(!license_civ_premium && !license_civ_rebel && playerSide == civilian) then {
 		_return = [
 			["civ_spawn_1","Kavala"],["civ_spawn_2","Iraklia"],["civ_spawn_3","Athira"],["civ_spawn_4","Sofia"],["civ_spawn_5","Pyrgos"]]
 			};
-			if(license_civ_donator && !license_civ_rebel && playerSide == civilian) then {
+			if(license_civ_premium && !license_civ_rebel && playerSide == civilian) then {
 		_return = [
 			["civ_spawn_1","Kavala"],["civ_spawn_2","Iraklia"],["civ_spawn_3","Athira"],["civ_spawn_4","Sofia"],["civ_spawn_5","Pyrgos"],["spawn_premium","Premium"]]
 			};
-			if(!license_civ_donator && license_civ_rebel && playerSide == civilian) then {
+			if(!license_civ_premium && license_civ_rebel && playerSide == civilian) then {
 		_return = [
 		    ["civ_spawn_1","Kavala"],["civ_spawn_2","Iraklia"],["civ_spawn_3","Athira"],["civ_spawn_4","Sofia"],["civ_spawn_5","Pyrgos"],["reb_spawn_1","Base Central Rebelde"],["reb_spawn_2","Base Sul Rebelde"],["reb_spawn_3","Base Norte Rebelde"]]
 			};
-			if(license_civ_donator && license_civ_rebel && playerSide == civilian) then {
+			if(license_civ_premium && license_civ_rebel && playerSide == civilian) then {
 		_return = [
 		    ["civ_spawn_1","Kavala"],["civ_spawn_2","Iraklia"],["civ_spawn_3","Athira"],["civ_spawn_4","Sofia"],["civ_spawn_5","Pyrgos"],["spawn_premium","Premium"],["reb_spawn_1","Base Central Rebelde"],["reb_spawn_2","Base Sul Rebelde"],["reb_spawn_3","Base Norte Rebelde"]]
 			};
