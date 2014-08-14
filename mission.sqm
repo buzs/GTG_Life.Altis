@@ -35,7 +35,6 @@ class Mission
 		"A3_Weapons_F_Explosives",
 		"A3_Weapons_F_Ammoboxes",
 		"A3_Structures_F_Ind_Cargo",
-		"A3_Structures_F_Research",
 		"A3_Structures_F_EPC_Civ_Accessories",
 		"A3_Structures_F_Ind_Shed",
 		"A3_Structures_F_Wrecks",
@@ -3668,7 +3667,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=528;
+		items=538;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -7785,7 +7784,7 @@ class Mission
 		};
 		class Item404
 		{
-			position[]={14150.847,19.091522,16301.948};
+			position[]={14151.688,19.087009,16302.897};
 			azimut=310.72684;
 			id=625;
 			side="EMPTY";
@@ -9123,11 +9122,119 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
+			init="this allowDamage false; this setObjectTexture [0, ""imagens\outdoor.jpg""]";
+		};
+		class Item528
+		{
+			position[]={23801.771,13.903501,20066.238};
+			azimut=142.29601;
+			offsetY=-9.5367398e-007;
+			id=749;
+			side="EMPTY";
+			vehicle="Land_HelipadCircle_F";
+			skill=0.60000002;
+		};
+		class Item529
+		{
+			position[]={21858.791,12.896426,20946.584};
+			azimut=-41.613831;
+			offsetY=-9.5367398e-007;
+			id=750;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setObjectTexture [0, ""imagens\outdoor.jpg""]";
+		};
+		class Item530
+		{
+			position[]={14149.035,19.104931,16299.56};
+			azimut=-49.342834;
+			offsetY=-9.5367398e-007;
+			id=751;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setObjectTexture [0, ""imagens\outdoor.jpg""]";
+		};
+		class Item531
+		{
+			position[]={14060.544,26.229364,18738.039};
+			azimut=32.042599;
+			offsetY=-9.5367398e-007;
+			id=752;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setObjectTexture [0, ""imagens\outdoor.jpg""]";
+		};
+		class Item532
+		{
+			position[]={3609.1006,9.9769859,13116.14};
+			azimut=-83.931999;
+			offsetY=-9.5367398e-007;
+			id=753;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setObjectTexture [0, ""imagens\outdoor.jpg""]";
+		};
+		class Item533
+		{
+			position[]={3282.3047,2.2255619,12968.133};
+			azimut=-450.25415;
+			offsetY=-9.5367398e-007;
+			id=754;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setObjectTexture [0, ""imagens\outdoor.jpg""]";
+		};
+		class Item534
+		{
+			position[]={16797.822,21.725332,12747.322};
+			azimut=-319.04147;
+			offsetY=-9.5367398e-007;
+			id=755;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setObjectTexture [0, ""imagens\outdoor.jpg""]";
+		};
+		class Item535
+		{
+			position[]={25684.943,20.784121,21375.26};
+			azimut=-403.69839;
+			offsetY=-9.5367398e-007;
+			id=756;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setObjectTexture [0, ""imagens\outdoor.jpg""]";
+		};
+		class Item536
+		{
+			position[]={9279.9248,17.007132,21576.105};
+			azimut=144.067;
+			id=757;
+			side="EMPTY";
+			vehicle="Land_HelipadCircle_F";
+			skill=0.60000002;
+		};
+		class Item537
+		{
+			position[]={9266.8223,16.872335,21594.229};
+			azimut=324.189;
+			offsetY=-9.5367398e-007;
+			id=758;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setObjectTexture [0, ""imagens\outdoor.jpg""]";
 		};
 	};
 	class Markers
 	{
-		items=230;
+		items=231;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -10298,11 +10405,11 @@ class Mission
 		};
 		class Item148
 		{
-			position[]={14046.542,25.160364,18760.941};
+			position[]={14031.103,25.567276,18755.07};
 			name="civ_gar_1_3";
 			text="Garagem";
 			type="o_service";
-			angle=136.748;
+			angle=84.460403;
 		};
 		class Item149
 		{
@@ -10754,7 +10861,7 @@ class Mission
 		};
 		class Item206
 		{
-			position[]={14150.938,19.092634,16301.9};
+			position[]={14151.779,19.088133,16302.85};
 			name="atm_marker_4_2";
 			type="loc_Tourism";
 			colorName="ColorGreen";
@@ -10914,15 +11021,17 @@ class Mission
 		};
 		class Item226
 		{
-			position[]={27247.959,22.310619,24761.676};
+			position[]={9270.6611,16.916101,21589.113};
 			name="spawn_premium";
 			type="Empty";
+			angle=143.44185;
 		};
 		class Item227
 		{
-			position[]={21867.541,13.098358,20940.611};
+			position[]={21863.309,12.636625,20941.52};
 			name="civ_spawn_2";
 			type="Empty";
+			angle=139.06866;
 		};
 		class Item228
 		{
@@ -10939,6 +11048,15 @@ class Mission
 			name="civ_car_4_1";
 			type="Empty";
 			angle=182.57767;
+		};
+		class Item230
+		{
+			position[]={9267.3857,16.975056,21582.365};
+			name="area_premium";
+			text="Área Premium";
+			type="o_motor_inf";
+			colorName="ColorYellow";
+			angle=180.763;
 		};
 	};
 	class Sensors
