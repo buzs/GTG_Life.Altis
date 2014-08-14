@@ -31,15 +31,15 @@ life_respawned = false;
 life_removeWanted = false;
 
 //Persistent Saving
-__CONST__(life_save_civ,FALSE); //Save weapons for civs?
-__CONST__(life_save_yinv,FALSE); //Save Y-Inventory for civs and cops? (Medics excluded for now)
+__CONST__(life_save_civ,TRUE); //Save weapons for civs?
+__CONST__(life_save_yinv,TRUE); //Save Y-Inventory for civs and cops? (Medics excluded for now)
 
 //Revive constant variables.
 __CONST__(life_revive_cops,TRUE); //Set to false if you don't want cops to be able to revive downed players.
-__CONST__(life_revive_fee,250); //Fee for players to pay when revived.
+__CONST__(life_revive_fee,15000); //Fee for players to pay when revived.
 
 //House Limit
-__CONST__(life_houseLimit,5); //Maximum amount of houses a player can buy (TODO: Make Tiered licenses).
+__CONST__(life_houseLimit,4); //Maximum amount of houses a player can buy (TODO: Make Tiered licenses).
 
 //Gang related stuff?
 __CONST__(life_gangPrice,75000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).
@@ -91,8 +91,8 @@ switch (playerSide) do
 	};
 	case civilian: 
 	{
-		life_atmcash = 6500; //Starting Bank Money
-		life_paycheck = 500; //Paycheck Amount
+		life_atmcash = 8500; //Starting Bank Money
+		life_paycheck = 550; //Paycheck Amount
 	};
 	
 	case independent: {
@@ -190,6 +190,7 @@ life_licenses =
 	["license_civ_rebel2","civ"], //BUZ
     ["license_civ_rebel3","civ"], //BUZ
 	["license_civ_premium","civ"] //BUZ
+	["license_civ_bounty","civ"] //BUZ
 ];
 
 //Setup License Variables
@@ -238,7 +239,7 @@ sell_array =
 	["fuelF",500],
 	["spikeStrip",1200],
 	["cement",1950],
-	["goldbar",95000]
+	["goldbar",100000]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -281,7 +282,7 @@ life_weapon_shop_array =
 	["ToolKit",75],
 	["FirstAidKit",65],
 	["Medikit",450],
-	["NVGoggles",980],
+	["NVGoggles",2500],
 	["16Rnd_9x21_Mag",15],
 	["20Rnd_556x45_UW_mag",35],
 	["ItemMap",35],

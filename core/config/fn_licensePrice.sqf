@@ -38,4 +38,5 @@ switch (_type) do
 	case "rebel2": {420000}; //BUZ
 	case "rebel3": {730000}; //BUZ
 	case "premium": {999999999}; //BUZ
+	case "bountyh": {75000}; //BUZ
 };

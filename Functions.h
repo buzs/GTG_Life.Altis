@@ -249,6 +249,7 @@ class Life_Client_Core
 		class zoneCreator {};
 		class demoChargeTimer {};
 		class civLoadout {};
+		class civInteractionMenu {};
 	};
 	
 	class Vehicle
