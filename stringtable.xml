@@ -3610,20 +3610,12 @@
 			<Portuguese>Licença de Casas</Portuguese>
 		</Key>
 		<Key ID="STR_License_Donator">
-			<Original>Donator</Original>
-			<English>Home Owners License</English>
-			<German>Eigentumsurkunde</German>
-			<French>Droit de Propriété</French>
-			<Italian>Licenza possesso Casa</Italian>
+			//<Original>Donator</Original>
+			//<English>Home Owners License</English>
+			//<German>Eigentumsurkunde</German>
+			//<French>Droit de Propriété</French>
+			//<Italian>Licenza possesso Casa</Italian>
 			<Portuguese>Doador</Portuguese>
-		</Key>
-		<Key ID="STR_License_Bounty">
-			<Original>Bounty Hunter's Licence</Original>
-			<English>Bounty Hunter's Licence</English>
-			<German>Bounty Hunter's Licence</German>
-			<French>Bounty Hunter's Licence</French>
-			<Italian>Bounty Hunter's Licence</Italian>
-			<Portuguese>Licença Vigilante</Portuguese>
 		</Key>
 	</Package>
 	<Package name="More_Item_Strings">

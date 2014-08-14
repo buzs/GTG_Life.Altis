@@ -190,7 +190,6 @@ life_licenses =
 	["license_civ_rebel2","civ"], //BUZ
     ["license_civ_rebel3","civ"], //BUZ
 	["license_civ_premium","civ"] //BUZ
-	["license_civ_bounty","civ"] //BUZ
 ];
 
 //Setup License Variables

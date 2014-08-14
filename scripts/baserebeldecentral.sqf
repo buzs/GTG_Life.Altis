@@ -1,3 +1,5 @@
+init="this allowDamage false; this enableSimulation false;";
+
 _pos = [11207.12793,8404.995117,-0.0569153];
 _object = createVehicle ["Land_HBarrier_5_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 272.971;

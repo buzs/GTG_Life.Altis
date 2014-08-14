@@ -112,16 +112,10 @@ switch (_shop) do
 	
 	case "civ_air":
 	{
-		_return =
-		[
-		];
-		if(license_civ_air) then
-		{
-			_return set[count _return,
-			["B_Heli_Light_01_F",650000]];
-			_return set[count _return,
-			["O_Heli_Light_02_unarmed_F",2000000]];
-		};
+		_return set[count _return,
+		["B_Heli_Light_01_F",650000]];
+		_return set[count _return,
+		["O_Heli_Light_02_unarmed_F",2000000]];
 	};
 	
 	case "cop_air":

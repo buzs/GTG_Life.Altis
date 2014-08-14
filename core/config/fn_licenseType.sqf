@@ -43,7 +43,6 @@ switch (_mode) do
 			case "rebel2": {_var = "license_civ_rebel2"}; //BUZ
 			case "rebel3": {_var = "license_civ_rebel3"}; //BUZ
 			case "premium": {_var = "license_civ_premium"}; //BUZ
-			case "bountyh": {_var = "license_civ_bounty"}; //BUZ
 			default {_var = ""};
 		};
 	};
