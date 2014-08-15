@@ -25,8 +25,7 @@ switch (_vehicle) do
 			case 6: {_color = "Preto"};
 			case 7: {_color = "Preto"};
 			case 8: {_color = "Médico"};
-			case 9: {_color = "PM"};
-			case 10: {_color = "PM"};
+			case 9: {_color = "Polícia"};
 		};
 	};
 	
@@ -56,8 +55,7 @@ switch (_vehicle) do
 			case 3: {_color = "Preto e Branco"};
 			case 4: {_color = "Tan"};
 			case 5: {_color = "Verde"};
-			case 6: {_color = "Cop"};
-			case 7: {_color = "PM"};
+			case 6: {_color = "Polícia"};
 		};
 	};
 	
@@ -66,13 +64,10 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Vermelho Escuro";};
-			case 1: {_color = "Preto";};
-			case 2: {_color = "Prata";};
-			case 3: {_color = "Laranja";};
-			case 4: {_color = "Médico";};
-			case 5: {_color = "PM";};
-			case 6: {_color = "Ferrari";};
-			case 7: {_color = "Grafite";};
+			case 1: {_color = "Prata";};
+			case 2: {_color = "Laranja";};
+			case 3: {_color = "Médico";};
+			case 4: {_color = "Polícia";};
 		};
 	};
 	
@@ -116,7 +111,7 @@ switch (_vehicle) do
 			case 6: {_color = "Camuflagem Verde"};
 			case 7: {_color = "Camuflagem Caçador"};
 			case 8: {_color = "Camuflagem Rebelde"};
-			case 9: {_color = "PM"};
+			case 9: {_color = "Polícia"};
 		};
 	};
 	
@@ -138,7 +133,7 @@ switch (_vehicle) do
 			case 11: {_color = "Vrana"};
 			case 12: {_color = "Waves Blue"};
 			case 13: {_color = "Rebel Digital"};
-			case 14: {_color = "PM"};
+			case 14: {_color = "Polícia"};
 		};
 	};
 	
@@ -158,7 +153,7 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "PM"};
+			case 0: {_color = "Polícia"};
 
 		};
 	};
@@ -176,9 +171,15 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Regular"};
-			case 1: {_color = "Black"};
-			case 2: {_color = "Policia"};
+			case 0: {_color = "Polícia"};
+		};
+	};
+	
+	case "I_MRAP_03_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Polícia"};
 		};
 	};
 	

@@ -76,13 +76,10 @@ switch (_vehicle) do
 		_ret =
 		[
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa","civ"],
-			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa","cop"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
 			["textures\med\suv_med_idg.jpg","Med"],
 			["textures\police_suv.paa","cop"],
-			["textures\ferrari_suv.paa","civ"],
-			["textures\SuperMarioSuv.jpg","civ"]
 		];
 	};
 	
@@ -177,7 +174,6 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"],
 			["textures\hunter1_gtg.jpg","cop","textures\hunter2_gtg.jpg"]
 		];
 	};
