@@ -33,7 +33,7 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport04_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport05_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport06_co.paa","civ"],
-			["textures\hatchback_gtg.jpg","cop"] //Adicionar Textura
+			["textures\hatchbackpm_gtg.jpg","cop"]
 		];
 	};
 		
@@ -48,7 +48,7 @@ switch (_vehicle) do
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa","civ"],
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa","civ"],
 			["textures\med\offroad_medic.paa","med"],
-			["textures\police_offroad.paa","cop"]
+			["textures\offroad_gtg.jpg","cop"]
 
 		];
 	};
@@ -76,7 +76,7 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
 			["textures\med\suv_med_gtg.jpg","Med"],
-			["textures\suv_gtg.paa","cop"] //Adicionar Textura
+			["textures\suv_gtg.jpg","cop"]
 		];
 	};
 	
@@ -132,7 +132,7 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
 			["textures\med\hummingbird_medic.paa","med"],
-			["textures\littlebird_gtg.jpg","cop"] //Adicionar Textura
+			["textures\littlebird_gtg.jpg","cop"]
 		];
 	};
 	

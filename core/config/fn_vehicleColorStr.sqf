@@ -158,7 +158,7 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "PM"};
+			case 0: {_color = "Polícia"};
 
 		};
 	};
