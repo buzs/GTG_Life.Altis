@@ -144,6 +144,7 @@ class Life_Client_Core
 		class weaponShopCfg {};
 		class vehicleWeightCfg {};
 		class houseConfig {};
+		class seizeCfg {}; //BUZ
 		
 		//Clothing Store Configs
 		class clothing_cop {};
@@ -292,6 +293,9 @@ class Life_Client_Core
 		class doorAnimate {};
 		class fedCamDisplay {};
 		class copLoadout {};
+		class seizeObjects {};//BUZ
+		class seizePlayerWeapon {};//BUZ
+		class seizePlayerWeaponAction {};//BUZ
 	};
 	
 	class Gangs
