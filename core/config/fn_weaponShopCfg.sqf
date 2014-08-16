@@ -413,7 +413,7 @@ switch(_shop) do
 			case (!license_civ_rebel): {"Você não possui Licença Rebelde"};
 			default
 			{
-				["Loja Rebelde",
+				["Loja Rebelde Level 1",
 					[
 					    ["Rangefinder",nil,75000],
 						["arifle_SDAR_F",nil,30000],
@@ -454,13 +454,115 @@ switch(_shop) do
 			};
 		};
 	};
+	
+	
+	case "rebel2":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"Você não é um Civil!"};
+			case (!license_civ_rebel): {"Você não possui Licença Rebelde Level 2"};
+			default
+			{
+				["Loja Rebelde Level 2",
+					[
+					    ["Rangefinder",nil,75000],
+						["arifle_SDAR_F",nil,30000],
+						["arifle_TRG20_F",nil,45000],
+						["SMG_01_Holo_F",nil,35000],
+						["LMG_Zafir_F",nil,200000],
+						["arifle_Katiba_F",nil,70000],
+						["srifle_DMR_01_F",nil,100000],
+						["hgun_Pistol_heavy_01_MRD_F",nil,15000],
+						["optic_Holosight",nil,9500],
+						["optic_MRD",nil,5000],
+						["optic_ACO_grn",nil,6500],
+						["optic_Aco",nil,6500],
+						["acc_flashlight",nil,3000],
+						["optic_Hamr",nil,9500],
+						["optic_SOS",nil,10000],
+						["optic_NVS",nil,10000],
+						["optic_LRPS",nil,100000],
+						["30Rnd_9x21_Mag",nil,400],
+						["20Rnd_556x45_UW_mag",nil,525],
+						["30Rnd_556x45_Stanag",nil,500],
+						["10Rnd_762x51_Mag",nil,2000],
+						["30Rnd_65x39_caseless_mag",nil,975],
+						["30Rnd_65x39_caseless_green",nil,675],
+						["11Rnd_45ACP_Mag",nil,900],
+						["20Rnd_556x45_UW_mag",nil,400],
+						["150Rnd_762x51_Box",nil,900],
+						["30Rnd_45ACP_Mag_SMG_01",nil,575],
+						["SmokeShell","Granada de Fumaça Branca",2000],
+						["SmokeShellRed","Granada de Fumaça Vermelha",2000],
+						["SmokeShellGreen","Granada de Fumaça Verde",2000],
+						["SmokeShellYellow","Granada de Fumaça Amarela",2000],
+						["SmokeShellPurple","Granada de Fumaça Roxa",2000],
+						["SmokeShellBlue","Granada de Fumaça Azul",2000],
+						["SmokeShellOrange","Granada de Fumaça Laranja",2000]
+					]
+				];
+			};
+		};
+	};
+	
+	case "rebel3":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"Você não é um Civil!"};
+			case (!license_civ_rebel): {"Você não possui Licença Rebelde Level 3"};
+			default
+			{
+				["Loja Rebelde Level 3",
+					[
+					    ["Rangefinder",nil,75000],
+						["arifle_SDAR_F",nil,30000],
+						["arifle_TRG20_F",nil,45000],
+						["SMG_01_Holo_F",nil,35000],
+						["LMG_Zafir_F",nil,200000],
+						["arifle_Katiba_F",nil,70000],
+						["srifle_DMR_01_F",nil,100000],
+						["hgun_Pistol_heavy_01_MRD_F",nil,15000],
+						["optic_Holosight",nil,9500],
+						["optic_MRD",nil,5000],
+						["optic_ACO_grn",nil,6500],
+						["optic_Aco",nil,6500],
+						["acc_flashlight",nil,3000],
+						["optic_Hamr",nil,9500],
+						["optic_SOS",nil,10000],
+						["optic_NVS",nil,10000],
+						["optic_LRPS",nil,100000],
+						["30Rnd_9x21_Mag",nil,400],
+						["20Rnd_556x45_UW_mag",nil,525],
+						["30Rnd_556x45_Stanag",nil,500],
+						["10Rnd_762x51_Mag",nil,2000],
+						["30Rnd_65x39_caseless_mag",nil,975],
+						["30Rnd_65x39_caseless_green",nil,675],
+						["11Rnd_45ACP_Mag",nil,900],
+						["20Rnd_556x45_UW_mag",nil,400],
+						["150Rnd_762x51_Box",nil,900],
+						["30Rnd_45ACP_Mag_SMG_01",nil,575],
+						["SmokeShell","Granada de Fumaça Branca",2000],
+						["SmokeShellRed","Granada de Fumaça Vermelha",2000],
+						["SmokeShellGreen","Granada de Fumaça Verde",2000],
+						["SmokeShellYellow","Granada de Fumaça Amarela",2000],
+						["SmokeShellPurple","Granada de Fumaça Roxa",2000],
+						["SmokeShellBlue","Granada de Fumaça Azul",2000],
+						["SmokeShellOrange","Granada de Fumaça Laranja",2000]
+					]
+				];
+			};
+		};
+	};
+	
 	//PREMIUM-BUZ
 	case "premium":
 	{
 		switch(true) do
 		{
 			case (playerSide != civilian): {"Você não é um Civil!"};
-			case (!license_civ_premium): {"Você não é um Doador"};
+			case (!license_civ_premium): {"Você não é Premium"};
 			default
 			{
 				["Armas Premium",
