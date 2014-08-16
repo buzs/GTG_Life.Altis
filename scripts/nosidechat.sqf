@@ -46,7 +46,7 @@
 				if (disconnect_me == 0) then {
 					if (isNil "warn_one") then {
 						warn_one = true;
-						systemChat ("Please do not use voice on sidechat, this is your first warning.");
+						systemChat ("NÂO FALE NO SIDECHAT, ESTE É O PRIMEIRO AVISO!");
 						[] spawn DS_slap_them;
 						//["beat04"] spawn DS_really_loud_sounds;
 						["SEM VOZ NO SIDE"] spawn DS_double_cut;
@@ -55,7 +55,7 @@
 				if (disconnect_me == 1) then {
 					if (isNil "warn_two") then {
 						warn_two = true;
-						systemChat ("Please do not use voice on sidechat, this is your second warning.");
+						systemChat ("NÂO FALE NO SIDECHAT, ESTE É O SEGUNDO AVISO!");
 						[] spawn DS_slap_them;
 						//["beat04"] spawn DS_really_loud_sounds;
 						["SEM VOZ NO SIDE"] spawn DS_double_cut;
@@ -64,8 +64,8 @@
 				if (disconnect_me == 2) then {
 					if (isNil "warn_three") then {
 						warn_three = true;
-						systemChat ("PLEASE DO NOT USE VOICE ON SIDECHAT!! This is your LAST warning!");
-						systemChat ("You will be frozen and then be disconnected!");
+						systemChat ("NÂO FALE NO SIDECHAT, ESTE É O ULTIMO AVISO!");
+						systemChat ("Você sera desconectado e ira perder seu itens!");
 						[] spawn DS_slap_them;
 						//["beat04"] spawn DS_really_loud_sounds;
 						["SEM VOZ NO SIDE! Este é o último aviso!"] spawn DS_double_cut;
@@ -77,11 +77,11 @@
 						playMusic ["PitchWhine",0];
 						[] spawn DS_slap_them;
 						//["beat04"] spawn DS_really_loud_sounds;
-						["Te avisamos..."] spawn DS_double_cut;
+						["Você foi avisamos..."] spawn DS_double_cut;
 						1 fademusic 10;
 						1 fadesound 10;
 						disableUserInput true;
-						startLoadingScreen ["Você está sendo desligado."];
+						startLoadingScreen ["Você está sendo desconectado e ira perder seu itens."];
 						//progressLoadingScreen 0.2;sleep 2;["All_Haha"] spawn DS_really_loud_sounds;
 						progressLoadingScreen 0.4;sleep 2.25;
 						//progressLoadingScreen 0.6;sleep 2;["All_Haha"] spawn DS_really_loud_sounds;
@@ -99,7 +99,7 @@
 						player removeWeapon (handGunWeapon player);
 						removeAllWeapons player;
 						
-						endMission "LOSER";
+						endMission "IDIOTA";
 					};
 				};
 			};

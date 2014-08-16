@@ -41,14 +41,14 @@ switch(_shop) do
 		};
 	};
 	
-	case "cop_recruit":
+	case "cop_soldier":
 	{
 		switch(true) do
 		{
 			case (playerSide != west): {"Você não é Policial!"};
 			default
 			{
-				["Loja de Recruta / Soldado",
+				["Loja de Soldado",
 					[
 						["Binocular",nil,150],
 						["NVGoggles",nil,2000],
@@ -71,6 +71,62 @@ switch(_shop) do
 						["optic_Arco",nil,2500],
 						["muzzle_snds_L",nil,1000],
 						["muzzle_snds_H",nil,3000],
+						["16Rnd_9x21_Mag",nil,50],
+						["30Rnd_9x21_Mag",nil,100],
+						["30Rnd_65x39_caseless_mag",nil,130],
+						["20Rnd_556x45_UW_mag","Munição Rifle Teaser",150],
+						["ItemGPS",nil,100]
+					]
+				];
+			};
+		};
+	};
+	
+	case "cop_cabo":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Você não é Policial!"};
+			case (__GETC__(life_coplevel) < 2): {"Você não é um Cabo"};
+			default
+			{
+				["Loja de Cabo",
+					[
+					    ["Rangefinder",nil,25000],
+						["NVGoggles",nil,2000],
+						["ToolKit",nil,250],
+						["Medikit",nil,1000],
+						["SmokeShell","Granada de Fumaça Branca",2000],
+						["SmokeShellRed","Granada de Fumaça Vermelha",2000],
+						["SmokeShellGreen","Granada de Fumaça Verde",2000],
+						["SmokeShellYellow","Granada de Fumaça Amarela",2000],
+						["SmokeShellPurple","Granada de Fumaça Roxa",2000],
+						["SmokeShellBlue","Granada de Fumaça Azul",2000],
+						["SmokeShellOrange","Granada de Fumaça Laranja",2000],
+						["HandGrenade_Stone","Flashbang",1700],
+						["hgun_ACPC2_F",nil,5000],
+						["hgun_P07_snds_F","Pistola Teaser",2000],
+						["arifle_sdar_F","Rifle Teaser",20000],
+						["hgun_PDW2000_snds_F",nil,2000],
+						["arifle_MXC_F",nil,30000],
+						["arifle_MX_F",nil,32000],
+						["acc_flashlight",nil,750],
+						["acc_pointer_IR",nil,4000],
+						["optic_MRCO",nil,30000],
+						["optic_Holosight",nil,3500],
+						["optic_MRD",nil,300],
+						["optic_NVS",nil,300],
+						["optic_SOS",nil,10000],
+						["optic_LRPS",nil,100000],
+						["optic_Aco",nil,3500],
+						["optic_ACO_grn",nil,3500],
+						["optic_Hamr",nil,7500],
+						["optic_Arco",nil,2500],
+						["optic_DMS",nil,4000],
+						["muzzle_snds_L",nil,1000],
+						["muzzle_snds_acp",nil,1500],
+						["muzzle_snds_H",nil,3000],
+						["9Rnd_45ACP_Mag",nil,200],
 						["16Rnd_9x21_Mag",nil,50],
 						["30Rnd_9x21_Mag",nil,100],
 						["30Rnd_65x39_caseless_mag",nil,130],
@@ -645,7 +701,7 @@ switch(_shop) do
 
 	};
 	
-	case "gun":
+		case "gun":
 	{
 		switch(true) do
 		{
