@@ -33,7 +33,7 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport04_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport05_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport06_co.paa","civ"],
-			["textures\hatchbackpm_gtg.jpg","cop"]
+			["textures\hatchback_gtg.jpg","cop"]
 		];
 	};
 		
@@ -157,11 +157,19 @@ switch (_vehicle) do
 		];
 	};
 	
-		case "B_Heli_Transport_01_F":
+	case "B_Heli_Transport_01_F":
 	{
 		_ret = 
 		[
 			["textures\ghosthawk_gtg1.jpg","cop","textures\ghosthawk_gtg2.jpg"]
+		];
+	};
+	
+	case "B_Heli_Attack_01_F":
+	{
+		_ret = 
+		[
+			["textures\blackfoot_gtg.jpg","cop"]
 		];
 	};
 	
@@ -175,6 +183,14 @@ switch (_vehicle) do
 	};
 	
 	case "I_MRAP_03_F":
+	{
+		_ret = 
+		[
+			["textures\strider_gtg.jpg","cop"]
+		];
+	};
+	
+	case "I_MRAP_03_hmg_F":
 	{
 		_ret = 
 		[
