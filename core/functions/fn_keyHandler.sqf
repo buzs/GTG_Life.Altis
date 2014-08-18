@@ -145,6 +145,32 @@ switch (_code) do
 			};
 		};
 	};
+	//V key
+	case 33:
+	{
+		if(playerSide in [west] && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then
+		{
+			[] spawn
+			{
+				life_siren2_active = true;
+				sleep 1.2;
+                life_yelp_active = false;
+			};
+            _veh = vehicle player;
+            if(isNil {_veh getVariable "yelp"}) then {_veh setVariable["yelp",false,true];};
+			if((_veh getVariable "yelp")) then
+            {
+				titleText ["Yelp Desligado","PLAIN"];
+				_veh setVariable["yelp",false,true];
+            }
+				else
+			{
+				titleText ["Yelp Ligado","PLAIN"];
+				_veh setVariable["yelp",true,true];
+				[[_veh],"life_fnc_copYelp",nil,true] spawn life_fnc_MP;
+			};
+		};
+	};
 	//L Key?
 	case 38: 
 	{
@@ -176,30 +202,31 @@ switch (_code) do
 	//F Key
 	case 33:
 	{
-		if(playerSide in [west,independent] && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
-		{
-			[] spawn
+		{	
+			if(playerSide in [west,independent] && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
 			{
-				life_siren_active = true;
-				sleep 4.7;
-				life_siren_active = false;
-			};
-			_veh = vehicle player;
-			if(isNil {_veh getVariable "siren"}) then {_veh setVariable["siren",false,true];};
-			if((_veh getVariable "siren")) then
-			{
-				titleText [localize "STR_MISC_SirensOFF","PLAIN"];
-				_veh setVariable["siren",false,true];
-			}
-				else
-			{
-				titleText [localize "STR_MISC_SirensON","PLAIN"];
-				_veh setVariable["siren",true,true];
-				if(playerSide == west) then {
-					[[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
-				} else {
-					//I do not have a custom sound for this and I really don't want to go digging for one, when you have a sound uncomment this and change medicSiren.sqf in the medical folder.
-					//[[_veh],"life_fnc_medicSiren",nil,true] spawn life_fnc_MP;
+				[] spawn
+				{
+					life_siren_active = true;
+					sleep 4.7;
+					life_siren_active = false;
+				};
+				_veh = vehicle player;
+				if(isNil {_veh getVariable "siren"}) then {_veh setVariable["siren",false,true];};
+				if((_veh getVariable "siren")) then
+				{
+					titleText [localize "STR_MISC_SirensOFF","PLAIN"];
+					_veh setVariable["siren",false,true];
+				}
+					else
+				{
+					titleText [localize "STR_MISC_SirensON","PLAIN"];
+					_veh setVariable["siren",true,true];
+					if(playerSide == west) then {
+						[[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
+					} else {
+						[[_veh],"life_fnc_medicSiren",nil,true] spawn life_fnc_MP;
+					};
 				};
 			};
 		};
@@ -223,10 +250,12 @@ switch (_code) do
 						_veh setVariable[format["bis_disabled_Door_%1",_door],1,true];
 						_veh animate [format["door_%1_rot",_door],0];
 						systemChat localize "STR_House_Door_Lock";
+						playSound "lock";
 					} else {
 						_veh setVariable[format["bis_disabled_Door_%1",_door],0,true];
 						_veh animate [format["door_%1_rot",_door],1];
 						systemChat localize "STR_House_Door_Unlock";
+						playSound "unlock";
 					};
 				};
 			} else {
@@ -239,6 +268,7 @@ switch (_code) do
 							[[_veh,0],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};
 						systemChat localize "STR_MISC_VehUnlock";
+						playSound "car_lock";
 					} else {
 						if(local _veh) then {
 							_veh lock 2;
@@ -246,6 +276,7 @@ switch (_code) do
 							[[_veh,2],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};	
 						systemChat localize "STR_MISC_VehLock";
+						playSound "unlock";
 					};
 				};
 			};

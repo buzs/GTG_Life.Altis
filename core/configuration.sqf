@@ -16,6 +16,7 @@ life_session_tries = 0;
 life_net_dropped = false;
 life_hit_explosive = false;
 life_siren_active = false;
+life_siren2_active = false; //BUZ
 life_clothing_filter = 0;
 life_clothing_uniform = -1;
 life_redgull_effect = time;
@@ -86,18 +87,19 @@ switch (playerSide) do
 {
 	case west: 
 	{
-		life_atmcash = 18000; //Starting Bank Money
-		life_paycheck = 2500; //Paycheck Amount
+		life_atmcash = 25000; //Starting Bank Money
+        life_paycheck = 3000; //Paycheck Amount
 	};
 	case civilian: 
 	{
-		life_atmcash = 8500; //Starting Bank Money
-		life_paycheck = 550; //Paycheck Amount
+		life_atmcash = 3500; //Starting Bank Money
+		life_paycheck = 500; //Paycheck Amount
 	};
 	
-	case independent: {
-		life_atmcash = 16500;
-		life_paycheck = 2500;
+	case independent: 
+	{
+		life_atmcash = 20000;
+		life_paycheck = 4000;
 	};
 };
 
@@ -189,7 +191,9 @@ life_licenses =
 	["license_civ_home","civ"],
 	["license_civ_rebel2","civ"], //BUZ
     ["license_civ_rebel3","civ"], //BUZ
-	["license_civ_premium","civ"] //BUZ
+	["license_civ_premium","civ"], //BUZ
+	["license_civ_premium2","civ"], //BUZ
+	["license_civ_premium3","civ"] //BUZ
 ];
 
 //Setup License Variables
@@ -319,31 +323,31 @@ __CONST__(life_weapon_shop_array,life_weapon_shop_array);
 
 life_garage_prices =
 [
-	["B_QuadBike_01_F",550],
-	["C_Hatchback_01_F",1500],
-	["C_Offroad_01_F", 2500],
-	["B_G_Offroad_01_F",3500],
-	["C_SUV_01_F",5250],
-	["C_Van_01_transport_F",7890],
-	["C_Hatchback_01_sport_F",2350],
-	["C_Van_01_fuel_F",4500],
-	["I_Heli_Transport_02_F",100000],
-	["C_Van_01_box_F",9000],
-	["I_Truck_02_transport_F",12000],
-	["I_Truck_02_covered_F",14500],
-	["B_Truck_01_transport_F",25650],
-	["B_Truck_01_box_F", 35000],
-	["O_MRAP_02_F",45000],
-	["B_Heli_Light_01_F",45000],
-	["O_Heli_Light_02_unarmed_F",65000],
-	["C_Rubberboat",400],
-	["C_Boat_Civil_01_F",4500],
-	["B_Boat_Transport_01_F",450],
-	["C_Boat_Civil_01_police_F",3500],
-	["B_Boat_Armed_01_minigun_F",16500],
-	["B_SDV_01_F",25000],
-	["B_MRAP_01_F",7500],
-	["O_Truck_03_device_F",20000]
+	["B_QuadBike_01_F",500],
+	["C_Hatchback_01_F",1000],
+	["C_Offroad_01_F", 1000],
+	["B_G_Offroad_01_F",1000],
+	["C_SUV_01_F",1000],
+	["C_Van_01_transport_F",1000],
+	["C_Hatchback_01_sport_F",1000],
+	["C_Van_01_fuel_F",1000],
+	["I_Heli_Transport_02_F",1000],
+	["C_Van_01_box_F",1000],
+	["I_Truck_02_transport_F",1000],
+	["I_Truck_02_covered_F",1000],
+	["B_Truck_01_transport_F",1000],
+	["B_Truck_01_box_F", 1000],
+	["O_MRAP_02_F",1000],
+	["B_Heli_Light_01_F",1000],
+	["O_Heli_Light_02_unarmed_F",1000],
+	["C_Rubberboat",1000],
+	["C_Boat_Civil_01_F",1000],
+	["B_Boat_Transport_01_F",1000],
+	["C_Boat_Civil_01_police_F",1000],
+	["B_Boat_Armed_01_minigun_F",1000],
+	["B_SDV_01_F",1000],
+	["B_MRAP_01_F",1000],
+	["O_Truck_03_device_F",1000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 

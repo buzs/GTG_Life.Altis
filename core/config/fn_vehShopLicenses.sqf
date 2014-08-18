@@ -26,7 +26,11 @@ switch (life_veh_shop select 0) do
 	case "cop_air": {_ret = license_cop_air;};
 	case "cop_airhq": {_ret = license_cop_air;};
 	case "civ_truck":	{_ret = license_civ_truck;};
-	case "reb_car": {_ret = license_civ_rebel;};
+	case "reb_car": {_ret = license_civ_rebel ;};
+	case "donator_car" (_ret = license_civ_premium || license_civ_premium2 || license_civ_premium3;};
+	case "donator_truck" (_ret = license_civ_premium || license_civ_premium2 || license_civ_premium3;};
+	case "donator_air" (_ret = license_civ_premium || license_civ_premium2 || license_civ_premium3;};
+	
 	case "cop_car": {_ret = true;};
 	case "cop_ship": 
 	{

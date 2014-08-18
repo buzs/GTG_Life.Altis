@@ -14,7 +14,7 @@ switch (_type) do
 	case "driver": {500}; //Drivers License cost
 	case "boat": {1000}; //Boating license cost
 	case "pilot": {25000}; //Pilot/air license cost
-	case "gun": {10000}; //Firearm/gun license cost
+	case "gun": {20000}; //Firearm/gun license cost
 	case "dive": {2000}; //Diving license cost
 	case "oil": {10000}; //Oil processing license cost
 	case "cair": {15000}; //Cop Pilot License cost
@@ -24,7 +24,7 @@ switch (_type) do
 	case "marijuana": {19500}; //Marijuana processing license cost
 	case "medmarijuana": {1500}; //Medical Marijuana processing license cost
 	case "gang": {10000}; //Gang license cost
-	case "rebel": {75000}; //Rebel license cost
+	case "rebel": {400000}; //Rebel license cost
 	case "truck": {20000}; //Truck license cost
 	case "diamond": {35000};
 	case "salt": {12000};
@@ -35,7 +35,9 @@ switch (_type) do
 	case "cement": {6500};
 	case "mair": {15000};
 	case "home": {75000};
-	case "rebel2": {420000}; //BUZ
-	case "rebel3": {730000}; //BUZ
+	case "rebel2": {900000}; //BUZ
+	case "rebel3": {1500000}; //BUZ
 	case "premium": {999999999}; //BUZ
+	case "premium2": {999999999}; //BUZ
+	case "premium3": {999999999}; //BUZ
 };

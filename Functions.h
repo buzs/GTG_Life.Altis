@@ -293,9 +293,12 @@ class Life_Client_Core
 		class doorAnimate {};
 		class fedCamDisplay {};
 		class copLoadout {};
+		class copEnter {};//BUZ
 		class seizeObjects {};//BUZ
 		class seizePlayerWeapon {};//BUZ
 		class seizePlayerWeaponAction {};//BUZ
+		class copSiren2 {};//BUZ
+		class copDefault {};//BUZ
 	};
 	
 	class Gangs

@@ -46,6 +46,12 @@ class CfgSounds
 		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
 		titles[] = {};
 	};
+	class SirenSamu
+	{
+		name = "SirenSamu";
+		sound[] = {"\sounds\Siren_samu.ogg", 1.0, 1};
+		titles[] = {};
+	}
 	
 	class tazersound
 	{
@@ -58,6 +64,42 @@ class CfgSounds
 	{
 		name = "flashbang";
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class Yelp
+	{
+		name = "Yelp";
+		sound[] = {"\sounds\Yelp.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class car_lock
+	{
+		name = "car_lock";
+		sound[] = {"\sounds\car_lock.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class car_unlock
+	{
+		name = "car_lock";
+		sound[] = {"\sounds\car_lock.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class unlock
+	{
+		name = "car_lock";
+		sound[] = {"\sounds\unlock.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class lock
+	{
+		name = "car_lock";
+		sound[] = {"\sounds\unlock.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class handcuffs
+	{
+		name = "handcuffs";
+		sound[] = {"\sounds\handcuffs.ogg", 1.0, 1};
 		titles[] = {};
 	};
 };

@@ -43,6 +43,8 @@ switch (_mode) do
 			case "rebel2": {_var = "license_civ_rebel2"}; //BUZ
 			case "rebel3": {_var = "license_civ_rebel3"}; //BUZ
 			case "premium": {_var = "license_civ_premium"}; //BUZ
+			case "premium2": {_var = "license_civ_premium2"}; //BUZ
+			case "premium3": {_var = "license_civ_premium3"}; //BUZ
 			default {_var = ""};
 		};
 	};
@@ -78,6 +80,8 @@ switch (_mode) do
 			case "license_civ_rebel2": {_var = "rebel2"}; //BUZ
 			case "license_civ_rebel3": {_var = "rebel3"}; //BUZ
 			case "license_civ_premium": {_var = "premium"}; //BUZ
+			case "license_civ_premium2": {_var = "premium2"}; //BUZ
+			case "license_civ_premium3": {_var = "premium3"}; //BUZ
 			default {_var = ""};
 		};
 	};
