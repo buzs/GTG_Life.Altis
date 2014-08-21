@@ -1,6 +1,6 @@
 author = "Tonic";
 onLoadName = "Altis Life RPG v3.1.4.5";
-onLoadMission = "Criado por Tonic & Editado pela Equipe GTG";
+onLoadMission = "Editado por Grupo Tático em Games";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
