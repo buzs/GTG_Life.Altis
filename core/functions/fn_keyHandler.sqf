@@ -202,31 +202,29 @@ switch (_code) do
 	//F Key
 	case 33:
 	{
-		{	
-			if(playerSide in [west,independent] && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
+		if(playerSide in [west,independent] && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
+		{
+			[] spawn
 			{
-				[] spawn
-				{
-					life_siren_active = true;
-					sleep 4.7;
-					life_siren_active = false;
-				};
-				_veh = vehicle player;
-				if(isNil {_veh getVariable "siren"}) then {_veh setVariable["siren",false,true];};
-				if((_veh getVariable "siren")) then
-				{
-					titleText [localize "STR_MISC_SirensOFF","PLAIN"];
-					_veh setVariable["siren",false,true];
-				}
-					else
-				{
-					titleText [localize "STR_MISC_SirensON","PLAIN"];
-					_veh setVariable["siren",true,true];
-					if(playerSide == west) then {
-						[[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
-					} else {
-						[[_veh],"life_fnc_medicSiren",nil,true] spawn life_fnc_MP;
-					};
+				life_siren_active = true;
+				sleep 4.7;
+				life_siren_active = false;
+			};
+			_veh = vehicle player;
+			if(isNil {_veh getVariable "siren"}) then {_veh setVariable["siren",false,true];};
+			if((_veh getVariable "siren")) then
+			{
+				titleText [localize "STR_MISC_SirensOFF","PLAIN"];
+				_veh setVariable["siren",false,true];
+			}
+				else
+			{
+				titleText [localize "STR_MISC_SirensON","PLAIN"];
+				_veh setVariable["siren",true,true];
+				if(playerSide == west) then {
+					[[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
+				} else {
+					[[_veh],"life_fnc_medicSiren",nil,true] spawn life_fnc_MP;
 				};
 			};
 		};
