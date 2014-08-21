@@ -6,6 +6,7 @@
 */
 format["Bem Vindo ao SERVER GTG %1, por favor leia o texto abaixo, pois é importante!",profileName] hintC
 [
+	"",
 	"Venha participar de nossa comunidade!",
 	"",
 	"www.clangtg.com.br",
