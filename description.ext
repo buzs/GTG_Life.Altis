@@ -1,6 +1,6 @@
 author = "Tonic";
 onLoadName = "Altis Life RPG v3.1.4.5";
-onLoadMission = "Seja um doador e ajude o servidor a crescer!";
+onLoadMission = "Criado por Tonic & Editado pela Equipe GTG";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
