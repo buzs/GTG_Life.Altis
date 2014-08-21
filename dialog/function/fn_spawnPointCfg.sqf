@@ -22,7 +22,7 @@ switch (_side) do
         _markers = 
 		[
             ["cop_spawn_1","HQ Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-            ["cop_spawn_2","HQ Pyrgos","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
+            ["cop_spawn_2","HQ Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["cop_spawn_3","HQ Athira","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
             ["cop_spawn_4","Base Aérea","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
             ["cop_spawn_5","Checkpoint","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
@@ -36,7 +36,7 @@ switch (_side) do
 		{_markers = 
 			[
             ["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-            ["civ_spawn_2","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_5","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -49,7 +49,7 @@ switch (_side) do
 		{_markers = 
 			[
             ["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-            ["civ_spawn_2","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_5","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
@@ -59,7 +59,7 @@ switch (_side) do
 		{_markers = 
 			[
             ["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-            ["civ_spawn_2","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_5","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -70,7 +70,7 @@ switch (_side) do
 		{_markers = 
 			[
             ["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-            ["civ_spawn_2","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_5","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
