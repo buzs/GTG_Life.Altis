@@ -146,7 +146,7 @@ switch (_code) do
 		};
 	};
 	//V key
-	case 33:
+	case 47:
 	{
 		if(playerSide in [west] && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then
 		{
@@ -154,20 +154,20 @@ switch (_code) do
 			{
 				life_siren2_active = true;
 				sleep 1.2;
-                life_yelp_active = false;
+                life_siren2_active = false;
 			};
             _veh = vehicle player;
-            if(isNil {_veh getVariable "yelp"}) then {_veh setVariable["yelp",false,true];};
-			if((_veh getVariable "yelp")) then
+            if(isNil {_veh getVariable "siren2"}) then {_veh setVariable["siren2",false,true];};
+			if((_veh getVariable "siren2")) then
             {
 				titleText ["Yelp Desligado","PLAIN"];
-				_veh setVariable["yelp",false,true];
+				_veh setVariable["siren2",false,true];
             }
 				else
 			{
 				titleText ["Yelp Ligado","PLAIN"];
-				_veh setVariable["yelp",true,true];
-				[[_veh],"life_fnc_copYelp",nil,true] spawn life_fnc_MP;
+				_veh setVariable["siren2",true,true];
+				[[_veh],"life_fnc_copsiren2",nil,true] spawn life_fnc_MP;
 			};
 		};
 	};
@@ -276,7 +276,7 @@ switch (_code) do
 							[[_veh,2],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};	
 						systemChat localize "STR_MISC_VehLock";
-						playSound "unlock";
+						playSound "car_unlock";
 					};
 				};
 			};
