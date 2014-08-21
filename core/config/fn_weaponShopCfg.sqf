@@ -53,6 +53,7 @@ switch(_shop) do
 						["NVGoggles",nil,4000],
 						["ToolKit",nil,500],
 						["FirstAidKit",nil,200],
+						["ItemGPS",nil,2700],
 						["SmokeShell","Granada de Fumaça Branca",2000],
 						["SmokeShellRed","Granada de Fumaça Vermelha",2000],
 						["SmokeShellGreen","Granada de Fumaça Verde",2000],
@@ -61,8 +62,8 @@ switch(_shop) do
 						["SmokeShellBlue","Granada de Fumaça Azul",2000],
 						["SmokeShellOrange","Granada de Fumaça Laranja",2000],
 						["HandGrenade_Stone","Flashbang",1700],
-						["hgun_P07_snds_F","Pistola Teaser",10000],
-						["arifle_sdar_F","Rifle Teaser",20000],
+						["hgun_P07_snds_F","Pistola Taser",10000],
+						["arifle_sdar_F","Rifle Taser",20000],
 						["hgun_PDW2000_snds_F",nil,3000],
 						["arifle_MXC_F",nil,20000],
 						["acc_flashlight",nil,300],
@@ -73,8 +74,7 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,1000],
 						["30Rnd_9x21_Mag",nil,2000],
 						["30Rnd_65x39_caseless_mag",nil,3500],
-						["20Rnd_556x45_UW_mag","Munição Rifle Teaser",17500],
-						["ItemGPS",nil,2700]
+						["20Rnd_556x45_UW_mag","Munição Taser Rifle",17500]
 					]
 				];
 			};
@@ -95,6 +95,7 @@ switch(_shop) do
 						["NVGoggles",nil,4000],
 						["ToolKit",nil,500],
 						["FirstAidKit",nil,200],
+						["ItemGPS",nil,2700],
 						["SmokeShell","Granada de Fumaça Branca",2000],
 						["SmokeShellRed","Granada de Fumaça Vermelha",2000],
 						["SmokeShellGreen","Granada de Fumaça Verde",2000],
@@ -104,8 +105,8 @@ switch(_shop) do
 						["SmokeShellOrange","Granada de Fumaça Laranja",2000],
 						["HandGrenade_Stone","Flashbang",1700],
 						["hgun_ACPC2_F",nil,5000],
-						["hgun_P07_snds_F","Pistola Teaser",10000],
-						["arifle_sdar_F","Rifle Teaser",20000],
+						["hgun_P07_snds_F","Pistola Taser",10000],
+						["arifle_sdar_F","Rifle Taser",20000],
 						["hgun_PDW2000_snds_F",nil,3000],
 						["arifle_MXC_F",nil,20000],
 						["arifle_MX_F",nil,32000],
@@ -129,8 +130,7 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,50],
 						["30Rnd_9x21_Mag",nil,100],
 						["30Rnd_65x39_caseless_mag",nil,130],
-						["20Rnd_556x45_UW_mag","Munição Rifle Teaser",150],
-						["ItemGPS",nil,2700]
+						["20Rnd_556x45_UW_mag","Munição Taser Rifle",150]
 					]
 				];
 			};
@@ -151,6 +151,7 @@ switch(_shop) do
 						["NVGoggles",nil,4000],
 						["ToolKit",nil,500],
 						["FirstAidKit",nil,200],
+						["ItemGPS",nil,2700],
 						["SmokeShell","Granada de Fumaça Branca",2000],
 						["SmokeShellRed","Granada de Fumaça Vermelha",2000],
 						["SmokeShellGreen","Granada de Fumaça Verde",2000],
@@ -160,8 +161,8 @@ switch(_shop) do
 						["SmokeShellOrange","Granada de Fumaça Laranja",2000],
 						["HandGrenade_Stone","Flashbang",1700],
 						["hgun_ACPC2_F",nil,5000],
-						["hgun_P07_snds_F","Pistola Teaser",10000],
-						["arifle_sdar_F","Rifle Teaser",20000],
+						["hgun_P07_snds_F","Pistola Taser",10000],
+						["arifle_sdar_F","Rifle Taser",20000],
 						["hgun_PDW2000_snds_F",nil,3000],
 						["arifle_MXC_F",nil,20000],
 						["arifle_MX_F",nil,32000],
@@ -185,8 +186,7 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,50],
 						["30Rnd_9x21_Mag",nil,100],
 						["30Rnd_65x39_caseless_mag",nil,130],
-						["20Rnd_556x45_UW_mag","Munição Rifle Teaser",150],
-						["ItemGPS",nil,2700]
+						["20Rnd_556x45_UW_mag","Munição Taser Rifle",150]
 					]
 				];
 			};
@@ -207,6 +207,7 @@ switch(_shop) do
 						["NVGoggles",nil,4000],
 						["ToolKit",nil,500],
 						["FirstAidKit",nil,200],
+						["ItemGPS",nil,2700],
 						["SmokeShell","Granada de Fumaça Branca",2000],
 						["SmokeShellRed","Granada de Fumaça Vermelha",2000],
 						["SmokeShellGreen","Granada de Fumaça Verde",2000],
@@ -217,8 +218,8 @@ switch(_shop) do
 						["HandGrenade_Stone","Flashbang",1700],
 						["MineDetector",nil,1000],
 						["hgun_ACPC2_F",nil,5000],
-						["hgun_P07_snds_F","Pistola Teaser",10000],
-						["arifle_sdar_F","Rifle Teaser",20000],
+						["hgun_P07_snds_F","Pistola Taser",10000],
+						["arifle_sdar_F","Rifle Taser",20000],
 						["hgun_PDW2000_snds_F",nil,3000],
 						["arifle_MXC_F",nil,20000],
 						["arifle_MX_F",nil,32000],
@@ -247,8 +248,7 @@ switch(_shop) do
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["100Rnd_65x39_caseless_mag",nil,500],
 						["20Rnd_762x51_Mag",nil,300],
-						["20Rnd_556x45_UW_mag","Munição Rifle Teaser",150],
-						["ItemGPS",nil,2700]
+						["20Rnd_556x45_UW_mag","Munição Taser Rifle",150]
 					]
 				];
 			};
@@ -269,6 +269,7 @@ switch(_shop) do
 						["NVGoggles",nil,4000],
 						["ToolKit",nil,500],
 						["FirstAidKit",nil,200],
+						["ItemGPS",nil,2700],
 						["SmokeShell","Granada de Fumaça Branca",2000],
 						["SmokeShellRed","Granada de Fumaça Vermelha",2000],
 						["SmokeShellGreen","Granada de Fumaça Verde",2000],
@@ -279,10 +280,11 @@ switch(_shop) do
 						["HandGrenade_Stone","Flashbang",1700],
 						["MineDetector",nil,1000],
 						["hgun_ACPC2_F",nil,5000],
-						["hgun_P07_snds_F","Pistola Teaser",10000],
-						["arifle_sdar_F","Rifle Teaser",20000],
+						["hgun_P07_snds_F","Pistola Taser",10000],
+						["arifle_sdar_F","Rifle Taser",20000],
 						["hgun_PDW2000_snds_F",nil,3000],
 						["arifle_MXC_F",nil,20000],
+						["arifle_MXC_Black_F",nil,25000],
 						["arifle_MX_F",nil,32000],
 						["arifle_MX_SW_F",nil,35000],
 						["srifle_EBR_SOS_F",nil,35000],
@@ -308,13 +310,12 @@ switch(_shop) do
 						["9Rnd_45ACP_Mag",nil,200],
 						["16Rnd_9x21_Mag",nil,50],
 						["30Rnd_9x21_Mag",nil,100],
-						["30Rnd_65x39_caseless_mag_Tracer","Bala de Borracha",130],
+						["30Rnd_65x39_caseless_mag_Tracer",nil,130],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["100Rnd_65x39_caseless_mag",nil,500],
 						["20Rnd_762x51_Mag",nil,300],
 						["200Rnd_65x39_cased_Box",nil,500],
-						["20Rnd_556x45_UW_mag","Munição Rifle Teaser",150],
-						["ItemGPS",nil,2700]
+						["20Rnd_556x45_UW_mag","Munição Taser Rifle",150]
 					]
 				];
 			};
@@ -335,6 +336,7 @@ switch(_shop) do
 						["NVGoggles",nil,4000],
 						["ToolKit",nil,500],
 						["FirstAidKit",nil,200],
+						["ItemGPS",nil,2700],
 						["SmokeShell","Granada de Fumaça Branca",2000],
 						["SmokeShellRed","Granada de Fumaça Vermelha",2000],
 						["SmokeShellGreen","Granada de Fumaça Verde",2000],
@@ -345,11 +347,13 @@ switch(_shop) do
 						["HandGrenade_Stone","Flashbang",1700],
 						["MineDetector",nil,1000],
 						["hgun_ACPC2_F",nil,5000],
-						["hgun_P07_snds_F","Pistola Teaser",10000],
-						["arifle_sdar_F","Rifle Teaser",20000],
+						["hgun_P07_snds_F","Pistola Taser",10000],
+						["arifle_sdar_F","Rifle Taser",20000],
 						["hgun_PDW2000_snds_F",nil,3000],
 						["arifle_MXC_F",nil,20000],
+						["arifle_MXC_Black_F",nil,25000],
 						["arifle_MX_F",nil,32000],
+						["arifle_MX_Black_F",nil,37000],
 						["arifle_MX_SW_F",nil,35000],
 						["srifle_EBR_SOS_F",nil,35000],
 						["LMG_Mk200_F",nil,50000],
@@ -375,14 +379,13 @@ switch(_shop) do
 						["9Rnd_45ACP_Mag",nil,200],
 						["16Rnd_9x21_Mag",nil,50],
 						["30Rnd_9x21_Mag",nil,100],
-						["30Rnd_65x39_caseless_mag_Tracer","Bala de Borracha",130],
+						["30Rnd_65x39_caseless_mag_Tracer",nil,130],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["100Rnd_65x39_caseless_mag",nil,500],
 						["20Rnd_762x51_Mag",nil,300],
 						["200Rnd_65x39_cased_Box",nil,500],
 						["7Rnd_408_Mag",nil,5000],
-						["20Rnd_556x45_UW_mag","Munição Rifle Teaser",150],
-						["ItemGPS",nil,2700]
+						["20Rnd_556x45_UW_mag","Munição Taser Rifle",150]
 					]
 				];
 			};
@@ -403,6 +406,7 @@ switch(_shop) do
 						["NVGoggles",nil,4000],
 						["ToolKit",nil,500],
 						["FirstAidKit",nil,200],
+						["ItemGPS",nil,2700],
 						["SmokeShell","Granada de Fumaça Branca",2000],
 						["SmokeShellRed","Granada de Fumaça Vermelha",2000],
 						["SmokeShellGreen","Granada de Fumaça Verde",2000],
@@ -413,12 +417,15 @@ switch(_shop) do
 						["HandGrenade_Stone","Flashbang",1700],
 						["MineDetector",nil,1000],
 						["hgun_ACPC2_F",nil,5000],
-						["hgun_P07_snds_F","Pistola Teaser",10000],
-						["arifle_sdar_F","Rifle Teaser",20000],
+						["hgun_P07_snds_F","Pistola Taser",10000],
+						["arifle_sdar_F","Rifle Taser",20000],
 						["hgun_PDW2000_snds_F",nil,3000],
 						["arifle_MXC_F",nil,20000],
+						["arifle_MXC_Black_F",nil,25000],
 						["arifle_MX_F",nil,32000],
+						["arifle_MX_Black_F",nil,37000],
 						["arifle_MX_SW_F",nil,35000],
+						["arifle_MX_SW_Black_F",nil,40000],
 						["srifle_EBR_SOS_F",nil,35000],
 						["LMG_Mk200_F",nil,50000],
 						["srifle_LRR_SOS_F",nil,1000000],
@@ -444,15 +451,14 @@ switch(_shop) do
 						["9Rnd_45ACP_Mag",nil,200],
 						["16Rnd_9x21_Mag",nil,50],
 						["30Rnd_9x21_Mag",nil,100],
-						["30Rnd_65x39_caseless_mag_Tracer","Bala de Borracha",130],
+						["30Rnd_65x39_caseless_mag_Tracer",nil,130],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["100Rnd_65x39_caseless_mag",nil,500],
 						["20Rnd_762x51_Mag",nil,300],
 						["200Rnd_65x39_cased_Box",nil,500],
 						["7Rnd_408_Mag",nil,5000],
 						["5Rnd_127x108_APDS_Mag",nil,10000],
-						["20Rnd_556x45_UW_mag","Munição Rifle Teaser",150],
-						["ItemGPS",nil,2700]
+						["20Rnd_556x45_UW_mag","Munição Taser Rifle",150]
 					]
 				];
 			};
