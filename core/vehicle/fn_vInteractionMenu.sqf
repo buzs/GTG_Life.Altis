@@ -96,7 +96,12 @@ if(playerSide == west) then {
 		_Btn3 ctrlShow false;
 	};
 	
-	_Btn4 ctrlShow false;
+	//_Btn4 ctrlShow false;
 	_Btn5 ctrlShow false;
 	_Btn6 ctrlShow false;
+};
+if(playerSide == civilian) then {
+_Btn4 ctrlSetText localize "STR_vInAct_PullOut";
+_Btn4 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
+if(count crew _curTarget == 0) then {_Btn4 ctrlEnable false;};
 };

@@ -14,6 +14,4 @@ life_versionInfo = "Altis Life RPG v3.1.4.5";
 [] execVM "scripts\nosidechat.sqf";
 [] execVM "scripts\safezone.sqf";
 
-if (isServer) then {call compile preprocessFile "scripts\upin.sqf";};
-
 StartProgress = true;
