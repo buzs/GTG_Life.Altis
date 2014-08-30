@@ -160,7 +160,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_16";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 16";
 				};
 				class Item1
 				{
@@ -173,7 +173,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_17";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 17";
 				};
 				class Item2
 				{
@@ -186,7 +186,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_18";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Bomb Squad 1";
 				};
 				class Item3
 				{
@@ -199,7 +199,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_13";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 13";
 				};
 				class Item4
 				{
@@ -212,7 +212,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_6";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 6";
 				};
 				class Item5
 				{
@@ -225,7 +225,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_11";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 11";
 				};
 				class Item6
 				{
@@ -238,7 +238,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_7";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 7";
 				};
 				class Item7
 				{
@@ -251,7 +251,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_12";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 12";
 				};
 				class Item8
 				{
@@ -264,7 +264,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_14";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 14";
 				};
 				class Item9
 				{
@@ -278,7 +278,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_19";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Bomb Squad 2";
 				};
 				class Item10
 				{
@@ -291,7 +291,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_15";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 15";
 				};
 				class Item11
 				{
@@ -304,7 +304,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_9";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 9";
 				};
 				class Item12
 				{
@@ -317,7 +317,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_8";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 8";
 				};
 				class Item13
 				{
@@ -330,7 +330,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_4";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="Public Slot - Cop 4";
 				};
 				class Item14
 				{
@@ -343,7 +343,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_2";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="Public Slot - Cop 2";
 				};
 				class Item15
 				{
@@ -356,7 +356,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_3";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="Public Slot - Cop 3";
 				};
 				class Item16
 				{
@@ -369,7 +369,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_5";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 5";
 				};
 				class Item17
 				{
@@ -382,7 +382,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_10";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="WhiteListed - Cop 10";
 				};
 				class Item18
 				{
@@ -396,7 +396,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_1";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial";
+					description="Public Slot - Cop 1";
 				};
 			};
 		};
