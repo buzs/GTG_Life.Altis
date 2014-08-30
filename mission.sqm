@@ -330,7 +330,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_4";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Polícial Público;
+					description="Slot Polícial Público";
 				};
 				class Item14
 				{
