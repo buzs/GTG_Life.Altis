@@ -55,7 +55,7 @@ player createDiarySubject ["7","Licenças"];
 				<br/>• Sua primeira obtenção de dinheiro é através da colheita de frutas, sendo essas: maçãs e pêssegos.
 				<br/>• Vá ao caixa eletrônico (ATM) mais próximo e faça seu primeiro saque!
 				<br/>• Com esse dinheiro, você poderá comprar seus primeiros veículos e mochilas!
-				<br/>• Vá até uma plantação de sua escolha com um veículo (ou mochila), role o 'scroll' do mouse e colha as frutas até que seu inventário fique cheio.
+				<br/>• Vá até uma plantação de sua escolha com um veículo (ou mochila), aperte o botão 'Windows ou H' e colha as frutas até que seu inventário fique cheio.
 				<br/>• Dica: para abrir o inventário do veículo, aproxime-se do mesmo e pressione a tecla 'T'.
 				<br/>• Em seguida, leve toda sua mercadoria para o 'Mercado' para ganhar mais dinheiro!
 				<br/>
@@ -63,7 +63,7 @@ player createDiarySubject ["7","Licenças"];
 				<br/>
 				<br/>• Quando conseguir comprar seu primeiro caminhão disponível na 'Loja de Caminhões', recomenda-se partir para trabalhos mais lucrativos, os quais podem ser encontrados na aba 'Trabalhos', logo abaixo.
 				<br/>
-				<br/>3. PARTINDO PARA O MUNDO DO CRIME! :o
+				<br/>3. PARTINDO PARA O MUNDO DO CRIME!
 				<br/>
 				<br/>• Estando financeiramente estável, você poderá aplicar um toque mais tenebroso à sua jogatina, dirigindo-se à ilha rebelde e adquirindo uma licença própria para isso.
 				<br/>• Você se deparará com 3 tipos de licenças: level 1, level 2 e level 3. Cada uma dessas licenças liberará determinados itens ou armas para incrementar seu jogo.
