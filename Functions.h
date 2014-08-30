@@ -9,6 +9,7 @@ class Socket_Reciever
 		class insertPlayerInfo {};
 		class updateRequest {};
 		class syncData {};
+		class updatePartial {};
 	};
 };
 
@@ -105,6 +106,7 @@ class Life_Client_Core
 		class robAction {};
 		class captureHideout {};
 		class gather {};
+		class activateNitro {};
 	};
 	
 	class Housing
@@ -247,7 +249,6 @@ class Life_Client_Core
 		class robReceive {};
 		class robPerson {};
 		class removeLicenses {};
-		class zoneCreator {};
 		class demoChargeTimer {};
 		class civLoadout {};
 		class civInteractionMenu {};//BUZ
@@ -294,6 +295,7 @@ class Life_Client_Core
 		class doorAnimate {};
 		class fedCamDisplay {};
 		class copLoadout {};
+		class ticketPaid {};
 		class copEnter {};//BUZ
 		class seizeObjects {};//BUZ
 		class seizePlayerWeapon {};//BUZ
@@ -355,6 +357,7 @@ class Life_Client_Core
 		class blastingCharge {};
 		class defuseKit {};
 		class storageBox {};
+		class nitro {};	//BUZ
 	};
 	
 	class Dialog_Controls

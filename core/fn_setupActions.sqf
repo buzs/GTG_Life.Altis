@@ -32,5 +32,7 @@ switch (playerSide) do
 		 //Sequestro SURRENDER
          life_actions = [player addAction["<t color='#00FF00'>Algemar</t>",life_fnc_restrainAction,cursorTarget,9999999,false,false,"",'
         !isNull cursorTarget && license_civ_rebel2 && player distance cursorTarget < 5 && isPlayer cursorTarget && animationState cursorTarget == "amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon" && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1 ']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Ativar Nitro</t>",life_fnc_activateNitro,false,2,false,false,"",
+		' (vehicle player != player) && (driver vehicle player == player) && (((vehicle player) getVariable["nitro", 0]) > 0) ']];
 	};
 };

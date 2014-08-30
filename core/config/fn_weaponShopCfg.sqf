@@ -624,7 +624,143 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != civilian): {"Você não é um Civil!"};
-			case (!license_civ_premium): {"Você não é Premium"};
+			case (__GETC__(life_donatorlvl) == 1): {"Você não é Premium"};
+			default
+			{
+				["Armas Premium",
+					[
+						["Rangefinder",nil,5000],
+						["NVGoggles_INDEP",nil,2000],
+						["ToolKit",nil,500],
+						["arifle_SDAR_F",nil,5000],
+						["arifle_TRG20_F",nil,5000],
+						["SMG_01_Holo_F",nil,5000],
+						["SMG_02_F",nil,5000],
+						["arifle_Katiba_F",nil,12000],
+						["arifle_MXC_F",nil,12000],
+						["arifle_MX_F",nil,15000],
+						["arifle_MX_SW_F",nil,18000],
+						["srifle_EBR_F",nil,30000],
+						["srifle_DMR_01_F",nil,20000],
+						["LMG_Mk200_F",nil,35000],
+						["LMG_Zafir_F",nil,30000],
+						["hgun_Pistol_heavy_02_F",nil,3000],
+						["hgun_Pistol_heavy_01_F",nil,4000],
+						["hgun_Rook40_F",nil,5000],
+						["optic_Holosight",nil,2000],
+						["optic_MRD",nil,2000],
+						["optic_Hamr",nil,2000],
+						["optic_MRCO",nil,2000],
+						["optic_ACO_grn",nil,3000],
+						["optic_Aco",nil,3000],
+						["optic_SOS",nil,6000],
+						["optic_LRPS",nil,20000],
+						["optic_NVS",nil,10000],
+						["acc_flashlight",nil,1000],
+						["acc_pointer_IR",nil,2000],
+						["30Rnd_9x21_Mag",nil,250],
+						["20Rnd_556x45_UW_mag",nil,250],
+						["30Rnd_556x45_Stanag",nil,250],
+						["30Rnd_45ACP_Mag_SMG_01",nil,250],
+						["11Rnd_45ACP_Mag",nil,100],
+						["30Rnd_65x39_caseless_green",nil,250],
+						["30Rnd_65x39_caseless_green_mag_Tracer",nil,250],
+						["10Rnd_762x51_Mag",nil,250],
+						["20Rnd_762x51_Mag",nil,500],
+						["150Rnd_762x51_Box",nil,250],
+						["200Rnd_65x39_cased_Box_Tracer",nil,500],
+						["30Rnd_65x39_caseless_mag_Tracer",nil,350],
+						["100Rnd_65x39_caseless_mag_Tracer",nil,700],
+						["30Rnd_65x39_caseless_mag",nil,350],
+						["100Rnd_65x39_caseless_mag",nil,700],
+						["6Rnd_45ACP_Cylinder",nil,100],
+						["SmokeShell","Granada de Fumaça Branca",1000],
+						["SmokeShellRed","Granada de Fumaça Vermelha",1000],
+						["SmokeShellGreen","Granada de Fumaça Verde",1000],
+						["SmokeShellYellow","Granada de Fumaça Amarela",1000],
+						["SmokeShellPurple","Granada de Fumaça Roxa",1000],
+						["SmokeShellBlue","Granada de Fumaça Azul",1000],
+						["SmokeShellOrange","Granada de Fumaça Laranja",1000]
+					]
+				];
+			};
+		};
+	};
+	
+	case "premium2":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"Você não é um Civil!"};
+			case (__GETC__(life_donatorlvl) == 2): {"Você não é Premium Lv.2"};
+			default
+			{
+				["Armas Premium",
+					[
+						["Rangefinder",nil,5000],
+						["NVGoggles_INDEP",nil,2000],
+						["ToolKit",nil,500],
+						["arifle_SDAR_F",nil,5000],
+						["arifle_TRG20_F",nil,5000],
+						["SMG_01_Holo_F",nil,5000],
+						["SMG_02_F",nil,5000],
+						["arifle_Katiba_F",nil,12000],
+						["arifle_MXC_F",nil,12000],
+						["arifle_MX_F",nil,15000],
+						["arifle_MX_SW_F",nil,18000],
+						["srifle_EBR_F",nil,30000],
+						["srifle_DMR_01_F",nil,20000],
+						["LMG_Mk200_F",nil,35000],
+						["LMG_Zafir_F",nil,30000],
+						["hgun_Pistol_heavy_02_F",nil,3000],
+						["hgun_Pistol_heavy_01_F",nil,4000],
+						["hgun_Rook40_F",nil,5000],
+						["optic_Holosight",nil,2000],
+						["optic_MRD",nil,2000],
+						["optic_Hamr",nil,2000],
+						["optic_MRCO",nil,2000],
+						["optic_ACO_grn",nil,3000],
+						["optic_Aco",nil,3000],
+						["optic_SOS",nil,6000],
+						["optic_LRPS",nil,20000],
+						["optic_NVS",nil,10000],
+						["acc_flashlight",nil,1000],
+						["acc_pointer_IR",nil,2000],
+						["30Rnd_9x21_Mag",nil,250],
+						["20Rnd_556x45_UW_mag",nil,250],
+						["30Rnd_556x45_Stanag",nil,250],
+						["30Rnd_45ACP_Mag_SMG_01",nil,250],
+						["11Rnd_45ACP_Mag",nil,100],
+						["30Rnd_65x39_caseless_green",nil,250],
+						["30Rnd_65x39_caseless_green_mag_Tracer",nil,250],
+						["10Rnd_762x51_Mag",nil,250],
+						["20Rnd_762x51_Mag",nil,500],
+						["150Rnd_762x51_Box",nil,250],
+						["200Rnd_65x39_cased_Box_Tracer",nil,500],
+						["30Rnd_65x39_caseless_mag_Tracer",nil,350],
+						["100Rnd_65x39_caseless_mag_Tracer",nil,700],
+						["30Rnd_65x39_caseless_mag",nil,350],
+						["100Rnd_65x39_caseless_mag",nil,700],
+						["6Rnd_45ACP_Cylinder",nil,100],
+						["SmokeShell","Granada de Fumaça Branca",1000],
+						["SmokeShellRed","Granada de Fumaça Vermelha",1000],
+						["SmokeShellGreen","Granada de Fumaça Verde",1000],
+						["SmokeShellYellow","Granada de Fumaça Amarela",1000],
+						["SmokeShellPurple","Granada de Fumaça Roxa",1000],
+						["SmokeShellBlue","Granada de Fumaça Azul",1000],
+						["SmokeShellOrange","Granada de Fumaça Laranja",1000]
+					]
+				];
+			};
+		};
+	};
+	
+	case "premium3":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"Você não é um Civil!"};
+			case (__GETC__(life_donatorlvl) == 3): {"Você não é Premium Lv.3"};
 			default
 			{
 				["Armas Premium",

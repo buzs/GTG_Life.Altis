@@ -2043,6 +2043,10 @@
 			<Original>You can't gather from inside a car!</Original>
 			<English>You can't gather from inside a car!</English>
 		</Key>
+		<Key ID="STR_NOTF_NoLootingPerson">
+			<Original>You are not allowed to loot dead bodies</Original>
+			<English>You are not allowed to loot dead bodies</English>
+		</Key>
 	</Package>
 	<Package name="Jail_Strings">
 		<Key ID="STR_Jail_Warn">
@@ -3406,6 +3410,15 @@
 			<French>Grand Conteneur de stockage</French>
 			<Italian>Contenitore grande</Italian>
 			<Portuguese>Caixa Grande</Portuguese>
+		</Key>
+		//BUZ
+		<Key ID="STR_Item_Nitro">
+			<Original>Nitro</Original>
+			<English>Nitro</English>
+			<German>Nitro</German>
+			<French>Nitro</French>
+			<Italian>Nitro</Italian>
+			<Portuguese>Nitro</Portuguese>
 		</Key>
 		<Key ID="STR_Item_CocaineU">
 			<Original>Unprocessed Cocaine</Original>

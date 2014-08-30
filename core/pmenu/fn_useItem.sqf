@@ -39,6 +39,11 @@ switch (true) do
 	case (_item in ["storagesmall","storagebig"]): {
 		[_item] call life_fnc_storageBox;
 	};
+	//BUZ
+	case (_item == "nitro"):
+	{
+		[] spawn life_fnc_nitro;
+	};
 	
 	case (_item == "redgull"):
 	{
@@ -51,7 +56,7 @@ switch (true) do
 				life_redgull_effect = time;
 				titleText[localize "STR_ISTR_RedGullEffect","PLAIN"];
 				player enableFatigue false;
-				waitUntil {!alive player OR ((time - life_redgull_effect) > (3 * 60))};
+				waitUntil {!alive player OR ((time - life_redgull_effect) > (5 * 60))};
 				player enableFatigue true;
 			};
 		};

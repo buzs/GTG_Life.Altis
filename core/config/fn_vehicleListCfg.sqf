@@ -188,10 +188,7 @@ switch (_shop) do
 	//PREMIUM-BUZ
 	case "premium_car":
 	{
-		_return =
-		[
-		];
-		if(license_civ_premium) then
+		if(__GETC__(life_donatorlvl) == 1) then
 		{
 			_return set[count _return,
 			["B_Quadbike_01_F",2125]];
@@ -206,7 +203,7 @@ switch (_shop) do
 			_return set[count _return,
 			["C_Van_01_transport_F",42500]];
 		};
-		if(license_civ_premium2) then
+		if(__GETC__(life_donatorlvl) == 2) then
 		{
 			_return set[count _return,
 			["B_Quadbike_01_F",1750]];
@@ -221,7 +218,7 @@ switch (_shop) do
 			_return set[count _return,
 			["C_Van_01_transport_F",35000]];
 		};
-		if(license_civ_premium3) then
+		if(__GETC__(life_donatorlvl) == 3) then
 		{
 			_return set[count _return,
 			["B_Quadbike_01_F",1375]];
@@ -239,10 +236,7 @@ switch (_shop) do
 	};
 	case "premium_truck":
 	{
-		_return =
-		[
-		];
-		if(license_civ_premium) then
+		if(__GETC__(life_donatorlvl) == 1) then
 		{
 			_return set[count _return,
 			["C_Van_01_box_F",93500]];
@@ -261,7 +255,7 @@ switch (_shop) do
 			_return set[count _return,
 			["O_Truck_03_device_F",550000]];
 		};
-		if(license_civ_premium2) then
+		if(__GETC__(life_donatorlvl) == 2) then
 		{
 			_return set[count _return,
 			["C_Van_01_box_F",77000]];
@@ -280,7 +274,7 @@ switch (_shop) do
 			_return set[count _return,
 			["O_Truck_03_device_F",385000]];
 		};
-		if(license_civ_premium3) then
+		if(__GETC__(life_donatorlvl) == 3) then
 		{
 			_return set[count _return,
 			["C_Van_01_box_F",60500]];
@@ -302,10 +296,7 @@ switch (_shop) do
 	};
 	case "premium_air":
 	{
-		_return =
-		[
-		];
-		if(license_civ_premium) then
+		if(__GETC__(life_donatorlvl) == 1) then
 		{
 			_return set[count _return,
 			["B_Heli_Light_01_F",467500]];
@@ -316,7 +307,7 @@ switch (_shop) do
 			_return set[count _return,
 			["O_Heli_Attack_02_black_F",4000000]];
 		};
-		if(license_civ_premium2) then
+		if(__GETC__(life_donatorlvl) == 2) then
 		{
 			_return set[count _return,
 			["B_Heli_Light_01_F",385000]];
@@ -327,7 +318,7 @@ switch (_shop) do
 			_return set[count _return,
 			["O_Heli_Attack_02_black_F",2800000]];
 		};
-		if(license_civ_premium3) then
+		if(__GETC__(life_donatorlvl) == 3) then
 		{
 			_return set[count _return,
 			["B_Heli_Light_01_F",302500]];

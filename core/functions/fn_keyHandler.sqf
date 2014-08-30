@@ -58,6 +58,14 @@ switch (_code) do
 		};
 	};
 	
+	//6 Nitro
+	case 7:
+	{
+		if(!_alt && !_ctrlKey) then {
+			[] spawn life_fnc_activateNitro;
+		};
+	};
+	
 	//Map Key
 	case _mapKey:
 	{

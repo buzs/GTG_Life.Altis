@@ -40,10 +40,17 @@ _unit spawn
 	_RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
 	_Timer = ((findDisplay 7300) displayCtrl 7301);
 	
-	_maxTime = time + (life_respawn_timer * 60);
+	_maxTime = time + (life_respawn_timer * 40);
 	_RespawnBtn ctrlEnable false;
-	waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString]; 
-	round(_maxTime - time) <= 0 OR isNull _this};
+	waitUntil {_Timer ctrlSetText format["Respawn Disponivel em: %1",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString]; 
+	round(_maxTime - time) <= 0 || isNull _this || life_request_timer};
+	if (Life_request_timer) then 
+	{
+		_maxTime = time + (life_respawn_timer * 180);
+		waitUntil {_Timer ctrlSetText format["Respawn Disponivel em: %1",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString]; 
+		round(_maxTime - time) <= 0 || isNull _this};
+	};
+	life_request_timer = false; //resets increased respawn timer
 	_RespawnBtn ctrlEnable true;
 	_Timer ctrlSetText localize "STR_Medic_Respawn_2";
 };
@@ -100,4 +107,5 @@ life_cash = 0;
 [] call life_fnc_hudUpdate; //Get our HUD updated.
 [[player,life_sidechat,playerSide],"TON_fnc_managesc",false,false] spawn life_fnc_MP;
 
-[] call SOCK_fnc_updateRequest;
+[0] call SOCK_fnc_updatePartial;
+[3] call SOCK_fnc_updatePartial;

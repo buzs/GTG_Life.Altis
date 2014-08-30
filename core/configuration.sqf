@@ -25,15 +25,16 @@ life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
-life_respawn_timer = 2; //Scaled in minutes
+life_respawn_timer = 1; //Scaled in minutes
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
 life_removeWanted = false;
+life_request_timer = false; //BUZ
 
 //Persistent Saving
 __CONST__(life_save_civ,TRUE); //Save weapons for civs?
-__CONST__(life_save_yinv,TRUE); //Save Y-Inventory for civs and cops? (Medics excluded for now)
+__CONST__(life_save_yinv,TRUE); //Save Y-Inventory for players?
 
 //Revive constant variables.
 __CONST__(life_revive_cops,FALSE); //Set to false if you don't want cops to be able to revive downed players.
@@ -158,6 +159,7 @@ life_inv_items =
 	"life_inv_boltcutter",
 	"life_inv_defusekit",
 	"life_inv_storagesmall",
+	"life_inv_nitro",
 	"life_inv_storagebig"
 ];
 
@@ -242,7 +244,8 @@ sell_array =
 	["fuelF",500],
 	["spikeStrip",1200],
 	["cement",1950],
-	["goldbar",100000]
+	["goldbar",100000],
+	["nitro",12000]	//BUZ
 ];
 __CONST__(sell_array,sell_array);
 
@@ -272,7 +275,8 @@ buy_array =
 	["boltcutter",7500],
 	["defusekit",2500],
 	["storagesmall",75000],
-	["storagebig",150000]
+	["storagebig",150000],
+	["nitro",25000] //BUZ
 ];
 __CONST__(buy_array,buy_array);
 
