@@ -35,7 +35,7 @@ switch (_side) do
         if(license_civ_rebel && playerSide == civilian) then 
 		{_markers = 
 			[
-            ["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -48,7 +48,7 @@ switch (_side) do
         if(!license_civ_rebel && playerSide == civilian) then 
 		{_markers = 
 			[
-            ["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -58,7 +58,7 @@ switch (_side) do
 		if(license_civ_premium && playerSide == civilian) then 
 		{_markers = 
 			[
-            ["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -69,7 +69,7 @@ switch (_side) do
 		if(license_civ_premium && license_civ_rebel && playerSide == civilian) then 
 		{_markers = 
 			[
-            ["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],

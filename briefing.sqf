@@ -263,13 +263,31 @@ player createDiarySubject ["7","Licenças"];
 				<br/>
 				<br/>Shift + R = Algemar.
 				<br/>
-				<br/>Shift + L = Lanterna da Sirene.
+				<br/>Shift + L = Liga o Giroflex.
 				<br/>
-				<br/>F = Áudio da sirene.
+				<br/>Shift + H = Guardar arma no coldre.
+				<br/>
+				<br/>CTRL + H = Retirar arma do coldre.
+				<br/>
+				<br/>F = Sirene.
+				<br/>
+				<br/>V = Yelp.
 				<br/>
 				<br/>Shift + Espaço = Pular.
 				<br/>
 				<br/>Botão do Windows ou H para interagir com o jogador algemado.
+				<br/>
+				<br/>
+				<br/>• *SAMU*
+				<br/>
+				<br/>
+				<br/>Botão do Windows ou H para reviver o jogador.
+				<br/>
+				<br/>Shift + L = Liga o Giroflex.
+				<br/>
+				<br/>F = Sirene.
+				<br/>
+				<br/>Shift + Espaço = Pular.
 				<br/>
 				<br/>
 				<br/>Para configurar a tecla 'H', siga esse atalho: ESC>CONFIGURE>CONTROLS>KEYBOARD>CUSTOM>CONTROLS>USE ACTION 10 e utilize o 'H' nessa action!
@@ -384,5 +402,3 @@ player createDiarySubject ["7","Licenças"];
 				"
 		]
 	];
-	
-	
