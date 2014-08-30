@@ -2224,8 +2224,8 @@ class Mission
 				};
 				class Item8
 				{
-					position[]={6264.394,43,16267.024};
-					azimut=-201.89999;
+					position[]={6263.4854,43,16265.347};
+					azimut=-180.76103;
 					special="NONE";
 					id=105;
 					side="CIV";
@@ -2624,8 +2624,8 @@ class Mission
 				};
 				class Item42
 				{
-					position[]={3638.8154,10.17723,13079.294};
-					azimut=-356.61777;
+					position[]={3638.4661,10.178999,13078.673};
+					azimut=-356.61801;
 					special="NONE";
 					id=139;
 					side="CIV";
@@ -2926,9 +2926,8 @@ class Mission
 				};
 				class Item68
 				{
-					position[]={17870.277,2.4273074,18201.928};
+					position[]={17869.967,2.4224365,18201.385};
 					azimut=218.164;
-					offsetY=0.5;
 					special="NONE";
 					id=165;
 					side="CIV";
@@ -3131,8 +3130,7 @@ class Mission
 				class Item86
 				{
 					position[]={16578.918,14.274492,15990.549};
-					azimut=134.00404;
-					offsetY=0.5;
+					azimut=134.004;
 					special="NONE";
 					id=183;
 					side="CIV";
@@ -12322,7 +12320,7 @@ class Mission
 		};
 		class Item17
 		{
-			position[]={6263.5244,43,16265.374};
+			position[]={6263.5083,43,16265.286};
 			name="OilP";
 			text="Processador de Óleo";
 			type="mil_box";
@@ -12536,7 +12534,7 @@ class Mission
 		};
 		class Item44
 		{
-			position[]={3638.4417,10.179394,13078.378};
+			position[]={3638.4802,10.178766,13078.844};
 			name="license_shop";
 			text="Licenças";
 			type="c_unknown";
@@ -13096,7 +13094,7 @@ class Mission
 		};
 		class Item113
 		{
-			position[]={17869.166,2.40886,18199.828};
+			position[]={17869.98,2.4224586,18201.379};
 			name="oil_trader_2";
 			text="Comprador de Diamante";
 			type="b_unknown";
@@ -13361,7 +13359,7 @@ class Mission
 		};
 		class Item146
 		{
-			position[]={16578.012,14.273811,15989.947};
+			position[]={16579.018,14.274656,15990.527};
 			name="oil_trader_3_1";
 			text="Comprador de Cimento";
 			type="b_unknown";

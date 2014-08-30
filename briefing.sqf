@@ -251,7 +251,7 @@ player createDiarySubject ["7","Licenças"];
 				<br/>
 				<br/>CTRL + H = Retirar arma do coldre.
 				<br/>
-				<br/>Shift + K = Render-se.
+				<br/>Shift + R = Render-se.
 				<br/>
 				<br/>Rolar scroll do mouse em cima de um jogador nocauteado: inicia sequestro ou rouba o jogador.
 				<br/>

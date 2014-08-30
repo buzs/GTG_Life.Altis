@@ -77,7 +77,7 @@
 						playMusic ["PitchWhine",0];
 						[] spawn DS_slap_them;
 						//["beat04"] spawn DS_really_loud_sounds;
-						["Você foi avisamos..."] spawn DS_double_cut;
+						["Você foi avisado..."] spawn DS_double_cut;
 						1 fademusic 10;
 						1 fadesound 10;
 						disableUserInput true;

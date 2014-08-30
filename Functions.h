@@ -107,6 +107,7 @@ class Life_Client_Core
 		class captureHideout {};
 		class gather {};
 		class activateNitro {};
+		class surrender {}; //HUNTER
 	};
 	
 	class Housing
@@ -221,6 +222,7 @@ class Life_Client_Core
 		class saveGear {};
 		class loadGear {};
 		class stripDownPlayer {};
+		class autoSave {};
 	};
 	
 	class Network

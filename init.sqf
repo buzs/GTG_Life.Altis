@@ -14,6 +14,10 @@ life_versionInfo = "Altis Life RPG v3.1.4.5";
 [] execVM "scripts\nosidechat.sqf";
 [] execVM "scripts\safezone.sqf";
 
+
 StartProgress = true;
 
 "BIS_fnc_MP_packet" addPublicVariableEventHandler {_this call life_fnc_MPexec};
+
+// Init automatically saving gear
+[] spawn life_fnc_autoSave;
