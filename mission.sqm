@@ -3878,7 +3878,7 @@ class Mission
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Loja de Veículos"",life_fnc_vehicleShopMenu,[""premium_car"",civilian,""car_g_premium"",""premium"",""Bruce's Automóveis""],0,false,false,"""""""",'license_civ_premium']; this enableSimulation false; this allowDamage false; this addAction[""Loja de Caminhões"",life_fnc_vehicleShopMenu,[""premium_truck"",civilian,[""car_g_premium""],""premium"",""Bruce's New & Used Trucks""],0,false,false,"""""""",'license_civ_premium']; this enableSimulation false; this allowDamage false; this addAction[""Loja de Helicóptero "",life_fnc_vehicleShopMenu,[""premium_air"",civilian,[""car_g_premium""],""civ"",""Carl's Airial Auto's""],0,false,false,"""""""",'license_civ_premium'];      ";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Loja de Veículos"",life_fnc_vehicleShopMenu,[""premium_car"",civilian,""car_g_premium"",""pre"",""Bruce's Automóveis""],0,false,false,"""""""",'license_civ_pre']; this enableSimulation false; this allowDamage false; this addAction[""Loja de Caminhões"",life_fnc_vehicleShopMenu,[""premium_truck"",civilian,[""car_g_premium""],""pre"",""Bruce's New & Used Trucks""],0,false,false,"""""""",'license_civ_pre']; this enableSimulation false; this allowDamage false; this addAction[""Loja de Helicóptero "",life_fnc_vehicleShopMenu,[""premium_air"",civilian,[""car_g_premium""],""civ"",""Carl's Airial Auto's""],0,false,false,"""""""",'license_civ_pre'];      ";
 					syncId=18;
 					synchronizations[]={1};
 				};

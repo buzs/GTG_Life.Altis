@@ -193,6 +193,7 @@ life_licenses =
 	["license_civ_home","civ"],
 	["license_civ_rebel2","civ"], //BUZ
     ["license_civ_rebel3","civ"], //BUZ
+	["license_civ_pre","civ"], //BUZ
 	["license_civ_premium","civ"], //BUZ
 	["license_civ_premium2","civ"], //BUZ
 	["license_civ_premium3","civ"] //BUZ

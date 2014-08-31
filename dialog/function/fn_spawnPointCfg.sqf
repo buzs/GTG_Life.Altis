@@ -80,15 +80,38 @@ switch (_side) do
 			["spawn_premium","Premium","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
             ];
         };
-		if(count life_houses > 0) then {
-		{
-				_pos = call compile format["%1",_x select 0];
-				_house = nearestBuilding _pos;
-				_houseName = getText(configFile >> "CfgVehicles" >> (typeOf _house) >> "displayName");
-				
-				_markets set[count _markers,[format["house_%1",_house getVariable "uid"],_houseName,"\a3\ui_f\data\map\MapControl\lighthouse_ca.paa"]];
-		} foreach life_houses;
-		};
+		_houses = [
+            "Land_i_House_Small_01_V1_F",
+            "Land_i_House_Small_01_V2_F",
+            "Land_i_House_Small_01_V3_F",
+            "Land_i_House_Small_02_V1_F",
+            "Land_i_House_Small_02_V2_F",
+            "Land_i_House_Small_02_V3_F",
+            "Land_i_House_Small_03_V1_F",
+            "Land_i_House_Big_01_V1_F",
+            "Land_i_House_Big_01_V2_F",
+            "Land_i_House_Big_01_V3_F",
+            "Land_i_House_Big_02_V1_F",
+            "Land_i_House_Big_02_V2_F",
+            "Land_i_House_Big_02_V3_F"
+        ];
+		
+		_i = 1;
+        {
+            _house = nearestObject [(_x select 0), "House_F"];
+            if((typeOf _house) in _houses) then {
+                
+                _mkName  = format["civ_spawn_home_%1", _i];
+                
+                if (isNil (_mkName)) then {
+                    _mk = createMarkerLocal [_mkName, (_x select 0)];
+                    _mk setMarkerAlphaLocal 0;
+                };
+                
+                _markers set [count _markers, [_mkName, format ["Casa %1", _i], "\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
+                _i = _i + 1;
+            };
+        }forEach life_houses; 
     };
     
     case independent: {
