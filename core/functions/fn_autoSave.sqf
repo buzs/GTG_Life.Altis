@@ -10,7 +10,7 @@ Saves the player's gear every 10 minutes.
 while {true} do {
 sleep 600;
 [] call SOCK_fnc_updateRequest;
-hint "Game Autosaved."
+hint "Jogo Salvo."
 };
 // < ---- OLD CODE BELOW ---- > 
 /* 
@@ -26,10 +26,10 @@ while {true} do {
         if (playerside == west) then {
         [] call life_fnc_sessionUpdate;
         [] call life_fnc_saveGear; //this is what allows the cop gear to save
-        hint "Game Autosaved."
+        hint "Jogo Salvo."
     } else {
     [] call life_fnc_sessionUpdate;
-    hint "Game Autosaved."
+    hint "Jogo Salvo."
     };
     };
-}; */  
+}; */

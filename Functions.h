@@ -107,7 +107,7 @@ class Life_Client_Core
 		class captureHideout {};
 		class gather {};
 		class activateNitro {};
-		class surrender {}; //HUNTER
+		class surrender {};
 	};
 	
 	class Housing
