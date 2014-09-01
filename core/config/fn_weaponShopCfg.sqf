@@ -629,7 +629,7 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != civilian): {"Você não é um Civil!"};
-			case (license_civ_premium): {"Você não é Premium"};
+			case (!license_civ_premium): {"Você não é Premium"};
 			default
 			{
 				["Armas Premium",
@@ -699,7 +699,7 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != civilian): {"Você não é um Civil!"};
-			case (license_civ_premium2): {"Você não é Premium Lv.2"};
+			case (!license_civ_premium2): {"Você não é Premium Lv.2"};
 			default
 			{
 				["Armas Premium",
@@ -769,7 +769,7 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != civilian): {"Você não é um Civil!"};
-			case (license_civ_premium3): {"Você não é Premium Lv.3"};
+			case (!license_civ_premium3): {"Você não é Premium Lv.3"};
 			default
 			{
 				["Armas Premium",
