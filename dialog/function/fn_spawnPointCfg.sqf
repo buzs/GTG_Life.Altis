@@ -26,6 +26,7 @@ switch (_side) do
             ["cop_spawn_3","HQ Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["cop_spawn_4","Base Aérea","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
             ["cop_spawn_5","Checkpoint","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
+			["cop_spawn_6","Base Treinamento","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
         ];
     };
     
