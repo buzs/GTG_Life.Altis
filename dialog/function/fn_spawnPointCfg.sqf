@@ -38,6 +38,16 @@ switch (_side) do
 			[
             ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["reb_spawn_1","HQ Central ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["reb_spawn_2","HQ Sudoeste","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["reb_spawn_3","HQ Nordeste","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+            ];
+        };
+		if(license_civ_rebel && license_civ_home && playerSide == civilian) then 
+		{_markers = 
+			[
+            ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_5","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -45,8 +55,8 @@ switch (_side) do
             ["reb_spawn_2","HQ Sudoeste","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
             ["reb_spawn_3","HQ Nordeste","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
             ];
-        };    
-        if(!license_civ_rebel && playerSide == civilian) then 
+        };	
+        if(!license_civ_rebel && license_civ_home && playerSide == civilian) then 
 		{_markers = 
 			[
             ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -56,7 +66,14 @@ switch (_side) do
 			["civ_spawn_5","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
             ];
         };
-		if(license_civ_premium && playerSide == civilian) then 
+		if(!license_civ_rebel && playerSide == civilian) then 
+		{_markers = 
+			[
+            ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+            ];
+        };
+		if(license_civ_pre && license_civ_home && playerSide == civilian) then 
 		{_markers = 
 			[
             ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -67,7 +84,26 @@ switch (_side) do
 			["spawn_premium","Premium","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
             ];
         };
-		if(license_civ_premium && license_civ_rebel && playerSide == civilian) then 
+		if(license_civ_pre && playerSide == civilian) then 
+		{_markers = 
+			[
+            ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["spawn_premium","Premium","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+            ];
+        };
+		if(license_civ_pre && license_civ_rebel && playerSide == civilian) then 
+		{_markers = 
+			[
+            ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_iraklia","Iraklia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["reb_spawn_1","HQ Central ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["reb_spawn_2","HQ Sudoeste","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["reb_spawn_3","HQ Nordeste","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["spawn_premium","Premium","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+            ];
+        };
+		if(license_civ_pre && license_civ_rebel && license_civ_home && playerSide == civilian) then 
 		{_markers = 
 			[
             ["civ_spawn_kavala","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
