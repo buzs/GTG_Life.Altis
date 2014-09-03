@@ -39,10 +39,23 @@ switch (true) do
 	case (_item in ["storagesmall","storagebig"]): {
 		[_item] call life_fnc_storageBox;
 	};
+	
 	//BUZ
 	case (_item == "nitro"):
 	{
 		[] spawn life_fnc_nitro;
+	};
+	
+	//HUNTER
+	case (_item == "kidney"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			player setVariable["missingOrgan",false,true];
+			life_thirst = 100;
+			life_hunger = 100;
+			player setFatigue .5;
+		};
 	};
 	
 	case (_item == "redgull"):

@@ -12,6 +12,8 @@ _unit = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 _killer = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param;
 
 //Set some vars
+_unit setVariable["missingOrgan",FALSE,TRUE]; //I DONT KNOW WHY SOMETIMES THEY ARE CAPS or not
+_unit setVariable["hasOrgan",FALSE,TRUE];
 _unit setVariable["Revive",FALSE,TRUE]; //Set the corpse to a revivable state.
 _unit setVariable["name",profileName,TRUE]; //Set my name so they can say my name.
 _unit setVariable["restrained",FALSE,TRUE];

@@ -16,6 +16,8 @@ _containers = nearestObjects[getPosATL _corpse,["WeaponHolderSimulated"],5]; //F
 {deleteVehicle _x;} foreach _containers; //Delete the containers.
 
 //Set some vars on our new body.
+_unit setVariable["missingOrgan",FALSE,TRUE]; //I DONT KNOW WHY SOMETIMES THEY ARE CAPS or not
+_unit setVariable["hasOrgan",FALSE,TRUE]; 
 _unit setVariable["restrained",FALSE,TRUE];
 _unit setVariable["Escorting",FALSE,TRUE];
 _unit setVariable["transporting",FALSE,TRUE]; //Again why the fuck am I setting this? Can anyone tell me?

@@ -108,6 +108,8 @@ class Life_Client_Core
 		class gather {};
 		class activateNitro {};
 		class surrender {};
+		class robShops {}; //Roubar Posto de Gasolina
+		class takeOrgans {}; //Roubar Orgãos
 	};
 	
 	class Housing
@@ -254,6 +256,7 @@ class Life_Client_Core
 		class demoChargeTimer {};
 		class civLoadout {};
 		class civInteractionMenu {};//BUZ
+		class hasOrgan {}; //Roubo Orgãos
 	};
 	
 	class Vehicle

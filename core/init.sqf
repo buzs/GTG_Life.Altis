@@ -66,6 +66,8 @@ switch (playerSide) do
 	};
 };
 
+player setVariable["missingOrgan",false,true];//sets variables to false on start
+player setVariable["hasOrgan",false,true];
 player setVariable["restrained",false,true];
 player setVariable["Escorting",false,true];
 player setVariable["transporting",false,true];

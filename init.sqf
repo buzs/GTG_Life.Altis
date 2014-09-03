@@ -19,5 +19,13 @@ StartProgress = true;
 
 "BIS_fnc_MP_packet" addPublicVariableEventHandler {_this call life_fnc_MPexec};
 
+//For Rain and Fog Gone Below
+while {true} do
+{
+	0 setOvercast 0;
+	0 setRain 0;
+	0 setFog 0;
+};
+
 // Init automatically saving gear
 [] spawn life_fnc_autoSave;

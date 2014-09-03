@@ -66,6 +66,7 @@ switch (_mode) do
 			case "storagesmall": {"life_inv_storagesmall"};
 			case "storagebig": {"life_inv_storagebig"};
 			case "nitro": {"life_inv_nitro"};
+			case "kidney": {"life_inv_kidney"};
 		};
 	};
 	
@@ -123,6 +124,7 @@ switch (_mode) do
 			case "life_inv_storagesmall": {"storagesmall"};
 			case "life_inv_storagebig": {"storagebig"};
 			case "life_inv_nitro": {"nitro"};
+			case "life_inv_kidney": {"kidney"}; 
 		};
 	};
 };
