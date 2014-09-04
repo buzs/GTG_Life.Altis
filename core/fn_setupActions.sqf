@@ -35,7 +35,7 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction["<t color='#00FF00'>Ativar Nitro</t>",life_fnc_activateNitro,false,2,false,false,"",
 		' (vehicle player != player) && (driver vehicle player == player) && (((vehicle player) getVariable["nitro", 0]) > 0) ']];
 		 //Roubo Orgãos
-		 life_actions = life_actions + [player addAction["Harvest Organs",life_fnc_takeOrgans,"",0,false,false,"",'
+		 life_actions = life_actions + [player addAction["Remover Orgaos",life_fnc_takeOrgans,"",0,false,false,"",'
 		!isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable ["missingOrgan",FALSE]) && !(player getVariable "Escorting") && !(player getVariable "hasOrgan") && !(player getVariable "transporting") && animationState cursorTarget == "Incapacitated"']];
 	};
 };

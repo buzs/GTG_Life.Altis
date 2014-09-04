@@ -57,6 +57,6 @@ switch (_item) do
 	case "storagesmall": {5};
 	case "storagebig": {10};
 	case "nitro": {5};
-	case "kidney": {15};
+	case "rim": {15};
 	default {1};
 };

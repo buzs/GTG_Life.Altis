@@ -47,7 +47,7 @@ switch (true) do
 	};
 	
 	//HUNTER
-	case (_item == "kidney"):
+	case (_item == "rim"):
 	{
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
