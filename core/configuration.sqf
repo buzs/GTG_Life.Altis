@@ -247,7 +247,7 @@ sell_array =
 	["spikeStrip",1200],
 	["cement",1950],
 	["goldbar",100000],
-	["nitro",12000]	//BUZ
+	["nitro",12000], //BUZ
 	["kidney",50000] //Hunter
 ];
 __CONST__(sell_array,sell_array);
@@ -279,7 +279,7 @@ buy_array =
 	["defusekit",2500],
 	["storagesmall",75000],
 	["storagebig",150000],
-	["nitro",75000] //BUZ
+	["nitro",75000], //BUZ
 	["kidney",75000] //Hunter
 	
 ];
