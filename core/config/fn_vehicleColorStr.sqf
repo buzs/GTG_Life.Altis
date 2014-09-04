@@ -63,8 +63,7 @@ switch (_vehicle) do
 			case 0: {_color = "Vermelho Escuro";};
 			case 1: {_color = "Prata";};
 			case 2: {_color = "Laranja e Preto";};
-			case 3: {_color = "Médico";};
-			case 4: {_color = "Polícia";};
+			case 3: {_color = "Polícia";};
 		};
 	};
 	
@@ -74,6 +73,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Branco"};
 			case 1: {_color = "Vermelho"};
+			case 2: {_color = "Médico"};
 		};
 	};
 	
@@ -141,7 +141,7 @@ switch (_vehicle) do
 			case 1: {_color = "Branco e Azul"};
 			case 2: {_color = "Digi Green"};
 			case 3: {_color = "Desert Digi"};
-			case 4: {_color = "EMS White"};
+			case 4: {_color = "Médico"};
 		};
 	};
 	

@@ -13,7 +13,7 @@ switch (_type) do
 {
 	case "driver": {500}; //Drivers License cost
 	case "boat": {1000}; //Boating license cost
-	case "pilot": {150000}; //Pilot/air license cost
+	case "pilot": {15000}; //Pilot/air license cost
 	case "gun": {20000}; //Firearm/gun license cost
 	case "dive": {2000}; //Diving license cost
 	case "oil": {10000}; //Oil processing license cost
@@ -34,7 +34,7 @@ switch (_type) do
 	case "copper": {8000};
 	case "cement": {6500};
 	case "mair": {15000};
-	case "home": {75000};
+	case "home": {100000};
 	case "rebel2": {900000}; //BUZ
 	case "rebel3": {1500000}; //BUZ
 	case "premium": {999999999}; //BUZ

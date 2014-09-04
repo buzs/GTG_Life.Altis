@@ -304,7 +304,6 @@ player createDiarySubject ["7","Licenças"];
 				<br/>
 				<br/>Preços estabelecidos por unidade:
 				<br/>
-				<br/>
 				<br/>Petróleo   
 				<br/>$ 3.900 
 				<br/>Diamante  
@@ -322,8 +321,8 @@ player createDiarySubject ["7","Licenças"];
 				<br/>
 				<br/>Trabalhos Ilegais
 				<br/>
-				<br/>Preços estabelecidos por unidade:
 				<br/>
+				<br/>Preços estabelecidos por unidade:
 				<br/>
 				<br/>Tartaruga      	
 				<br/>$ 2.900 
@@ -332,11 +331,7 @@ player createDiarySubject ["7","Licenças"];
 				<br/>Heroína        	
 				<br/>$ 4.000 
 				<br/>Maconha        	
-				<br/>$ 3.100 
-				<br/>Metanfetamina  	
-				<br/>$ 4.100 
-				<br/>Whiskey        	
-				<br/>$ 800 
+				<br/>$ 3.100
 				<br/>
 				"
 		]
@@ -348,56 +343,52 @@ player createDiarySubject ["7","Licenças"];
 				<br/>Licenças:
 				<br/>
 				<br/>
-				<br/>Motorista						
-				<br/>$ 500 
-                <br/>Barco							
-				<br/>$ 1.000 
-                <br/>Piloto							
-				<br/>$ 150.000 
-                <br/>Armas							
+				<br/>Motorista				
+				<br/>$ 500
+                <br/>Barco					
+				<br/>$ 1.000
+                <br/>Piloto			
+				<br/>$ 15.000
+                <br/>Armas
 				<br/>$ 20.000 
-                <br/>Mergulho						
+                <br/>Mergulho					
 				<br/>$ 2.000 
-                <br/>Óleo							
-				<br/>$ 10.000 
-                <br/>Piloto Policial				
-				<br/>$ 15.000 
-                <br/>Swat							
-				<br/>$ 35.000 
-                <br/>Guarda							
-				<br/>$ 8.000 
-                <br/>Heroína						
-				<br/>$ 25.000 
-                <br/>Maconha						
-				<br/>$ 19.500 
-                <br/>Medicinal - Maconha			
-				<br/>$ 1.500 
-                <br/>Gangue							
-				<br/>$ 10.000 
-                <br/>Rebelde level 1						
+                <br/>Óleo					
+				<br/>$ 10.000
+                <br/>Piloto Policial			
+				<br/>$ 15.000
+                <br/>Guarda				
+				<br/>$ 8.000
+                <br/>Heroína				
+				<br/>$ 25.000
+                <br/>Maconha			
+				<br/>$ 19.500
+                <br/>Gangue			
+				<br/>$ 75.000
+                <br/>Rebelde level 1					
 				<br/>$ 400.000
-				<br/>Rebelde level 2						
+				<br/>Rebelde level 2			
 				<br/>$ 900.000
-				<br/>Rebelde level 3						
+				<br/>Rebelde level 3				
 				<br/>$ 1500.000
-                <br/>Caminhão						
-				<br/>$ 20.000 
-                <br/>Diamante						
-				<br/>$ 35.000 
-                <br/>Sal							
-				<br/>$ 12.000 
-                <br/>Cocaína 						
-				<br/>$ 30.000 
-                <br/>Areia  						
-				<br/>$ 14.500 
-                <br/>Ferro							
-				<br/>$ 9.500 
-                <br/>Cobre							
-				<br/>$ 8.000 
-                <br/>Cimento						
-				<br/>$ 6.500 
-				<br/>Casa							
-				<br/>$ 75.000 
+                <br/>Caminhão				
+				<br/>$ 20.000
+                <br/>Diamante				
+				<br/>$ 35.000
+                <br/>Sal				
+				<br/>$ 12.000
+                <br/>Cocaína					
+				<br/>$ 30.000
+                <br/>Areia					
+				<br/>$ 14.500
+                <br/>Ferro					
+				<br/>$ 9.500
+                <br/>Cobre				
+				<br/>$ 8.000
+                <br/>Cimento		
+				<br/>$ 6.500
+				<br/>Casa			
+				<br/>$ 100.000
 				<br/>
 				"
 		]

@@ -75,7 +75,6 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
-			["textures\med\suv_med_gtg.jpg","Med"],
 			["textures\suv_gtg.jpg","cop"]
 		];
 	};
@@ -86,6 +85,7 @@ switch (_vehicle) do
 		[
 			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa","civ"],
 			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"]
+			["textures\med\vanbox1_med_gtg.jpg","Med","textures\med\vanbox2_med_gtg.jpg"]
 		];
 	};
 	
@@ -144,7 +144,7 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa","civ"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa","donate"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","reb"],
-			["#(argb,8,8,3)color(1,1,1,0.8)","med"]
+			["textures\med\orca_med_gtg.jpg","med"]
 		];
 	};
 	
@@ -186,7 +186,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\strider_gtg.jpg","cop"]
+			["textures\strider_gtg.jpg","cop","textures\strider_gtg2.jpg"]
 		];
 	};
 	
