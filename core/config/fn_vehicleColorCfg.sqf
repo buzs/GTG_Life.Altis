@@ -153,7 +153,6 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["textures\hellcat_gtg.jpg","cop"]
-
 		];
 	};
 	
@@ -194,7 +193,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\strider_gtg.jpg","cop"]
+			["textures\strider_gtg.jpg","cop","textures\strider_gtg2.jpg"]
 		];
 	};
 	

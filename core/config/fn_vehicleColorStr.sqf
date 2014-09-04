@@ -16,11 +16,11 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Vermelho";};
-			case 1: {_color = "Amarelo";};
-			case 2: {_color = "Branco";};
-			case 3: {_color = "Azul";};
-			case 4: {_color = "Vermelho Escuro";};
+			case 0: {_color = "Vermelho"};
+			case 1: {_color = "Amarelo"};
+			case 2: {_color = "Branco"};
+			case 3: {_color = "Azul"};
+			case 4: {_color = "Vermelho Escuro"};
 			case 5: {_color = "Azul e Branco"};
 			case 6: {_color = "Médico"};
 			case 7: {_color = "Polícia"};
@@ -31,11 +31,11 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Bege";};
-			case 1: {_color = "Verde";};
-			case 2: {_color = "Azul";};
-			case 3: {_color = "Azul Escuro";};
-			case 4: {_color = "Amarelo";};
+			case 0: {_color = "Bege"};
+			case 1: {_color = "Verde"};
+			case 2: {_color = "Azul"};
+			case 3: {_color = "Azul Escuro"};
+			case 4: {_color = "Amarelo"};
 			case 5: {_color = "Branco"};
 			case 6: {_color = "Cinza"};
 			case 7: {_color = "Preto"};
@@ -60,10 +60,10 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Vermelho Escuro";};
-			case 1: {_color = "Prata";};
-			case 2: {_color = "Laranja e Preto";};
-			case 3: {_color = "Polícia";};
+			case 0: {_color = "Vermelho Escuro"};
+			case 1: {_color = "Prata"};
+			case 2: {_color = "Laranja e Preto"};
+			case 3: {_color = "Polícia"};
 		};
 	};
 	
