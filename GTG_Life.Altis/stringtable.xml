@@ -4492,12 +4492,12 @@
 			<Portuguese>Empurar Barco</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_Repair">
-			<Original>Concertar Veículo</Original>
-			<English>Concertar Veículo</English>
+			<Original>Consertar Veículo</Original>
+			<English>Consertar Veículo</English>
 			<German>Fahrzeug reparieren</German>
 			<French>Réparer Véhicule</French>
 			<Italian>Ripara Veicolo</Italian>
-			<Portuguese>Concertar Veículo</Portuguese>
+			<Portuguese>Consertar Veículo</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_Registration">
 			<Original>Licenças</Original>
