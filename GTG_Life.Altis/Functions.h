@@ -224,7 +224,8 @@ class Life_Client_Core
 		class saveGear {};
 		class loadGear {};
 		class stripDownPlayer {};
-		class autoSave {};
+		class autoSave {}; //Hunter
+		class switch {}; //Hunter
 	};
 	
 	class Network

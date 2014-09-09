@@ -1329,12 +1329,12 @@
 	</Package>
 	<Package name="Wanted_Menu">
 		<Key ID="STR_Wanted_Title">
-			<Original>Lista de Procurados</Original>
-			<English>Lista de Procurados</English>
+			<Original>Procurados</Original>
+			<English>Procurados</English>
 			<German>Fahndungsliste</German>
 			<French>Interpol</French>
 			<Italian>Lista Ricercati</Italian>
-			<Portuguese>Lista de Procurados</Portuguese>
+			<Portuguese>Procurados</Portuguese>
 		</Key>
 		<Key ID="STR_Wanted_Pardon">
 			<Original>Perdoar</Original>

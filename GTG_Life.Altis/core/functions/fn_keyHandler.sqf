@@ -217,6 +217,15 @@ switch (_code) do
 		};
 	};
 	
+	//Q Key
+	case 16:
+    {    
+        if((!life_action_inUse) && (vehicle player == player) ) then
+        {
+            [] call life_fnc_switch;
+        };
+	};    
+	
 	//F Key
 	case 33:
 	{
