@@ -218,7 +218,7 @@ switch (_shop) do
 			_return set[count _return,
 			["C_Van_01_transport_F",35000]];
 		};
-		if(licensa_civ_premium3) then
+		if(license_civ_premium3) then
 		{
 			_return set[count _return,
 			["B_Quadbike_01_F",1375]];
@@ -274,7 +274,7 @@ switch (_shop) do
 			_return set[count _return,
 			["O_Truck_03_device_F",385000]];
 		};
-		if(licensa_civ_premium3) then
+		if(license_civ_premium3) then
 		{
 			_return set[count _return,
 			["C_Van_01_box_F",60500]];
@@ -318,7 +318,7 @@ switch (_shop) do
 			_return set[count _return,
 			["O_Heli_Attack_02_black_F",2800000]];
 		};
-		if(licensa_civ_premium3) then
+		if(license_civ_premium3) then
 		{
 			_return set[count _return,
 			["B_Heli_Light_01_F",302500]];
