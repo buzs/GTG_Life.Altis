@@ -134,12 +134,12 @@
 			<Portuguese>Pesquisando...</Portuguese>
 		</Key>
 		<Key ID="STR_ANOTF_QueryGarage">
-			<Original>Buscando por veículo no banco de dados...</Original>
-			<English>Buscando por veículo no banco de dados...</English>
+			<Original>Procurando veículo...</Original>
+			<English>Procurando veículo...</English>
 			<German>Durchsuche nach Fahrzeugen...</German>
 			<French>Recherche des véhicules dans le garage...</French>
 			<Italian>Ricerca di veicoli nel Database...</Italian>
-			<Portuguese>Buscando por veículo no banco de dados...</Portuguese>
+			<Portuguese>Procurando veículo...</Portuguese>
 		</Key>
 		<Key ID="STR_ANOTF_Query_2">
 			<Original>Você já está buscando por um jogador.</Original>
@@ -881,12 +881,12 @@
 			<Portuguese>Taxa de Armazenamento</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_NoVehicles">
-			<Original>Nenhum veiculo encontrado na garagem.</Original>
-			<English>Nenhum veiculo encontrado na garagem.</English>
+			<Original>Nenhum veiculo encontrado.</Original>
+			<English>Nenhum veiculo encontrado.</English>
 			<German>Keine Fahrzeuge in der Garage gefunden.</German>
 			<French>Aucuns Vehicules.</French>	
 			<Italian>Non hai veicoli nel Garage.</Italian>			
-			<Portuguese>Nenhum veiculo encontrado na garagem.</Portuguese>
+			<Portuguese>Nenhum veiculo encontrado.</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_CashError">
 			<Original>Você não tem R$%1 na sua conta bancária</Original>
@@ -4532,12 +4532,12 @@
 			<Portuguese>Apreender Veículo</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_DeviceMine">
-			<Original>Minerar</Original>
-			<English>Minerar</English>
+			<Original>Ativar Dispositivo</Original>
+			<English>Ativar Dispositivo</English>
 			<German>Vom Gerät abbauen</German>
 			<French>Dispositif de minage</French>
 			<Italian>Piazza mine dal veicolo</Italian>
-			<Portuguese>Minerar</Portuguese>
+			<Portuguese>Ativar Dispositivo</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Session_Strings">
@@ -4776,12 +4776,12 @@
 			<Portuguese>Você liberou %1 for R$%3</Portuguese>
 		</Key>
 		<Key ID="STR_Shop_Veh_DidntPick">
-			<Original>Você não consegiu roubar o veiculo!</Original>
-			<English>Você não consegiu roubar o veiculo!</English>
+			<Original>Você não selecionou nenhum veiculo!</Original>
+			<English>Você não selecionou nenhum veiculo!</English>
 			<German>Du hast kein Fahrzeug ausgewählt!</German>
 			<French>Vous n'avez pas choisi de véhicule!</French>
 			<Italian>Non hai selezionato un veicolo!</Italian>
-			<Portuguese>Você não consegiu roubar o veiculo!</Portuguese>
+			<Portuguese>Você não selecionou nenhum veiculo!</Portuguese>
 		</Key>
 		<Key ID="STR_Shop_Veh_NotEnough">
 			<Original>Você não tem dinheiro suficiente para comprar esse veiculo.\n\nFaltam: R$%1</Original>
