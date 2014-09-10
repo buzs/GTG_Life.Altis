@@ -301,9 +301,9 @@ switch (_shop) do
 			_return set[count _return,
 			["B_Heli_Light_01_F",467500]];
 			_return set[count _return,
-			["O_Heli_Light_02_unarmed_F",1700000]];
+			["O_Heli_Light_02_unarmed_F",2500000]];
 			_return set[count _return,
-			["I_Heli_Transport_02_F",1250000]];
+			["I_Heli_Transport_02_F",3400000]];
 			_return set[count _return,
 			["O_Heli_Attack_02_black_F",4000000]];
 		};
@@ -312,9 +312,9 @@ switch (_shop) do
 			_return set[count _return,
 			["B_Heli_Light_01_F",385000]];
 			_return set[count _return,
-			["O_Heli_Light_02_unarmed_F",1400000]];
+			["O_Heli_Light_02_unarmed_F",1750000]];
 			_return set[count _return,
-			["I_Heli_Transport_02_F",875000]];
+			["I_Heli_Transport_02_F",2800000]];
 			_return set[count _return,
 			["O_Heli_Attack_02_black_F",2800000]];
 		};
@@ -323,9 +323,9 @@ switch (_shop) do
 			_return set[count _return,
 			["B_Heli_Light_01_F",302500]];
 			_return set[count _return,
-			["O_Heli_Light_02_unarmed_F",1100000]];
+			["O_Heli_Light_02_unarmed_F",1375000]];
 			_return set[count _return,
-			["I_Heli_Transport_02_F",687500]];
+			["I_Heli_Transport_02_F",2200000]];
 			_return set[count _return,
 			["O_Heli_Attack_02_black_F",2200000]];
 		};	

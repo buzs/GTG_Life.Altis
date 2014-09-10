@@ -1053,12 +1053,12 @@
 			<Portuguese>Gangue</Portuguese>
 		</Key>
 		<Key ID="STR_PM_WantedList">
-			<Original>Lista de Foragidos</Original>
-			<English>Lista de Foragidos</English>
+			<Original>Foragidos</Original>
+			<English>Foragidos</English>
 			<German>Fahndungsliste</German>
 			<French>Interpol</French>
 			<Italian>Lista Ricercati</Italian>
-			<Portuguese>Lista de Foragidos</Portuguese>
+			<Portuguese>Foragidos</Portuguese>
 		</Key>
 		<Key ID="STR_PM_CellPhone">
 			<Original>Celular</Original>
