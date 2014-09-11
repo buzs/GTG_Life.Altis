@@ -217,8 +217,8 @@ switch (_code) do
 		};
 	};
 	
-	//Q Key
-	case 16:
+	//2 Key
+	case 3:
     {    
         if((!life_action_inUse) && (vehicle player == player) ) then
         {
