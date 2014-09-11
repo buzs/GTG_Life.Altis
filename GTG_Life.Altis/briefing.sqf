@@ -139,7 +139,7 @@ player createDiarySubject ["7","Licenças"];
 				<br/>
 				<br/>• É proibido tentar duplicar qualquer item no servidor e se aproveitar dessas falhas.
 				<br/>
-				<br/>• Para sobrevoar cidades, o civil deve pedir autorizaçao à polícia.
+				<br/>• Para sobrevoar cidades, o civil deve pedir autorização à polícia.
 				<br/>
 				<br/>• A velocidade máxima permitida nas cidades é de 50 KM/H.
 				<br/>
@@ -163,7 +163,7 @@ player createDiarySubject ["7","Licenças"];
 				<br/>
 				<br/>• Proibido matar médicos.
 				<br/>
-				<br/>• Proibido dar respawn após soliciatar um médico caso voçê faça isso deve-se pagar uma quantia de 5.000 para o médico que estava se dirigindo até o local.
+				<br/>• Proibido dar respawn após solicitar um médico caso você faça isso deve-se pagar uma quantia de 5.000 para o médico que estava se dirigindo até o local.
 				<br/>
 				"
 		]
@@ -182,9 +182,9 @@ player createDiarySubject ["7","Licenças"];
 				<br/>
 				<br/>• As regras civis também se aplicam aos rebeldes.
 				<br/>
-				<br/>• Para declarar terrorismo deve-se avisar a polícia 30 minutos antes. Não é nescessario dizer qual equipamento está utilizando e nem a cidade que irá atacar.
+				<br/>• Para declarar terrorismo deve-se avisar a polícia 30 minutos antes. Não é nescessário dizer qual equipamento está utilizando e nem a cidade que irá atacar.
 				<br/>
-				<br/>• Se todos os rebeldes morrerem no ataque deve-se passar a informaçao a polícia para que possa ser passada a mensagem no servidor.
+				<br/>• Se todos os rebeldes morrerem no ataque deve-se passar a informação a polícia para que possa ser passada a mensagem no servidor.
 				<br/>
 				<br/>• É proibido ataque rebelde nas 2 cidades para iniciantes.
 				<br/>
