@@ -953,12 +953,12 @@
 			<Portuguese>Você não é o propietário desse veiculo, então você nao poderá guarda-lo na garagem.</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_Store_Success">
-			<Original>O veíclo foi guardado na garagem</Original>
-			<English>O veíclo foi guardado na garagem</English>
+			<Original>O veículo foi guardado na garagem</Original>
+			<English>O veículo foi guardado na garagem</English>
 			<German>Das Fahrzeug wurde in der Garage geparkt.</German>
 			<French>Le véhicule a été entreposé dans le garage.</French>
 			<Italian>Il veicolo è stato depositato nel tuo garage.</Italian>
-			<Portuguese>O veíclo foi guardado na garagem</Portuguese>
+			<Portuguese>O veículo foi guardado na garagem</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_Store_Server">
 			<Original>O servidor está guardando o veiculo...</Original>

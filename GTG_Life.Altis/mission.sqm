@@ -28208,7 +28208,7 @@ class Mission
 			name="atm_marker_1_2";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=-406.47137;
+			angle=-361.37299;
 		};
 		class Item188
 		{
@@ -28216,7 +28216,7 @@ class Mission
 			name="atm_marker_1_3";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=-406.66559;
+			angle=-361.33423;
 		};
 		class Item189
 		{
@@ -28225,6 +28225,7 @@ class Mission
 			text="Comprador de Ouro";
 			type="loc_ViewTower";
 			colorName="ColorYellow";
+			angle=-0.50637603;
 		};
 		class Item190
 		{
@@ -28958,7 +28959,7 @@ class Mission
 			name="cop_spawn_6";
 			text="Base de Treinamento Polícial";
 			type="mil_box";
-			colorName="Color4_FD_F";
+			colorName="ColorWEST";
 		};
 		class Item283
 		{
@@ -28982,7 +28983,7 @@ class Mission
 			position[]={13464.498,3.9006019,22943.264};
 			name="organ_dealer";
 			text="Traficante de Orgãos";
-			type="waypoint";
+			type="KIA";
 			colorName="ColorPink";
 		};
 		class Item286
@@ -29098,7 +29099,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=23;
+		items=27;
 		class Item0
 		{
 			position[]={10809.116,14.41833,10588.452};
@@ -29314,8 +29315,8 @@ class Mission
 		};
 		class Item13
 		{
-			position[]={21098.367,25.909891,7112.7407};
-			a=12;
+			position[]={21097.551,25.921148,7112.8945};
+			a=10;
 			b=7;
 			angle=-349.14001;
 			rectangular=1;
@@ -29332,12 +29333,12 @@ class Mission
 		};
 		class Item14
 		{
-			position[]={23824.631,14.586831,20106.584};
+			position[]={23824.631,14.585549,20106.545};
 			a=12;
 			b=7;
-			angle=321.99973;
+			angle=322;
 			rectangular=1;
-			activationBy="WEST";
+			activationBy="GUER";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
@@ -29350,12 +29351,12 @@ class Mission
 		};
 		class Item15
 		{
-			position[]={23777.557,14.493425,20069.867};
+			position[]={23777.559,14.4925,20069.828};
 			a=12;
 			b=7;
-			angle=142.97758;
+			angle=142.978;
 			rectangular=1;
-			activationBy="WEST";
+			activationBy="GUER";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
@@ -29368,12 +29369,12 @@ class Mission
 		};
 		class Item16
 		{
-			position[]={8229.04,108.8214,15849.638};
+			position[]={8229.041,108.8212,15849.6};
 			a=12;
 			b=5;
 			angle=390.14301;
 			rectangular=1;
-			activationBy="WEST";
+			activationBy="GUER";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
@@ -29386,12 +29387,12 @@ class Mission
 		};
 		class Item17
 		{
-			position[]={8177.5054,108.94883,15879.576};
+			position[]={8177.4673,108.9483,15879.536};
 			a=12;
 			b=5;
-			angle=389.77353;
+			angle=389.77399;
 			rectangular=1;
-			activationBy="WEST";
+			activationBy="GUER";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
@@ -29440,10 +29441,10 @@ class Mission
 		};
 		class Item20
 		{
-			position[]={23805.367,14.59532,20093.523};
+			position[]={23809.109,14.431072,20088.701};
 			a=300;
-			b=25;
-			angle=-38.779003;
+			b=32;
+			angle=-217.05438;
 			rectangular=1;
 			activationBy="ANY";
 			repeating=1;
@@ -29489,6 +29490,78 @@ class Mission
 			class Effects
 			{
 				sound="Alarm";
+			};
+		};
+		class Item23
+		{
+			position[]={23777.557,14.493425,20069.867};
+			a=12;
+			b=7;
+			angle=142.97758;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="b1 animate [""Door_1_rot"", 1]";
+			expDesactiv="b1 animate [""Door_1_rot"", 0]";
+			class Effects
+			{
+				voice="FD_Target_PopDown_Large_F";
+			};
+		};
+		class Item24
+		{
+			position[]={23824.631,14.586831,20106.584};
+			a=12;
+			b=7;
+			angle=321.99973;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="b2 animate [""Door_1_rot"", 1]";
+			expDesactiv="b2 animate [""Door_1_rot"", 0]";
+			class Effects
+			{
+				voice="FD_Target_PopDown_Large_F";
+			};
+		};
+		class Item25
+		{
+			position[]={8177.5054,108.94883,15879.576};
+			a=12;
+			b=5;
+			angle=389.77353;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="b1_1 animate [""Door_1_rot"", 1]";
+			expDesactiv="b1_1 animate [""Door_1_rot"", 0]";
+			class Effects
+			{
+				voice="FD_Target_PopDown_Large_F";
+			};
+		};
+		class Item26
+		{
+			position[]={8229.04,108.8212,15849.6};
+			a=12;
+			b=5;
+			angle=390.14301;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="b2_1 animate [""Door_1_rot"", 1]";
+			expDesactiv="b2_1 animate [""Door_1_rot"", 0]";
+			class Effects
+			{
+				voice="FD_Target_PopDown_Large_F";
 			};
 		};
 	};
