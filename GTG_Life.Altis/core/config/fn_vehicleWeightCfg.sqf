@@ -45,6 +45,6 @@ switch (_className) do
 	case "Box_IND_Grenades_F": {350};
 	case "B_supplyCrate_F": {700};
 	case "B_SDV_01_F": {40};
-	case "O_Heli_Attack_02_black_F": {600};	
+	case "O_Heli_Attack_02_black_F": {380};	
 	default {-1};
 };
