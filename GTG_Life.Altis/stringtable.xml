@@ -4298,12 +4298,12 @@
 			<Portuguese>Verificar Licenças</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_SearchPlayer">
-			<Original>Buscar por Jogador</Original>
-			<English>Buscar por Jogador</English>
+			<Original>Revistar Jogador</Original>
+			<English>Revistar Jogador</English>
 			<German>Spieler durchsuchen</German>
 			<French>Fouiller Joueur</French>
 			<Italian>Ricerca Giocatore</Italian>
-			<Portuguese>Buscar por Jogador</Portuguese>
+			<Portuguese>Revistar Jogador</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_StopEscort">
 			<Original>Parar de Escoltar</Original>
@@ -4500,12 +4500,12 @@
 			<Portuguese>Consertar Veículo</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_Registration">
-			<Original>Licenças</Original>
-			<English>Licenças</English>
+			<Original>Licenças Veículo</Original>
+			<English>Licenças Veículo</English>
 			<German>Eigentümer</German>
 			<French>Enregistrement</French>
 			<Italian>Registrazione</Italian>
-			<Portuguese>Licenças</Portuguese>
+			<Portuguese>Licenças Veículo</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_SearchVehicle">
 			<Original>Vasculhar Veículo</Original>
