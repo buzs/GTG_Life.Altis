@@ -677,7 +677,7 @@ switch(_shop) do
 						["200Rnd_65x39_cased_Box_Tracer",nil,10000],
 						["30Rnd_65x39_caseless_mag_Tracer",nil,5000],
 						["100Rnd_65x39_caseless_mag_Tracer",nil,7000],
-						["6Rnd_45ACP_Cylinder",nil,1000],
+						["6Rnd_45ACP_Cylinder",nil,1000]
 					]
 				];
 			};
