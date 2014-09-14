@@ -71,7 +71,7 @@ switch(_shop) do
 						["optic_Holosight",nil,2200],
 						["optic_Arco",nil,5000],
 						["muzzle_snds_L",nil,3000],
-						["muzzle_snds_H",nil,6000],
+						["muzzle_snds_H",nil,4000],
 						["16Rnd_9x21_Mag",nil,1000],
 						["30Rnd_9x21_Mag",nil,2000],
 						["30Rnd_65x39_caseless_mag",nil,3500],
@@ -126,7 +126,7 @@ switch(_shop) do
 						["optic_DMS",nil,4000],
 						["muzzle_snds_L",nil,3000],
 						["muzzle_snds_acp",nil,1500],
-						["muzzle_snds_H",nil,6000],
+						["muzzle_snds_H",nil,4000],
 						["9Rnd_45ACP_Mag",nil,200],
 						["16Rnd_9x21_Mag",nil,50],
 						["30Rnd_9x21_Mag",nil,100],
@@ -182,7 +182,7 @@ switch(_shop) do
 						["optic_DMS",nil,4000],
 						["muzzle_snds_L",nil,3000],
 						["muzzle_snds_acp",nil,1500],
-						["muzzle_snds_H",nil,6000],
+						["muzzle_snds_H",nil,4000],
 						["9Rnd_45ACP_Mag",nil,200],
 						["16Rnd_9x21_Mag",nil,50],
 						["30Rnd_9x21_Mag",nil,100],
@@ -241,7 +241,7 @@ switch(_shop) do
 						["optic_DMS",nil,4000],
 						["muzzle_snds_L",nil,3000],
 						["muzzle_snds_acp",nil,1500],
-						["muzzle_snds_H",nil,6000],
+						["muzzle_snds_H",nil,4000],
 						["muzzle_snds_B",nil,5000],
 						["9Rnd_45ACP_Mag",nil,200],
 						["16Rnd_9x21_Mag",nil,50],
@@ -305,7 +305,7 @@ switch(_shop) do
 						["optic_DMS",nil,4000],
 						["muzzle_snds_L",nil,3000],
 						["muzzle_snds_acp",nil,1500],
-						["muzzle_snds_H",nil,6000],
+						["muzzle_snds_H",nil,4000],
 						["muzzle_snds_B",nil,5000],
 						["muzzle_snds_H_MG",nil,10000],
 						["9Rnd_45ACP_Mag",nil,200],
@@ -380,7 +380,7 @@ switch(_shop) do
 						["optic_tws_mg",nil,200000],
 						["muzzle_snds_L",nil,3000],
 						["muzzle_snds_acp",nil,1500],
-						["muzzle_snds_H",nil,6000],
+						["muzzle_snds_H",nil,4000],
 						["muzzle_snds_B",nil,5000],
 						["muzzle_snds_H_MG",nil,10000],
 						["9Rnd_45ACP_Mag",nil,200],
@@ -457,7 +457,7 @@ switch(_shop) do
 						["optic_tws_mg",nil,200000],
 						["muzzle_snds_L",nil,3000],
 						["muzzle_snds_acp",nil,1500],
-						["muzzle_snds_H",nil,6000],
+						["muzzle_snds_H",nil,4000],
 						["muzzle_snds_B",nil,5000],
 						["muzzle_snds_H_MG",nil,10000],
 						["9Rnd_45ACP_Mag",nil,200],
@@ -626,6 +626,58 @@ switch(_shop) do
 						["SmokeShellPurple","Granada de Fumaça Roxa",2000],
 						["SmokeShellBlue","Granada de Fumaça Azul",2000],
 						["SmokeShellOrange","Granada de Fumaça Laranja",2000]
+					]
+				];
+			};
+		};
+	};
+	
+	//TRAFICANTE-HUNTER
+	case "traficantearmas":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"Você não é um Civil!"};
+			default
+			{
+				["Traficante de Armas",
+					[
+						["Rangefinder",nil,100000],
+						["arifle_SDAR_F",nil,68000],
+						["arifle_TRG20_F",nil,74000],
+						["SMG_01_Holo_F",nil,74000],
+						["SMG_02_F",nil,74000],
+						["arifle_Katiba_F",nil,127000],
+						["arifle_MXC_F",nil,130000],
+						["arifle_MX_F",nil,135000],
+						["arifle_MX_SW_F",nil,139000],
+						["srifle_EBR_F",nil,260000],
+						["srifle_DMR_01_F",nil,225000],
+						["LMG_Mk200_F",nil,260000],
+						["LMG_Zafir_F",nil,225000],
+						["optic_Holosight",nil,30000],
+						["optic_MRD",nil,30000],
+						["optic_Hamr",nil,30000],
+						["optic_MRCO",nil,30000],
+						["optic_ACO_grn",nil,20000],
+						["optic_Aco",nil,20000],
+						["optic_SOS",nil,120000],
+						["optic_LRPS",nil,160000],
+						["acc_flashlight",nil,25000],
+						["acc_pointer_IR",nil,25000],
+						["30Rnd_9x21_Mag",nil,5000],
+						["20Rnd_556x45_UW_mag",nil,5000],
+						["30Rnd_556x45_Stanag",nil,5000],
+						["30Rnd_45ACP_Mag_SMG_01",nil,5000],
+						["11Rnd_45ACP_Mag",nil,2500],
+						["30Rnd_65x39_caseless_green_mag_Tracer",nil,5000],
+						["10Rnd_762x51_Mag",nil,10000],
+						["20Rnd_762x51_Mag",nil,19000],
+						["150Rnd_762x51_Box",nil,8000],
+						["200Rnd_65x39_cased_Box_Tracer",nil,10000],
+						["30Rnd_65x39_caseless_mag_Tracer",nil,5000],
+						["100Rnd_65x39_caseless_mag_Tracer",nil,7000],
+						["6Rnd_45ACP_Cylinder",nil,1000],
 					]
 				];
 			};
