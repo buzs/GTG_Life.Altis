@@ -2258,12 +2258,12 @@
 			<Portuguese>Você não digitou um número válido</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_TicketOver100">
-			<Original>O valor da multa não pode ser maior que R$100.000!</Original>
-			<English>O valor da multa não pode ser maior que R$100.000!</English>
-			<German>Strafzettel können nicht mehr als $100.000 betragen!</German>
-			<French>Les billets ne peuvent être plus de $ 100,000!</French>
-			<Italian>La multa non può essere più di €100.000!</Italian>
-			<Portuguese>O valor da multa não pode ser maior que R$100.000!</Portuguese>
+			<Original>O valor da multa não pode ser maior que R$200.000!</Original>
+			<English>O valor da multa não pode ser maior que R$200.000!</English>
+			<German>Strafzettel können nicht mehr als $200.000 betragen!</German>
+			<French>Les billets ne peuvent être plus de $ 200,000!</French>
+			<Italian>La multa non può essere più di €200.000!</Italian>
+			<Portuguese>O valor da multa não pode ser maior que R$200.000!</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_TicketGive">
 			<Original>%1 deu uma multa de R$%2 para %3</Original>
@@ -3425,6 +3425,46 @@
 			<Italian>Nitro</Italian>
 			<Portuguese>Nitro</Portuguese>
 		</Key>
+		<Key ID="STR_Item_LSD">
+			<Original>LSD</Original>
+			<English>LSD</English>
+			<German>Nitro</German>
+			<French>Nitro</French>
+			<Italian>Nitro</Italian>
+			<Portuguese>LSD</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Cafe">
+			<Original>Cafe</Original>
+			<English>Cafe</English>
+			<German>Nitro</German>
+			<French>Nitro</French>
+			<Italian>Nitro</Italian>
+			<Portuguese>Cafe</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Flor">
+			<Original>Rosas Havaianas</Original>
+			<English>Nitro</English>
+			<German>Nitro</German>
+			<French>Nitro</French>
+			<Italian>Rosas Havaianas</Italian>
+			<Portuguese>Rosas Havaianas</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Ether">
+			<Original>Eter de Petroleo</Original>
+			<English>Eter de Petro</English>
+			<German>Nitro</German>
+			<French>Nitro</French>
+			<Italian>Nitro</Italian>
+			<Portuguese>Eter de Petroleo</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Rim">
+			<Original>Rim Roubado</Original>
+			<English>Rim Roubado</English>
+			<German>Nitro</German>
+			<French>Nitro</French>
+			<Italian>Nitro</Italian>
+			<Portuguese>Orgao Roubado</Portuguese>
+		</Key>
 		<Key ID="STR_Item_CocaineU">
 			<Original>Cocaína não Refinada</Original>
 			<English>Cocaína não Refinada</English>
@@ -3628,12 +3668,28 @@
 			<Portuguese>Licença de Casas</Portuguese>
 		</Key>
 		<Key ID="STR_License_Donator">
-			<Original>Premium</Original>
-			<English>Premium</English>
+			<Original>Premium Level 1</Original>
+			<English>Premium Level 1</English>
 			//<German>Eigentumsurkunde</German>
 			//<French>Droit de Propriété</French>
 			//<Italian>Licenza possesso Casa</Italian>
-			<Portuguese>Premium</Portuguese>
+			<Portuguese>Premium Level 1</Portuguese>
+		</Key>
+		<Key ID="STR_License_Donator2">
+			<Original>Premium Level 2</Original>
+			<English>Premium Level 2</English>
+			//<German>Eigentumsurkunde</German>
+			//<French>Droit de Propriété</French>
+			//<Italian>Licenza possesso Casa</Italian>
+			<Portuguese>Premium Level 2</Portuguese>
+		</Key>
+		<Key ID="STR_License_Donator3">
+			<Original>Premium Level 3</Original>
+			<English>Premium Level 3</English>
+			//<German>Eigentumsurkunde</German>
+			//<French>Droit de Propriété</French>
+			//<Italian>Licenza possesso Casa</Italian>
+			<Portuguese>Premium Level 3</Portuguese>
 		</Key>
 	</Package>
 	<Package name="More_Item_Strings">

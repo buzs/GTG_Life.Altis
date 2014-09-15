@@ -11,7 +11,7 @@ _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
 
 //Shop Title Name
-ctrlSetText[3103,"Uniformes"];
+ctrlpushBackText[3103,"Uniformes"];
 
 _ret = [];
 switch (_filter) do
@@ -21,32 +21,32 @@ switch (_filter) do
 	{
 		if(__GETC__(life_coplevel) > 0) then
 		{
-			_ret set[count _ret,["U_O_Wetsuit","Mergulhador",15000]];
-			_ret set[count _ret,["U_Rangemaster","Soldado",1000]];
+			_ret pushBack["U_O_Wetsuit","Mergulhador",15000];
+			_ret pushBack["U_Rangemaster","Soldado",1000];
 		};
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret set[count _ret,["U_Competitor","Cabo",2000]];
+			_ret pushBack["U_Competitor","Cabo",2000];
 		};
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_ret set[count _ret,["U_I_G_resistanceLeader_F","Sargento",2500]];
+			_ret pushBack["U_I_G_resistanceLeader_F","Sargento",2500];
 		};
 		if(__GETC__(life_coplevel) > 3) then
 		{
-			_ret set[count _ret,["U_B_CombatUniform_mcam","Tenente",3000]];
+			_ret pushBack["U_B_CombatUniform_mcam","Tenente",3000];
 		};
 		if(__GETC__(life_coplevel) > 4) then
 		{
-			_ret set[count _ret,["U_B_CTRG_1","Capitão",4000]];
+			_ret pushBack["U_B_CTRG_1","Capitão",4000];
 		};
 		if(__GETC__(life_coplevel) > 5) then
 		{
-			_ret set[count _ret,["U_B_CombatUniform_mcam_worn","Major",5000]];
+			_ret pushBack["U_B_CombatUniform_mcam_worn","Major",5000];
 		};
 		if(__GETC__(life_coplevel) > 6) then
 		{
-			_ret set[count _ret,["U_B_CTRG_3","Coronel",6000]];
+			_ret pushBack["U_B_CTRG_3","Coronel",6000];
 		};
 	};
 	
@@ -55,22 +55,22 @@ switch (_filter) do
 	{
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret set[count _ret,["H_Booniehat_mcamo",nil,100]];
-			_ret set[count _ret,["H_HelmetSpecB_paint2",nil,100]];
-			_ret set[count _ret,["H_HelmetSpecB_paint2",nil,100]];
-			_ret set[count _ret,["H_HelmetB_sand",nil,100]];
+			_ret pushBack["H_Booniehat_mcamo",nil,100];
+			_ret pushBack["H_HelmetSpecB_paint2",nil,100];
+			_ret pushBack["H_HelmetSpecB_paint2",nil,100];
+			_ret pushBack["H_HelmetB_sand",nil,100];
 		};
 		if(__GETC__(life_coplevel) > 3) then
 		{
-			_ret set[count _ret,["H_Beret_blk_POLICE","Boina Tenente",100]];
+			_ret pushBack["H_Beret_blk_POLICE","Boina Tenente",100];
 		};
 		if(__GETC__(life_coplevel) > 5) then
 		{
-			_ret set[count _ret,["H_Beret_02","Boina Major",500]];
+			_ret pushBack["H_Beret_02","Boina Major",500];
 		};
 		if(__GETC__(life_coplevel) > 6) then
 		{
-			_ret set[count _ret,["H_Beret_Colonel","Boina Coronel",1000]];
+			_ret pushBack["H_Beret_Colonel","Boina Coronel",1000];
 		};
 	};
 	
@@ -96,12 +96,12 @@ switch (_filter) do
 	//Vest
 	case 3:
 	{
-		_ret set[count _ret,["V_Rangemaster_belt",nil,1000]];
-		_ret set[count _ret,["V_RebreatherB","Respirador",3000]];
-		_ret set[count _ret,["V_TacVest_blk_POLICE","Colete Policia",5000]];
+		_ret pushBack["V_Rangemaster_belt",nil,1000];
+		_ret pushBack["V_RebreatherB","Respirador",3000];
+		_ret pushBack["V_TacVest_blk_POLICE","Colete Policia",5000];
 		if(__GETC__(life_coplevel) > 6) then
 		{
-			_ret set[count _ret,["V_PlateCarrier1_blk","Colete Superior",15000]];
+			_ret pushBack["V_PlateCarrier1_blk","Colete Superior",15000];
 		};
 	};
 	

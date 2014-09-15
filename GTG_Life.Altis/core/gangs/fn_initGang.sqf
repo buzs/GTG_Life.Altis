@@ -20,7 +20,7 @@ _exitLoop = false;
 		_groupOwner = _x getVariable["gang_owner",""];
 		_groupID = _x getVariable "gang_id";
 		if(_groupOwner == "" OR isNil "_groupID") exitWith {}; //Seriously?
-		if((life_gangData select 0) == _groupID && {(life_gangData select 1) == _groupOwner}) exitWith {_group = _x; _exitLoop = true;};
+		if((life_gangData select 0) == _groupID && ((life_gangData select 1) == _groupOwner)) exitWith {_group = _x; _exitLoop = true;};
 	};
 } foreach allGroups;
 
@@ -38,4 +38,5 @@ if(!isNil "_group") then {
 	_group setVariable["gang_maxMembers",(life_gangData select 3),true];
 	_group setVariable["gang_bank",(life_gangData select 4),true];
 	_group setVariable["gang_members",(life_gangData select 5),true];
+	
 };

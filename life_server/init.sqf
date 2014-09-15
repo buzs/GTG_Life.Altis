@@ -17,10 +17,12 @@ if(isNil {uiNamespace getVariable "life_sql_id"}) then {
 	//Only need to setup extDB once.
 	//  If mission is reloaded, will tell clients extDB is not loaded.
 	//     Todo: Is it possible first client is loaded before this PV is sent ?
-	if(_extDBversion == "") exitWith {life_server_extDB_notLoaded = true; publicVariable "life_server_extDB_notLoaded";};
+	if(_extDBversion == "") exitWith {diag_log "extDB: Error, check extDB/logs for more info"; life_server_extDB_notLoaded = true; publicVariable "life_server_extDB_notLoaded";};
 	//Initialize the database
-	"extDB" callExtension "9:DATABASE:Database2";
-	"extDB" callExtension format["9:ADD:DB_RAW_V2:%1",(call life_sql_id)];
+	_extDBconnected = "extDB" callExtension "9:DATABASE:Database2";
+	_extDBconnected2 = "extDB" callExtension format["9:ADD:DB_RAW_V2:%1",(call life_sql_id)];
+	if(_extDBconnected != "[1]") exitWith {diag_log "extDB: Database error, check extDB/logs for more info"; life_server_extDB_notLoaded = true; publicVariable "life_server_extDB_notLoaded";};
+	if(_extDBconnected2 != "[1]") exitWith {diag_log "extDB: Database error, check extDB/logs for more info"; life_server_extDB_notLoaded = true; publicVariable "life_server_extDB_notLoaded";};
 	"extDB" callExtension "9:LOCK";
 } else {
 	life_sql_id = uiNamespace getVariable "life_sql_id";
@@ -31,6 +33,7 @@ if(isNil {uiNamespace getVariable "life_sql_id"}) then {
 ["CALL resetLifeVehicles",1] spawn DB_fnc_asyncCall;
 ["CALL deleteDeadVehicles",1] spawn DB_fnc_asyncCall;
 ["CALL deleteOldHouses",1] spawn DB_fnc_asyncCall;
+["CALL deleteOldGangs",1] spawn DB_fnc_asyncCall; //Maybe delete old gangs
 
 life_adminlevel = 0;
 life_medicLevel = 0;
@@ -51,6 +54,7 @@ fed_bank setVariable["safe",(count playableUnits),true];
 
 //General cleanup for clients disconnecting.
 _onDisconnect = ["SERV_onClientDisconnect","onPlayerDisconnected",{[_uid,_id,_name] call TON_fnc_clientDisconnect}] call BIS_fnc_addStackedEventHandler;
+//_onDisconnect = addMissionEventHandler ["HandleDisconnect",{[_uid,_id,_name,_unit] call TON_fnc_clientDisconnect}]; //Colin's Merge
 
 [] spawn TON_fnc_cleanup;
 life_gang_list = [];
