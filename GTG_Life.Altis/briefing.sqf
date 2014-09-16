@@ -139,7 +139,9 @@ player createDiarySubject ["7","Licenças"];
 				<br/>
 				<br/>• É proibido tentar duplicar qualquer item no servidor e se aproveitar dessas falhas.
 				<br/>
-				<br/>• Para sobrevoar cidades, o civil deve pedir autorização à polícia.
+				<br/>• É proibido voar a menos de 150m de altura sobre as cidades.
+				<br/>
+				<br/>• Para sobrevoar em cidades, o civil deve pedir autorização à polícia. (Proibido ficar de autohover ligado spotando nas cidades)
 				<br/>
 				<br/>• A velocidade máxima permitida nas cidades é de 50 KM/H.
 				<br/>
