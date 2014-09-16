@@ -67,6 +67,11 @@ switch (_mode) do
 			case "storagebig": {"life_inv_storagebig"};
 			case "nitro": {"life_inv_nitro"};
 			case "rim": {"life_inv_rim"};
+			case "cafe": {"life_inv_cafe"};
+			case "cafet": {"life_inv_cafet"};
+			case "rosas": {"life_inv_rosas"};
+			case "eter": {"life_inv_eter"};
+			case "lsd": {"life_inv_lsd"};
 		};
 	};
 	
@@ -125,6 +130,11 @@ switch (_mode) do
 			case "life_inv_storagebig": {"storagebig"};
 			case "life_inv_nitro": {"nitro"};
 			case "life_inv_rim": {"rim"}; 
+			case "life_inv_cafe": {"cafe"};
+			case "life_inv_cafet": {"cafet"};
+			case "life_inv_rosas": {"rosas"};
+			case "life_inv_eter": {"eter"};
+			case "life_inv_lsd": {"lsd"};
 		};
 	};
 };

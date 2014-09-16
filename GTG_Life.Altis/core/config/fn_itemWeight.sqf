@@ -58,5 +58,10 @@ switch (_item) do
 	case "storagebig": {10};
 	case "nitro": {5};
 	case "rim": {15};
+	case "cafe": {2};
+	case "cafet": {1};
+	case "rosas":{2};
+	case "eter":{6};
+	case "lsd":{5};
 	default {1};
 };

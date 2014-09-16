@@ -63,6 +63,11 @@ switch (_var) do
 	case "life_inv_storagebig": {(localize "STR_Item_StorageBL")};
 	case "life_inv_nitro": {(localize "STR_Item_Nitro")}; //BUZ
 	case "life_inv_rim": {"Orgao Roubado"}; //Hunter
+	case "life_inv_cafe": {"Cafe"}; //BUZ
+	case "life_inv_cafet": {"Cafe Torrado"}; //BUZ
+	case "life_inv_rosas": {"Rosas Havaianas"}; //BUZ
+	case "life_inv_eter": {"Eter de Petróleo"}; //BUZ
+	case "life_inv_lsd": {"LSD"}; //BUZ
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
@@ -92,6 +97,8 @@ switch (_var) do
 	case "license_civ_premium": {(localize "STR_License_Donator")}; //BUZ
 	case "license_civ_premium2": {(localize "STR_License_Donator")}; //BUZ
 	case "license_civ_premium3": {(localize "STR_License_Donator")}; //BUZ
+	case "license_civ_cafe": {"Licença Cafe"};
+	case "license_civ_lsd": {"Licença LSD"};
 	case "license_civ_pre": {"Spawn Premium"}
 	
 };

@@ -11,12 +11,14 @@
 	Triggers are NOT my preferred method so this is considered temporary until a more suitable
 	option is presented.
 */
-private["_appleZones","_peachZones","_heroinZones","_cocaineZones","_weedZones"];
+private["_appleZones","_peachZones","_heroinZones","_cocaineZones","_weedZones","_cafeZones"];
 _appleZones = ["apple_1","apple_2","apple_3","apple_4","apple_5"];
 _peachZones = ["peaches_1","peaches_2","peaches_3","peaches_4","peaches_5"];
 _heroinZones = ["heroin_1"];
 _cocaineZones = ["cocaine_1"];
 _weedZones = ["weed_1"];
+_cafeZones = ["campocafe_1","campocafe_2"];
+_rosasZones = ["rosas_1"];
 
 //Create apple zones
 {
@@ -57,3 +59,19 @@ _weedZones = ["weed_1"];
 	_zone setTriggerActivation["CIV","PRESENT",true];
 	_zone setTriggerStatements["player in thislist","LIFE_Action_Coke = player addAction[(localize ""STR_Gather_Cocaine""),life_fnc_gather,'',0,false,false,'','!life_action_inUse'];","player removeAction LIFE_Action_Coke;"];
 } foreach _cocaineZones;
+
+//Create cafe zones
+{
+	_zone = createTrigger ["EmptyDetector",(getMarkerPos _x)];
+	_zone setTriggerArea[25,25,0,false];
+	_zone setTriggerActivation["CIV","PRESENT",true];
+	_zone setTriggerStatements["player in thislist","LIFE_Action_Cafe = player addAction[(localize ""STR_Gather_Cafe""),life_fnc_gather,'',0,false,false,'','!life_action_inUse'];","player removeAction LIFE_Action_Cafe;"];
+} foreach _cafeZones;
+
+//Create rosas zones
+{
+	_zone = createTrigger ["EmptyDetector",(getMarkerPos _x)];
+	_zone setTriggerArea[50,50,0,false];
+	_zone setTriggerActivation["CIV","PRESENT",true];
+	_zone setTriggerStatements["player in thislist","LIFE_Action_Rosas = player addAction[(localize ""STR_Gather_Rosas""),life_fnc_gather,'',0,false,false,'','!life_action_inUse'];","player removeAction LIFE_Action_Rosas;"];
+} foreach _rosasZones;

@@ -161,7 +161,13 @@ life_inv_items =
 	"life_inv_storagesmall",
 	"life_inv_nitro",
 	"life_inv_rim",
+	"life_inv_cafe",
+	"life_inv_cafet",
+	"life_inv_rosas",
+	"life_inv_eter",
+	"life_inv_lsd",
 	"life_inv_storagebig"
+	
 ];
 
 //Setup variable inv vars.
@@ -197,7 +203,9 @@ life_licenses =
 	["license_civ_pre","civ"], //BUZ
 	["license_civ_premium","civ"], //BUZ
 	["license_civ_premium2","civ"], //BUZ
-	["license_civ_premium3","civ"] //BUZ
+	["license_civ_premium3","civ"], //BUZ
+	["license_civ_cafe","civ"],
+	["license_civ_lsd","civ"]
 ];
 
 //Setup License Variables
@@ -205,7 +213,7 @@ life_licenses =
 
 life_dp_points = ["dp_1","dp_2","dp_3","dp_4","dp_5","dp_6","dp_7","dp_8","dp_9","dp_10","dp_11","dp_12","dp_13","dp_14","dp_15","dp_15","dp_16","dp_17","dp_18","dp_19","dp_20","dp_21","dp_22","dp_23","dp_24","dp_25"];
 //[shortVar,reward]
-life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocainep",3500],["marijuana",2000],["turtle",3000],["blastingcharge",10000],["boltcutter",500],["rim",5000]];
+life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocainep",3500],["marijuana",2000],["turtle",3000],["blastingcharge",10000],["boltcutter",500],["rim",5000],["flor",500],["eter",3000],["lsd",10000]];
 
 
 /*
@@ -248,7 +256,10 @@ sell_array =
 	["cement",1950],
 	["goldbar",100000],
 	["nitro",12000], //BUZ
-	["rim",50000] //Hunter
+	["rim",50000],	//Hunter
+	["cafe",165],	//BUZ
+	["cafet",500],	//BUZ
+	["lsd",35000]	//BUZ
 ];
 __CONST__(sell_array,sell_array);
 
@@ -281,7 +292,6 @@ buy_array =
 	["storagebig",150000],
 	["nitro",75000], //BUZ
 	["rim",75000] //Hunter
-	
 ];
 __CONST__(buy_array,buy_array);
 

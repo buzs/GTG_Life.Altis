@@ -4094,14 +4094,20 @@
 			<French>Vous avez traité %1 en %2</French>
 			<Italian>Hai processato %1 in %2</Italian>
 			<Portuguese>Você trasformou %1 em %2</Portuguese>
+		<Key ID="STR_2Process_Processed">
+			<Original>Você trasformou %1 e %2 em %3</Original>
+			<English>Você trasformou %1 e %2 em %3</English>
+			<Portuguese>Você trasformou %1 e %2 em %3</Portuguese>
 		</Key>
 		<Key ID="STR_Process_Processed2">
 			<Original>Você trasformou %1 em %2 por R$%3</Original>
 			<English>Você trasformou %1 em %2 por R$%3</English>
-			<German>Du hast %1 für $%3 in %2 verarbeitet</German>
-			<French>Vous avez traité %1 en %2 pour $3%</French>
-			<Italian>Hai processato %1 in %2 al costo di €%3</Italian>
 			<Portuguese>Você trasformou %1 em %2 por R$%3</Portuguese>
+		</Key>
+		<Key ID="STR_2Process_Processed2">
+			<Original>Você trasformou %1 e %2 em %3 por R$%4</Original>
+			<English>Você trasformou %1 e %2 em %3 por R$%4</English>
+			<Portuguese>Você trasformou %1 e %2 em %3 por R$%4</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Gather_Items">
@@ -4136,6 +4142,22 @@
 			<French>Récolter du Cannabis</French>
 			<Italian>Raccogli Cannabis</Italian>
 			<Portuguese>Colher Maconha</Portuguese>
+		</Key>
+		<Key ID="STR_Gather_Cafe">
+			<Original>Colher Cafe</Original>
+			<English>Colher Cafe</English>
+			<German>Kannabis sammeln</German>
+			<French>Récolter du Cannabis</French>
+			<Italian>Raccogli Cannabis</Italian>
+			<Portuguese>Colher Cafe</Portuguese>
+		</Key>
+		<Key ID="STR_Gather_Rosas">
+			<Original>Colher Rosas Havaianas</Original>
+			<English>Colher Rosas Havaianas</English>
+			<German>Kannabis sammeln</German>
+			<French>Récolter du Cannabis</French>
+			<Italian>Raccogli Cannabis</Italian>
+			<Portuguese>Colher Rosas Havaianas</Portuguese>
 		</Key>
 		<Key ID="STR_Gather_Cocaine">
 			<Original>Colher Cocaína</Original>

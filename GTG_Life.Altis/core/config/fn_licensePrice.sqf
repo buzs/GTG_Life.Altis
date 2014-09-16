@@ -40,4 +40,6 @@ switch (_type) do
 	case "premium": {999999999}; //BUZ
 	case "premium2": {999999999}; //BUZ
 	case "premium3": {999999999}; //BUZ
+	case "cafe": {5000};
+	case "lsd": {30000};
 };

@@ -6,7 +6,7 @@
 	Main functionality for gathering.
 */
 private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone"];
-_resourceZones = ["apple_1","apple_2","apple_3","apple_4","apple_5","peaches_1","peaches_2","peaches_3","peaches_4","peaches_5","heroin_1","cocaine_1","weed_1"];
+_resourceZones = ["apple_1","apple_2","apple_3","apple_4","apple_5","peaches_1","peaches_2","peaches_3","peaches_4","peaches_5","heroin_1","cocaine_1","weed_1","campocafe_1","campocafe_2","rosas_1"];
 _zone = "";
 
 if(life_action_inUse) exitWith {}; //Action is in use, exit to prevent spamming.
@@ -27,6 +27,8 @@ switch(true) do {
 	case (_zone in ["heroin_1"]): {_gather = "heroinu"; _val = 1;};
 	case (_zone in ["cocaine_1"]): {_gather = "cocaine"; _val = 1;};
 	case (_zone in ["weed_1"]): {_gather = "cannabis"; _val = 1;};
+	case (_zone in ["campocafe_1","campocafe_2"]): {_gather = "cafe"; _val = 3;};
+	case (_zone in ["rosas_1"]): {_gather = "rosas"; _val = 1;};
 	default {""};
 };
 //gather check??

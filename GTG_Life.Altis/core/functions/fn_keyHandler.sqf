@@ -57,6 +57,54 @@ switch (_code) do
 			_handled = true;
 		};
 	};
+	//BUZ
+	case 62:
+	{
+	if(_alt && !_shift) then {
+	diag_log format ["%1 usando ALT+F4 para se desconectar (e por isso perdeu todos os seus itens do corpo e dinheiro da mão)",player getVariable["realname",name _player]];
+    [[1,format["%1 usando ALT+F4 para se desconectar (e por isso perdeu todos os seus itens do corpo e dinheiro da mão)",player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+	removeAllContainers player;
+	removeUniform player;
+	removeBackpack player;
+	removeVest player;
+	removeHeadgear player;
+    player removeWeapon (primaryWeapon player);
+	player removeWeapon (handGunWeapon player);
+	removeAllWeapons player;
+	};
+	};
+	
+	case 211:
+	{
+	if(_ctrlKey && _alt)  then {
+	diag_log format ["%1 usando CTRL + ALT + DEL provavel disconnect (reporte aos Administradores)",player getVariable["realname",name _player]];
+    [[1,format["%1 usando CTRL + ALT + DEL  provavel disconnect (reporte aos Administradores)",player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+	removeAllContainers player;
+	removeUniform player;
+	removeBackpack player;
+	removeVest player;
+	removeHeadgear player;
+    player removeWeapon (primaryWeapon player);
+	player removeWeapon (handGunWeapon player);
+	removeAllWeapons player;
+	};
+	};
+	
+	case 1:
+	{
+	if( _ctrlKey )  then {
+	diag_log format ["%1 usando CTRL + ESC provavel disconnect (reporte aos Administradores)",player getVariable["realname",name _player]];
+    [[1,format["%1 usando CTRL + ESC provavel disconnect (reporte aos Administradores)",player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+	removeAllContainers player;
+	removeUniform player;
+	removeBackpack player;
+	removeVest player;
+	removeHeadgear player;
+    player removeWeapon (primaryWeapon player);
+	player removeWeapon (handGunWeapon player);
+	removeAllWeapons player;
+	};
+	};
 	
 	//6 Nitro
 	case 7:
