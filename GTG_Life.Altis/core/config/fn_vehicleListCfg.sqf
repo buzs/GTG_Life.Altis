@@ -174,7 +174,7 @@ switch (_shop) do
 	{
 		if(license_civ_premium) then
 		{
-			_return pushBack["B_Quadbike_01_F",2125]];
+			_return pushBack["B_Quadbike_01_F",2125];
 			_return pushBack["C_Hatchback_01_F",8925];
 			_return pushBack["C_Offroad_01_F",12325];
 			_return pushBack["C_SUV_01_F",44200];
