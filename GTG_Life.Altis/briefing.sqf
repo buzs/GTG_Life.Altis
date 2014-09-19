@@ -238,6 +238,37 @@ player createDiarySubject ["7","Licenças"];
 				"
 		]
 	];
+	player createDiaryRecord ["4", 
+		[
+			"Regras para Premium", 
+				"
+				<br/>1.O Status de Premium
+				<br/>
+				<br/> a. O Status de Premium NÃO isenta o player de quaisquer outras regras já estabelecidas no servidor, nem de suas punições (Seja Civil, Rebelde ou Cop).
+				<br/> b. O Status de Premium é PESSOAL E INTRANSFERÍVEL, o que significa que somente o jogador que o detém poderá beneficiar-se direta e indiretamente  do mesmo.
+				<br/> c. A Lincença premium é um beneficio concedido pelo servidor a players que de alguma forma contribuem com a manutenção do mesmo, tendo caráter de bônus e podendo ser retirado a qualquer momento e sem qualquer aviso prévio, à critério da administração do servidor.
+				<br/> d. Em caso de infração o a qualquer regra estabelecida para o PREMIUM, este irá PERDER A LICENÇA PREMIUM bem como ser KICKADO, BANIDO ou outro que a administração julgar necessário. SEM QUALQUER POSSÍBILIDADE DE REEMBOLSO de itens in-game ou valores de contribuição/doação.
+				<br/>
+				<br/>
+				<br/>
+				<br/>2.Os Spawns Premium
+				<br/>
+				<br/> a. O Spawn premium é uma área segura, obedecendo as regras da mesma.
+				<br/> b. É proibido manter veículo bloqueando o spawn de veículos da área premium. Intencionalmente, Passível de punição (Ban de 1 dia, e em caso de reincidência permantente).
+				<br/> c. Somente jogadores PREMIUM poderão acessar a área premium. Sem nenhuma excessão.
+				<br/> d. É proibido manter personagem Ausente/AFK na área premium.
+				<br/> e. Jogadores sem licença premium que se aproximarem da área de respawn exclusiva poderão ser abatidos, kickados do servidor e ter sua conta resetada SEM QUALQUER POSSIBILIDADE DE REEMBOLSO.
+				<br/>
+				<br/>
+				<br/>
+				<br/>3.Os Ítens e Veículos Premium
+				<br/>
+				<br/> a. Qualquer ítem adqurido por um jogador premium é de uso pessoal e intransferível, incluindo: Armas, Roupas, Munições, Miras, entre outros.
+				<br/> b. Jogadores que propositalmente cederem itens premium a outros membros de sua equipe, ou quaisquer players do jogo, TERÃO SUA LICENÇA PREMIUM REVOGADA, sem qualquer possíbilidade de ressarcimento.
+				<br/> c. Os veículos premium não podem em qualquer hipotese ser cedidos/emprestados, sendo que caso a polícia de Altis identifique um indivíduo pilotando um veículo premium que não seja de sua propriedade, sem o proprietário do mesmo estar dentro dele, o veículo será considerado PRODUTO DE FURTO/ROUBO, sendo apreendido com sua carga, bem como o condutor preso. Caso seja constatado que o veículo foi EMPRESTADO por um jogador premium, este sofrerá as punições conforme Art 3.B.
+				"
+		]
+	];
 	player createDiaryRecord ["5", 
 		[
 			"Controles", 

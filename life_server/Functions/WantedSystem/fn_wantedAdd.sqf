@@ -15,22 +15,22 @@ if(_uid == "" OR _type == "" OR _name == "") exitWith {}; //Bad data passed.
 //What is the crime?
 switch(_type) do
 {
-	case "187V": {_type = ["Atropelamento",8000]};
-	case "187": {_type = ["Homicídio",15000]};
+	case "187V": {_type = ["Atropelamento",10000]};
+	case "187": {_type = ["Homicídio",20000]};
 	case "901": {_type = ["Fugir da Cadeia",30000]};
 	case "261": {_type = ["Rape",5000]}; //What type of sick bastard would add this?
 	case "261A": {_type = ["Attempted Rape",3000]};
-	case "215": {_type = ["Tentou Roubar Veículo",3000]};
-	case "213": {_type = ["Uso de Explosivos",10000]};
-	case "211": {_type = ["Assalto",5000]};
-	case "207": {_type = ["Sequestro",15000]};
-	case "207A": {_type = ["Tentativa de Sequestro",10000]};
-	case "487": {_type = ["Roubo de Veículo",5000]};
-	case "488": {_type = ["Pequeno Roubo",2500]};
+	case "215": {_type = ["Tentou Roubar Veículo",5000]};
+	case "213": {_type = ["Uso de Explosivos",30000]};
+	case "211": {_type = ["Assalto",8000]};
+	case "207": {_type = ["Sequestro",18000]};
+	case "207A": {_type = ["Tentativa de Sequestro",13000]};
+	case "487": {_type = ["Roubo de Veículo",8000]};
+	case "488": {_type = ["Pequeno Roubo",3000]};
 	case "480": {_type = ["Hit and run",1300]};
-	case "481": {_type = ["Porte de Drogas",5000]};
+	case "481": {_type = ["Porte de Drogas",8000]};
 	case "482": {_type = ["Intenção de distribuir",10000]};
-	case "483": {_type = ["Tráfico de Drogas",15000]};
+	case "483": {_type = ["Tráfico de Drogas",20000]};
 	case "459": {_type = ["Roubo",10000]};
 	case "919": {_type = ["Tráfico de Orgãos",25000]};
 	default {_type = [];};
