@@ -88,7 +88,7 @@ if(_hasLicense) then
 		while{true} do
 		{
 			sleep  0.3;
-			_cP = _cP + 0.01;
+			_cP = _cP + 0.02;
 			_progress progressSetPosition _cP;
 			_pgText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_upp];
 			if(_cP >= 1) exitWith {};
@@ -127,7 +127,7 @@ else
 			while{true} do
 			{
 					sleep  0.9;
-					_cP = _cP + 0.01;
+					_cP = _cP + 0.02;
 					_progress progressSetPosition _cP;
 					_pgText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_upp];
 					if(_cP >= 1) exitWith {};
@@ -156,4 +156,4 @@ else
 			life_cash = life_cash - _cost;
 			
 			life_is_processing = false;
-}; 	
+};

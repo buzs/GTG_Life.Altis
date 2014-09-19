@@ -46,7 +46,7 @@ switch (_filter) do
 		};
 		if(__GETC__(life_coplevel) > 6) then
 		{
-			_ret pushBack["U_B_CTRG_3","Coronel",6000];
+			_ret pushBack["U_B_CTRG_3","Comandante",6000];
 		};
 	};
 	
@@ -70,7 +70,7 @@ switch (_filter) do
 		};
 		if(__GETC__(life_coplevel) > 6) then
 		{
-			_ret pushBack["H_Beret_Colonel","Boina Coronel",1000];
+			_ret pushBack["H_Beret_Colonel","Boina Comandante",1000];
 		};
 	};
 	
@@ -101,7 +101,7 @@ switch (_filter) do
 		_ret pushBack["V_TacVest_blk_POLICE","Colete Policia",5000];
 		if(__GETC__(life_coplevel) > 6) then
 		{
-			_ret pushBack["V_PlateCarrier1_blk","Colete Superior",15000];
+		_ret pushBack["V_PlateCarrier1_blk","Colete Superior",15000];
 		};
 	};
 	
