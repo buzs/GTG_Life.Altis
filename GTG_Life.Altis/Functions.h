@@ -53,6 +53,14 @@ class Life_Client_Core
 		class admingetID {};
 		class adminMenu {};
 		class adminQuery {};
+		class adminSpectate {};
+		class adminTeleport {};
+		class adminTpHere {};
+		class adminDebugCon {};
+		class adminCompensate {};
+		class adminGodMode {};
+		class adminFreeze {};
+		class adminMarkers {};
 	};
 	
 	class Medical_System
@@ -72,6 +80,21 @@ class Life_Client_Core
 		class medicLights {};
 		class medicSiren {};
 	};
+	
+	class Market
+    {
+        file = "core\market";
+        class openMarketView;
+        class refreshMarketView;
+        class marketShortView;
+        class marketGetBuyPrice;
+        class marketGetSellPrice;
+        class marketGetRow;
+        class marketGetPriceRow;
+        class marketSetPriceRow;
+        class marketBuy;
+        class marketSell;
+    };
 	
 	class Actions
 	{
@@ -225,6 +248,7 @@ class Life_Client_Core
 		class saveGear {};
 		class loadGear {};
 		class stripDownPlayer {};
+		class randomRound {}; //BUZ
 		class autoSave {}; //Hunter
 		class switch {}; //Hunter
 	};

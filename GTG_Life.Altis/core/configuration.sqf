@@ -81,6 +81,9 @@ __CONST__(life_impound_boat,18916);
 __CONST__(life_impound_air,32260);
 life_istazed = false;
 life_my_gang = ObjNull;
+life_god = false; //BUZ
+life_frozen = false; //BUZ
+life_markers = false; //BUZ
 
 life_vehicles = [];
 bank_robber = [];
@@ -245,8 +248,8 @@ sell_array =
 	["peach",55],
 	["cocaine",3000],
 	["cocainep",4000],
-	["diamond",3000],
-	["diamondc",2000],
+	["diamond",2000],
+	["diamondc",3000],
 	["iron_r",2500],
 	["copper_r",1500],
 	["salt_r",1650],

@@ -123,6 +123,92 @@
 			<Italian>Vedi ID</Italian>
 			<Portuguese>Obter ID</Portuguese>
 		</Key>
+		<Key ID="STR_Admin_Spectate">
+			<Original>Spectate</Original>
+			<English>Spectate</English>
+		</Key>
+		<Key ID="STR_Admin_Teleport">
+			<Original>Teleporte</Original>
+			<English>Teleporte</English>
+		</Key>
+		<Key ID="STR_Admin_TpHere">
+			<Original>TP Here</Original>
+			<English>TP Here</English>
+		</Key>
+		<Key ID="STR_Admin_Debug">
+			<Original>Debug</Original>
+			<English>Debug</English>
+			<German>Debug</German>
+			<French>Debug</French>
+		</Key>
+		<Key ID="STR_Admin_Compensate">
+			<Original>Comp</Original>
+			<English>Comp</English>
+		</Key>
+		<Key ID="STR_Admin_God">
+			<Original>GodMode</Original>
+			<English>GodMode</English>
+		</Key>
+		<Key ID="STR_Admin_Freeze">
+			<Original>Freeze</Original>
+			<English>Freeze</English>
+		</Key>
+		<Key ID="STR_Admin_Markers">
+			<Original>Markers</Original>
+			<English>Markers</English>
+		</Key>
+		<Key ID="STR_ANOTF_CompWarn">
+			<Original>Você está prestes a dar-se $%1 para ressarci a outro jogador &lt;br/&gt;&lt;br/&gt;Você deve dar esse dinheiro para a pessoa que você está ressarcindo manualmente.</Original>
+			<English>Você está prestes a dar-se $%1 para ressarci a outro jogador &lt;br/&gt;&lt;br/&gt;Você deve dar esse dinheiro para a pessoa que você está ressarcindo manualmente.</English>
+		</Key>
+		<Key ID="STR_ANOTF_Success">
+			<Original>Você adicionou $%1 na sua conta.</Original>
+			<English>Você adicionou $%1 na sua conta.</English>
+		</Key>
+		<Key ID="STR_ANOTF_Fail">
+			<Original>Você não pode passar de R$999.999.</Original>
+			<English>Você não pode passar de R$999.999.</English>
+		</Key>
+		<Key ID="STR_ANOTF_Amount">
+			<Original>Por favor, digite o valor a ressarci.</Original>
+			<English>Por favor, digite o valor a ressarci.</English>
+		</Key>
+		<Key ID="STR_ANOTF_Frozen">
+			<Original>You have disabled %1's input.</Original>
+			<English>You have disabled %1's input.</English>
+		</Key>
+		<Key ID="STR_ANOTF_Unfrozen">
+			<Original>You have enabled %1's input.</Original>
+			<English>You have enabled %1's input.</English>
+		</Key>
+		<Key ID="STR_ANOTF_Error">
+			<Original>Você não pode fazer isso idiota.</Original>
+			<English>Você não pode fazer isso idiota.</English>
+		</Key>
+		<Key ID="STR_ANOTF_ErrorLevel">
+			<Original>Seu Level de Administrador não é suficiente.</Original>
+			<English>Seu Level de Administrador não é suficiente.</English>
+		</Key>
+		<Key ID="STR_ANOTF_MDisabled">
+			<Original>Player Markers Disabled.</Original>
+			<English>Player Markers Disabled.</English>
+		</Key>
+		<Key ID="STR_ANOTF_MEnabled">
+			<Original>Player Markers Enabled.</Original>
+			<English>Player Markers Enabled.</English>
+		</Key>
+		<Key ID="STR_NOTF_ActionCancel">
+			<Original>Action Cancelled</Original>
+			<English>Action Cancelled</English>
+		</Key>
+		<Key ID="STR_Global_Yes">
+			<Original>Sim</Original>
+			<English>Sim</English>
+		</Key>
+		<Key ID="STR_Global_No">
+			<Original>Não</Original>
+			<English>Não</English>
+		</Key>
 	</Package>
 	<Package name="Admin_Notifications">
 		<Key ID="STR_ANOTF_Query">
@@ -1092,6 +1178,10 @@
 			<Italian>Salva Dati</Italian>
 			<Portuguese>Sincronizar Dados</Portuguese>
 		</Key>
+		<Key ID="STR_PM_Market">
+			<Original>Mercado</Original>
+			<English>Mercado</English>
+		</Key>
 	</Package>
 	<Package name="Settings_Menu">
 		<Key ID="STR_SM_Title">
@@ -1404,6 +1494,14 @@
 		</Key>
 	</Package>
 	<Package name="Notifications">
+		<Key ID="STR_NOTF_Frozen">
+			<Original>Você foi congelado por um administrador</Original>
+			<English>Você foi congelado por um administrador</English>
+		</Key>
+		<Key ID="STR_NOTF_Unfrozen">
+			<Original>Você foi descongelado por um administrador</Original>
+			<English>Você foi descongelado por um administrador</English>
+		</Key>
 		<Key ID="STR_NOTF_NE_1">
 			<Original>Você não tem R$%1 para %2</Original>
 			<English>Você não tem R$%1 para %2</English>
