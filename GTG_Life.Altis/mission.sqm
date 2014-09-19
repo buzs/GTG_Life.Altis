@@ -4660,7 +4660,7 @@ class Mission
 				class Item0
 				{
 					position[]={5160.4575,41.203552,13537.264};
-					azimut=-64.437675;
+					azimut=-64.437698;
 					offsetY=0.1;
 					special="NONE";
 					id=265;
@@ -4669,6 +4669,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="processadorcafe_2";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Processar Cafe"",life_fnc_processAction,""cafe"",0,false,false,"""",' life_inv_cafe > 0 && !life_is_processing']; this addAction[format[""%1 ($%2)"",[""license_civ_cafe""] call life_fnc_varToStr,[([""cafe""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cafe"",0,false,false,"""",' !license_civ_cafe && playerSide == civilian '];";
 					syncId=52;
 					synchronizations[]={1};
 				};
@@ -4683,7 +4684,7 @@ class Mission
 				class Item0
 				{
 					position[]={22671.252,14.012357,19084.949};
-					azimut=-281.86185;
+					azimut=-281.862;
 					offsetY=0.1;
 					special="NONE";
 					id=266;
@@ -4692,6 +4693,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="processadorcafe_1";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Processar Cafe"",life_fnc_processAction,""cafe"",0,false,false,"""",' life_inv_cafe > 0 && !life_is_processing']; this addAction[format[""%1 ($%2)"",[""license_civ_cafe""] call life_fnc_varToStr,[([""cafe""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cafe"",0,false,false,"""",' !license_civ_cafe && playerSide == civilian '];";
 					syncId=53;
 					synchronizations[]={1};
 				};
@@ -31213,7 +31215,7 @@ class Mission
 		{
 			position[]={23546.449,13.320223,19958.053};
 			name="compradorcafemarker_1";
-			text="Comprador de Café Torrado";
+			text="Comprador de Café";
 			type="b_unknown";
 			colorName="ColorOrange";
 		};
@@ -31221,7 +31223,7 @@ class Mission
 		{
 			position[]={4716.7939,39.762611,12805.274};
 			name="compradorcafemarker_2";
-			text="Comprador de Café Torrado";
+			text="Comprador de Café";
 			type="b_unknown";
 			colorName="ColorOrange";
 			angle=0.55572802;
