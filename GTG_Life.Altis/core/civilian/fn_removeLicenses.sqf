@@ -39,6 +39,8 @@ switch (_state) do
 			hint localize "STR_Civ_LicenseRemove_1";
 		};
 	};
+    
+    
 	
 	//Killing someone while owning a gun license
 	case 3:
@@ -46,6 +48,17 @@ switch (_state) do
 		if(license_civ_gun) then {
 			license_civ_gun = false;
 			hint localize "STR_Civ_LicenseRemove_2";
+        };
+    };    
+    
+    case 4:
+	{
+		if(license_civ_driver OR license_civ_air OR license_civ_truck OR license_civ_boat) then {
+			license_civ_driver = false;
+			license_civ_air = false;
+			license_civ_truck = false;
+			license_civ_boat = false;
+			systemChat localize "STR_Civ_LicenseRemove_1a";
 		};
 	};
 };

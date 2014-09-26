@@ -327,12 +327,13 @@ class Life_Client_Core
 		class fedCamDisplay {};
 		class copLoadout {};
 		class ticketPaid {};
-		class copEnter {};//BUZ
-		class seizeObjects {};//BUZ
-		class seizePlayerWeapon {};//BUZ
-		class seizePlayerWeaponAction {};//BUZ
-		class copSiren2 {};//BUZ
-		class copDefault {};//BUZ
+		class copEnter {}; //BUZ
+		class seizeObjects {}; //BUZ
+		class seizePlayerWeapon {}; //BUZ
+		class seizePlayerWeaponAction {}; //BUZ
+		class copSiren2 {}; //BUZ
+		class copDefault {}; //BUZ
+        class radarCam {}; //BUZ
 	};
 	
 	class Gangs
@@ -389,6 +390,8 @@ class Life_Client_Core
 		class defuseKit {};
 		class storageBox {};
 		class nitro {};	//BUZ
+        class useCannabis {}; //BUZ
+        class useLSD {}; //BUZ
 	};
 	
 	class Dialog_Controls

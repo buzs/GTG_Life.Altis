@@ -11,7 +11,7 @@ _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
 
 //Shop Title Name
-ctrlpushBackText[3103,"Uniformes"];
+ctrlSetText[3103,"Uniformes"];
 
 _ret = [];
 switch (_filter) do

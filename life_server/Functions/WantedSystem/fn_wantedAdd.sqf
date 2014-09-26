@@ -33,6 +33,10 @@ switch(_type) do
 	case "483": {_type = ["Tráfico de Drogas",20000]};
 	case "459": {_type = ["Roubo",10000]};
 	case "919": {_type = ["Tráfico de Orgãos",25000]};
+	case "120S": {_type = ["Speeding Over Limit",5000]};
+	case "120H": {_type = ["Habitual Speeding",8000]};
+	case "120WL": {_type = ["Driving W/O License",8000]};
+	case "120FS": {_type = ["Felony Speeding AOS",8000]};
 	default {_type = [];};
 };
 

@@ -330,47 +330,6 @@ player createDiarySubject ["7","Licenças"];
 	];
 	player createDiaryRecord ["6", 
 		[
-			"Trabalhos", 
-				"
-				<br/>Trabalhos Legais
-				<br/>
-				<br/>
-				<br/>Preços estabelecidos por unidade:
-				<br/>
-				<br/>Petróleo   
-				<br/>$ 3.900 
-				<br/>Diamante  
-				<br/>$ 3.000 
-				<br/>Cobre       
-				<br/>$ 1.600 
-				<br/>Cimento	 
-				<br/>$ 1.200 
-				<br/>Sal            
-				<br/>$ 1.650 
-				<br/>Ferro         
-				<br/>$ 2.000
-				<br/>Vidro         
-				<br/>$ 1.450 
-				<br/>
-				<br/>Trabalhos Ilegais
-				<br/>
-				<br/>
-				<br/>Preços estabelecidos por unidade:
-				<br/>
-				<br/>Tartaruga      	
-				<br/>$ 8.000
-				<br/>Cocaína       		
-				<br/>$ 4.000 
-				<br/>Heroína        	
-				<br/>$ 5.000 
-				<br/>Maconha 
-				<br/>$ 3.100
-				<br/>
-				"
-		]
-	];
-	player createDiaryRecord ["7", 
-		[
 			"Licenças", 
 				"
 				<br/>Licenças:

@@ -1,10 +1,4 @@
 /*
-	File: fn_processAction.sqf
-	Author: Bryan "Tonic" Boardwine
-	
-	Description:
-	Master handling for processing an item.
-/*
 File: fn_processAction.sqf new
 Author: Bryan "Tonic" Boardwine
 edited by theInfinit (to process 2 Item to a combination)
@@ -18,7 +12,8 @@ _type = [_this,3,"",[""]] call BIS_fnc_param;
 //Error check
 if(isNull _vendor OR _type == "" OR (player distance _vendor > 10)) exitWith {};
 
-_error = false; // used below check the comment there ;) 
+_error1 = false; // used below check the comment there ;) 
+_error2 = false;
 //unprocessed item,processed item, cost if no license,Text to display (I.e Processing  (percent) ...",processing 2Items?, (only for processing with 2) second Item.
 _itemInfo = switch (_type) do
 {
@@ -88,7 +83,7 @@ if(_hasLicense) then
 		while{true} do
 		{
 			sleep  0.3;
-			_cP = _cP + 0.02;
+			_cP = _cP + 0.01;
 			_progress progressSetPosition _cP;
 			_pgText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_upp];
 			if(_cP >= 1) exitWith {};
@@ -108,12 +103,12 @@ if(_hasLicense) then
 				
 				([false,_oldItem2,_oldVal2] call life_fnc_handleInv);
 				5 cutText ["","PLAIN"];
-				titleText[format[localize "STR_2Process_Processed",_oldItem,_oldItem2,_itemName],"PLAIN"];
+				titleText[format["Você trasformou %1 e %2 em %3",_oldItem,_oldItem2,_itemName],"PLAIN"];
 			} else
 			{
 				
 				5 cutText ["","PLAIN"];
-				titleText[format[localize "STR_Process_Processed",_oldItem,_itemName],"PLAIN"];
+				titleText[format["Você trasformou %1 em %2",_oldItem,_itemName],"PLAIN"];
 			};
 			
 			life_is_processing = false;
@@ -122,12 +117,12 @@ if(_hasLicense) then
 }
 else
 {
-			if(life_cash < _cost) exitWith {hint format["localize "STR_Process_License",[_cost] call life_fnc_numberText]; 5 cutText ["","PLAIN"]; life_is_processing = false;};
+			if(life_cash < _cost) exitWith {hint format[localize "STR_Process_License",[_cost] call life_fnc_numberText]; 5 cutText ["","PLAIN"]; life_is_processing = false;};
 
 			while{true} do
 			{
 					sleep  0.9;
-					_cP = _cP + 0.02;
+					_cP = _cP + 0.01;
 					_progress progressSetPosition _cP;
 					_pgText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_upp];
 					if(_cP >= 1) exitWith {};
@@ -146,14 +141,14 @@ else
 				
 				([false,_oldItem2,_oldVal2] call life_fnc_handleInv);
 				5 cutText ["","PLAIN"];
-				titleText[format[localize "STR_2Process_Processed2",_oldItem,_oldItem2,_itemName,[_cost] call life_fnc_numberText],"PLAIN"];
+				titleText[format["Você trasformou %1 e %2 em %3 por R$%4",_oldItem,_oldItem2,_itemName,[_cost] call life_fnc_numberText],"PLAIN"];
 			} else
 			{
 				
 				5 cutText ["","PLAIN"];
-				titleText[format[localize "STR_Process_Processed2",_oldVal,_itemName,[_cost] call life_fnc_numberText],"PLAIN"];
+				titleText[format["Você trasformou %1 em %2 por R$%3",_oldVal,_itemName,[_cost] call life_fnc_numberText],"PLAIN"];
 			};
 			life_cash = life_cash - _cost;
 			
 			life_is_processing = false;
-};
+}; 
