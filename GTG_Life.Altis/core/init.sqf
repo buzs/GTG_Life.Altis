@@ -83,6 +83,8 @@ diag_log format["                End of Altis Life Client Init :: Total Executio
 diag_log "------------------------------------------------------------------------------------------------------";
 life_sidechat = true;
 [[player,life_sidechat,playerSide],"TON_fnc_managesc",false,false] spawn life_fnc_MP;
+[] call life_fnc_hudSetup;
+[] execVM "core\functions\uilife.sqf";//<<<<<<insert this
 0 cutText ["","BLACK IN"];
 [] call life_fnc_hudSetup;
 LIFE_ID_PlayerTags = ["LIFE_PlayerTags","onEachFrame","life_fnc_playerTags"] call BIS_fnc_addStackedEventHandler;
