@@ -124,12 +124,12 @@
 			<Portuguese>Obter ID</Portuguese>
 		</Key>
 		<Key ID="STR_Admin_Spectate">
-			<Original>Spectate</Original>
-			<English>Spectate</English>
+			<Original>Observar</Original>
+			<English>Observar</English>
 		</Key>
 		<Key ID="STR_Admin_Teleport">
-			<Original>Teleporte</Original>
-			<English>Teleporte</English>
+			<Original>Teleportar</Original>
+			<English>Teleportar</English>
 		</Key>
 		<Key ID="STR_Admin_TpHere">
 			<Original>TP Here</Original>
@@ -142,8 +142,8 @@
 			<French>Debug</French>
 		</Key>
 		<Key ID="STR_Admin_Compensate">
-			<Original>Comp</Original>
-			<English>Comp</English>
+			<Original>Ressarcir</Original>
+			<English>Ressarcir</English>
 		</Key>
 		<Key ID="STR_Admin_God">
 			<Original>GodMode</Original>
@@ -158,20 +158,20 @@
 			<English>Markers</English>
 		</Key>
 		<Key ID="STR_ANOTF_CompWarn">
-			<Original>Você está prestes a dar-se $%1 para ressarci a outro jogador &lt;br/&gt;&lt;br/&gt;Você deve dar esse dinheiro para a pessoa que você está ressarcindo manualmente.</Original>
-			<English>Você está prestes a dar-se $%1 para ressarci a outro jogador &lt;br/&gt;&lt;br/&gt;Você deve dar esse dinheiro para a pessoa que você está ressarcindo manualmente.</English>
+			<Original>Você está prestes a dar $%1 para ressarcir o jogador &lt;br/&gt;&lt;br/&gt;Você deve dar esse dinheiro para a pessoa que você está ressarcindo manualmente.</Original>
+			<English>Você está prestes a dar $%1 para ressarcir o jogador &lt;br/&gt;&lt;br/&gt;Você deve dar esse dinheiro para a pessoa que você está ressarcindo manualmente.</English>
 		</Key>
 		<Key ID="STR_ANOTF_Success">
-			<Original>Você adicionou $%1 na sua conta.</Original>
-			<English>Você adicionou $%1 na sua conta.</English>
+			<Original>Você adicionou $%1 em sua conta.</Original>
+			<English>Você adicionou $%1 em sua conta.</English>
 		</Key>
 		<Key ID="STR_ANOTF_Fail">
-			<Original>Você não pode passar de R$999.999.</Original>
-			<English>Você não pode passar de R$999.999.</English>
+			<Original>O valor máximo é de R$999.999.</Original>
+			<English>O valor máximo é de R$999.999.</English>
 		</Key>
 		<Key ID="STR_ANOTF_Amount">
-			<Original>Por favor, digite o valor a ressarci.</Original>
-			<English>Por favor, digite o valor a ressarci.</English>
+			<Original>Por favor, digite o valor do ressarcimento.</Original>
+			<English>Por favor, digite o valor do ressarcimento.</English>
 		</Key>
 		<Key ID="STR_ANOTF_Frozen">
 			<Original>You have disabled %1's input.</Original>
@@ -182,8 +182,8 @@
 			<English>You have enabled %1's input.</English>
 		</Key>
 		<Key ID="STR_ANOTF_Error">
-			<Original>Você não pode fazer isso idiota.</Original>
-			<English>Você não pode fazer isso idiota.</English>
+			<Original>Você não pode observar você mesmo.</Original>
+			<English>Você não pode observar você mesmo.</English>
 		</Key>
 		<Key ID="STR_ANOTF_ErrorLevel">
 			<Original>Seu Level de Administrador não é suficiente.</Original>
@@ -198,8 +198,8 @@
 			<English>Player Markers Enabled.</English>
 		</Key>
 		<Key ID="STR_NOTF_ActionCancel">
-			<Original>Action Cancelled</Original>
-			<English>Action Cancelled</English>
+			<Original>Ação Cancelada</Original>
+			<English>Ação Cancelada</English>
 		</Key>
 		<Key ID="STR_Global_Yes">
 			<Original>Sim</Original>
@@ -423,12 +423,12 @@
 			<Portuguese>Polícia</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextAdmins">
-			<Original>Text Admins</Original>
-			<English>Text Admins</English>
+			<Original>Texto Admin</Original>
+			<English>Texto Admin</English>
 			<German>An die Admins</German>
 			<French>Text Admins</French>
 			<Italian>Msg Admin</Italian>
-			<Portuguese>Text Admins</Portuguese>
+			<Portuguese>Texto Admin</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_AdminMsg">
 			<Original>Msg do Admin</Original>
@@ -439,20 +439,20 @@
 			<Portuguese>Msg do Admin</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_AdminMSGAll">
-			<Original>Admin Msg All</Original>
-			<English>Admin Msg All</English>
+			<Original>Admin Global</Original>
+			<English>Admin Global</English>
 			<German>Admin-Nachricht an alle</German>
 			<French>Admin Msg ALL</French>
 			<Italian>Admin Msg</Italian>			
-			<Portuguese>Admin Msg ALL</Portuguese>
+			<Portuguese>Admin Global</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_EMSRequest">
-			<Original>Chamar SAMU</Original>
-			<English>Chamar SAMU</English>
+			<Original>Resgate</Original>
+			<English>Resgate</English>
 			<German>An die Sanitäter</German>
 			<French>Requête Medecin</French>
 			<Italian>Msg medici</Italian>
-			<Portuguese>Chamar SAMU</Portuguese>
+			<Portuguese>Resgate</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Chop_Shop">
@@ -3860,12 +3860,12 @@
 			<Portuguese>Você não esta olhando para porta.</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_Bolt_AlertFed">
-			<Original>!!!!! A RESERVA FEDERAL ESTÁ SENDO ROUBADA !!!!!!</Original>
-			<English>!!!!! A RESERVA FEDERAL ESTÁ SENDO ROUBADA !!!!!!!</English>
+			<Original>!!!!! A RESERVA FEDERAL ESTÁ SENDO ROUBADA !!!!!</Original>
+			<English>!!!!! A RESERVA FEDERAL ESTÁ SENDO ROUBADA !!!!!!</English>
 			<German>!!!!! JEMAND BRICHT IN DIE ZENTRALBANK EIN !!!!!!</German>
 			<French>!!!!! QUELQU'UN TENTE DE S'INTRODUIRe DANS LA RÈSERVE FÈDÈRALE !!!!!!</French>
 			<Italian>!!!!!! QUALCUNO STA CERCANDO DI INTRODURSI NELLA RISERVA FEDERALE !!!!!!</Italian>
-			<Portuguese>!!!!! A RESERVA FEDERAL ESTÁ SENDO ROUBADA !!!!!!</Portuguese>
+			<Portuguese>!!!!! A RESERVA FEDERAL ESTÁ SENDO ROUBADA !!!!!</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_Bolt_AlertHouse">
 			<Original>%1 foi visto invadindo sua casa.</Original>

@@ -118,6 +118,10 @@ player createDiarySubject ["7","Licenças"];
 				<br/>
 				<br/>• Em caso de Assalto da Reserva Federal o GRUPO POLICIAL tem o direito de retornar a ação a cada 10 minutos após O ULTIMO POLICIAL DO GRUPO MORRER.
 				<br/>
+				<br/>• Em casos extremos de terrorismo, a policia poderá retirar veículos armados para incapacitar outros veículos blindados.
+				<br/>
+				<br/>• Lei Marshal - Nunca atire em nenhum veículo blindado armado da polícia. Se caso atirar, o policial tem o total direito de eliminar o alvo com o veiculo armado.
+				<br/>
 				"
 		]
 	];
@@ -196,6 +200,8 @@ player createDiarySubject ["7","Licenças"];
 				<br/>
 				<br/>• Não é proibida a saída de veículos rebeldes sem gunner (como a Ifrit SEM GUNNER) da Ilha Rebelde, mas ainda é ilegal e você pode ser preso por isso.
 				<br/>
+				<br/>• Sair em grupo com mais de 1 ifrit será considerado terrorismo extremo no continente de Altis. (Mesmo sem anunciar 30min antes)
+				<br/>
 				<br/>• Não está autorizado a saída da ilha rebelde de qualquer veículo armado se não for declarado ataque terrorista.
 				<br/>
 				<br/>• Proibido sequestrar e roubar no respawn fora da ilha rebelde.
@@ -205,6 +211,8 @@ player createDiarySubject ["7","Licenças"];
 				<br/>• Proibido matar médicos.
 				<br/>
 				<br/>• Cada tentativa de roubo à RESERVA FEDERAL deve ter no minimo 1 HORA de intervalo.
+				<br/>
+				<br/>• O rebelde que spawnar em cidades seguras (Iraklia e Kavala) pode ser preso/multado pela poícia
 				<br/>
 				"
 		]

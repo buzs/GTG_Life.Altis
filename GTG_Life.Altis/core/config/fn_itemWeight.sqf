@@ -60,8 +60,8 @@ switch (_item) do
 	case "rim": {15};
 	case "cafe": {2};
 	case "cafet": {1};
-	case "rosas":{2};
-	case "eter":{6};
-	case "lsd":{5};
+	case "rosas":{8};
+	case "eter":{16};
+	case "lsd":{12};
 	default {1};
 };
